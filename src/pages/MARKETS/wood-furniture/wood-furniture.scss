@@ -12,13 +12,16 @@ page-wood-furniture {
     }
 
     .infotext{
-      font-size : 1.8rem;
+      font-size : 1.6rem;
       margin-bottom: 40px;
+
+      p{
+        margin : 0 0 6px 0;
+      }
     }
 
-    .card{
-      margin     : 0;
-      box-shadow : none;
+    img {
+      width: 100%;
     }
   }
 }

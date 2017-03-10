@@ -11,18 +11,17 @@ page-marineprotective {
       color: #777 !important;
     }
 
-    .infotext {
-      font-size: 1.8rem;
+    .infotext{
+      font-size : 1.6rem;
       margin-bottom: 40px;
 
-      p {
-        margin: 0 0 10px 0;
+      p{
+        margin : 0 0 6px 0;
       }
     }
 
-    .card {
-      margin     : 0;
-      box-shadow : none;
+    img {
+      width: 100%;
     }
   }
 }
