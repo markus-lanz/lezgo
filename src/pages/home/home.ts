@@ -280,14 +280,14 @@ export class HomePage {
 
   closeEverything(){
     this.backfaceIsOpened = false;
-    this.slideBackface1  = false;
-    this.slideBackface2  = false;
-    this.slideBackface3  = false;
-    this.slideBackface4  = false;
+    this.slideBackface1  = '';
+    this.slideBackface2  = '';
+    this.slideBackface3  = '';
+    this.slideBackface4  = '';
     this.slideContainer1 = '';
     this.slideContainer2 = '';
-    this.slideContainer3 = false;
-    this.slideContainer4 = false;
+    this.slideContainer3 = '';
+    this.slideContainer4 = '';
   }
 
   openSlideContainer1(){
@@ -297,9 +297,9 @@ export class HomePage {
       this.backfaceIsOpened = false;
     } else {
       this.slideBackface1   = 'right';
-      this.slideBackface2   = false;
-      this.slideBackface3   = false;
-      this.slideBackface4   = false;
+      this.slideBackface2   = '';
+      this.slideBackface3   = '';
+      this.slideBackface4   = '';
 
       this.slideContainer1  = '';
       this.slideContainer2  = 'right';
@@ -315,10 +315,10 @@ export class HomePage {
       this.closeEverything();
       this.backfaceIsOpened = false;
     } else {
-      this.slideBackface1   = false;
+      this.slideBackface1   = '';
       this.slideBackface2   = 'right';
-      this.slideBackface3   = false;
-      this.slideBackface4   = false;
+      this.slideBackface3   = '';
+      this.slideBackface4   = '';
 
       this.slideContainer1  = '';
       this.slideContainer2  = '';
