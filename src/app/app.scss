@@ -186,10 +186,12 @@ ion-header{
     padding : 0 !important;
 
     .list-header{
+      font-family  : 'lteBold';
       color        : #00A6EB;
       background   : #e9edee;
       border-color : #333;
-      margin       : 0
+      margin       : 0;
+      font-size    : 1.8rem;
     }
 
     .list{
