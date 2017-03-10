@@ -291,6 +291,7 @@ export class HomePage {
   }
 
   openSlideContainer1(){
+    alert(1)
     if( this.backfaceIsOpened && this.slideBackface1 ){
       this.closeEverything();
       this.backfaceIsOpened = false;
