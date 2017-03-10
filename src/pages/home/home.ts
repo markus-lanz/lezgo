@@ -67,7 +67,7 @@ export class HomePage {
   productGroups     : Array <{ selected?: boolean, title: string, component: any, tabComponent?: any, index?: number }>;
   productssolutions : Array <{ selected?: boolean, title: string, component: any, tabComponent?: any, index?: number }>;
 
-  slideContainer1:any = false;
+  slideContainer1:any = '';
   slideContainer2:any = false;
   slideContainer3:any = false;
   slideContainer4:any = false;
@@ -284,8 +284,8 @@ export class HomePage {
     this.slideBackface2  = false;
     this.slideBackface3  = false;
     this.slideBackface4  = false;
-    this.slideContainer1 = false;
-    this.slideContainer2 = false;
+    this.slideContainer1 = '';
+    this.slideContainer2 = '';
     this.slideContainer3 = false;
     this.slideContainer4 = false;
   }
@@ -301,7 +301,7 @@ export class HomePage {
       this.slideBackface3   = false;
       this.slideBackface4   = false;
 
-      this.slideContainer1  = 'asd';
+      this.slideContainer1  = '';
       this.slideContainer2  = 'right';
       this.slideContainer3  = 'right';
       this.slideContainer4  = 'right';
@@ -320,8 +320,8 @@ export class HomePage {
       this.slideBackface3   = false;
       this.slideBackface4   = false;
 
-      this.slideContainer1  = false;
-      this.slideContainer2  = false;
+      this.slideContainer1  = '';
+      this.slideContainer2  = '';
       this.slideContainer3  = 'right';
       this.slideContainer4  = 'right';
 
