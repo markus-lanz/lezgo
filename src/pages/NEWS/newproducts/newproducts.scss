@@ -5,8 +5,9 @@ page-newproducts {
     padding: 20px;
     border: 1px solid #c0c0c0;
 
-    background-image: url("../../../assets/img/news/background.jpg");
-    background-size: cover;
+    background-image : url("../assets/img/news/background.jpg");
+    background-size  : cover;
+    background-color : transparent;
 
     ion-col {
       padding: 0;
