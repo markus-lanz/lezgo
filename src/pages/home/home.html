@@ -14,11 +14,11 @@
             <img src="assets/img/home/item1.jpg" [@visibilityImgChanged]="showImgC1"/>
           </div>
 
-          <div class="backface {{slideBackface1}}" [ngClass]="{'blabla': slideBackface1 }">
+          <!--div class="backface {{slideBackface1}}" [ngClass]="{'blabla': slideBackface1 }">
             <ion-list>
               <ion-item *ngFor="let L1 of byknews" (tap)="openPage(L1)" [ngClass]="{active: L1.selected==true}">{{L1.title}}</ion-item>
             </ion-list>
-          </div>
+          </div-->
         </div><!-- End Ion-card -->
 
       </div><!-- END NEWS-->
@@ -35,9 +35,9 @@
             <img src="assets/img/home/item2.jpg" [@visibilityImgChanged]="showImgC3"/>
           </div>
 
-          <div class="backface {{slideBackface2}}" [ngClass]="{'blabla': slideBackface2 }">
+          <!--div class="backface {{slideBackface2}}" [ngClass]="{'blabla': slideBackface2 }">
             <ion-item *ngFor="let L1 of markets" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">{{L1.title}}</ion-item>
-          </div>
+          </div-->
 
         </div><!-- End Ion-card -->
 
