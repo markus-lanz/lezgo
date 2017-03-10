@@ -291,7 +291,7 @@ export class HomePage {
   }
 
   openSlideContainer1(){
-    alert(1)
+
     if( this.backfaceIsOpened && this.slideBackface1 ){
       this.closeEverything();
       this.backfaceIsOpened = false;
@@ -301,7 +301,7 @@ export class HomePage {
       this.slideBackface3   = false;
       this.slideBackface4   = false;
 
-      this.slideContainer1  = false;
+      this.slideContainer1  = 'asd';
       this.slideContainer2  = 'right';
       this.slideContainer3  = 'right';
       this.slideContainer4  = 'right';
