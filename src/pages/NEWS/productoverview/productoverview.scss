@@ -1,0 +1,42 @@
+page-productoverview {
+  .productoverview {
+
+    background-image: url("../../../assets/img/news/background.jpg");
+    background-size: cover;
+
+    .colborder {
+      padding : 0;
+
+      border-bottom : 1px solid #eee;
+      border-right  : 1px solid #eee;
+
+      &:nth-child(5n) {
+          border-right: none;
+      }
+
+      &:nth-last-child( -n + 5 ) {
+          border-bottom: none;
+      }
+    }
+
+
+    .item-block{
+      min-height : 3.5rem !important;
+    }
+
+    .item-inner {
+      padding    : 0 !important;
+      box-shadow : none !important;
+      border     : none !important;
+      color      : #00A6EB;
+
+    }
+
+    .letter{
+      .item-inner {
+        font-size: 2rem;
+      }
+    }
+  }
+
+}

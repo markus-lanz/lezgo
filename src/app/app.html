@@ -1,0 +1,69 @@
+<ion-menu type="push"  [content]="content" swipeEnabled="true">
+
+  <ion-content class="outer-content">
+
+
+    <!-- NEWS -->
+    <ion-list>
+      <ion-list-header>
+        NEWS
+      </ion-list-header>
+      <button ion-item *ngFor="let L1 of byknews" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
+        <label>{{L1.title}}</label>
+      </button>
+    </ion-list><!-- END NEWS -->
+
+
+
+    <!-- BYK -->
+    <ion-list>
+      <ion-list-header>
+        BYK
+      </ion-list-header>
+      <button ion-item *ngFor="let L1 of byk" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
+        <label>{{L1.title}} </label>
+      </button>
+    </ion-list><!-- END BYK -->
+
+
+
+    <!-- MARKETS -->
+    <ion-list>
+      <ion-list-header>
+        Markets
+      </ion-list-header>
+      <button ion-item *ngFor="let L1 of markets" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
+        <label>{{L1.title}} </label>
+      </button>
+    </ion-list><!-- END MARKETS -->
+
+
+
+    <!-- PRODUCT GROUPS -->
+    <ion-list>
+      <ion-list-header>
+        Product Groups
+      </ion-list-header>
+      <button ion-item *ngFor="let L1 of productGroups" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
+        <label>{{L1.title}} </label>
+      </button>
+    </ion-list><!-- END PRODUCT GROUPS -->
+
+
+
+    <!-- PRODUCTS & SOLUTIONS -->
+    <ion-list>
+      <ion-list-header>
+        Products & Solutions
+      </ion-list-header>
+      <button ion-item *ngFor="let L1 of productssolutions" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
+        <label>{{L1.title}} </label>
+      </button>
+    </ion-list><!-- PRODUCT & SOLUTIONS -->
+
+
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false" ></ion-nav>

@@ -1,0 +1,29 @@
+<ion-content class="product-presentations" padding>
+
+  <div class="pageInnerContent">
+    <!-- CONTENT TITLE -->
+    <div class="contenttitle">
+      <ion-title>BYK Lectures at European Coatings Show Conference 2017</ion-title>
+    </div><!-- END CONTENT TITLE -->
+
+    <ion-grid>
+
+      <ion-row *ngFor="let items of presentation">
+        <ion-col width-10 >
+          <span class="dateformat">
+            {{ items.headline }}
+          </span>
+        </ion-col>
+        <ion-col width-90>
+          <p *ngFor="let attr of items.attributes">
+            {{ attr.title }}
+            <br>
+            {{ attr.info }}
+          </p>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  </div>
+
+</ion-content>

@@ -1,0 +1,45 @@
+page-technical-broshures {
+
+  .technicalbrochures {
+
+    background-image: url("../../../assets/img/productsolutions/background.jpg");
+    background-size: cover;
+
+    .results{
+      ion-icon{
+        color     : #00A6EB;
+        font-size : 4rem;
+      }
+    }
+
+    .bla {
+
+      padding-left : 10px !important;
+
+      &.item-block {
+        padding : 0;
+
+        .item-inner {
+          padding    : 0;
+          margin     : 0;
+          box-shadow : none;
+          border     : none;
+        }
+      }
+
+      &.bdrr {
+          border-right: 1px solid #c0c0c0;
+      }
+      &.bdrl {
+          border-left: 1px solid #c0c0c0;
+      }
+      &.bdrt {
+          border-top: 1px solid #c0c0c0;
+      }
+      &.bdrb {
+          border-bottom: 1px solid #c0c0c0;
+      }
+    }
+  }
+
+}

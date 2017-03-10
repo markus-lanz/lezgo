@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button (click)="closeLitSearchbar()">Close overview</button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-searchbar  [(ngModel)]="selectedLitObject.cattitle1" name="selection" (ionInput)="getLitSearchData($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="let item of litSearchBarData" (click)="closeLitSearchbar(item)">
+      Category : {{ item.cattitle1 }}
+      <p>Sub Category : {{item.cattitle2}}</p>
+      <p>Brochure Code : {{item.brochurecode}}</p>
+    </ion-item>
+  </ion-list>
+  <ion-fab right bottom  >
+    <button  ion-button outline icon-left  (click)="closeLitSearchbar(item)">
+      <ion-icon name="ios-arrow-dropleft-circle">
+      </ion-icon>
+      close
+    </button>
+  </ion-fab>
+</ion-content>

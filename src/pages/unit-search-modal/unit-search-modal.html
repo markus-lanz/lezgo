@@ -1,0 +1,26 @@
+<!--
+  Generated template for the UnitSearchModal page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content padding>
+
+  <ion-content padding>
+    <ion-searchbar  [(ngModel)]="selectedUnitObject.size" name="selection" (ionInput)="getUnitsSearchData($event)"></ion-searchbar>
+    <ion-list>
+      <ion-item *ngFor="let item of unitSearchBarData" (click)="closeUnitSearchbar(item)">
+        Product: {{ item.size }}
+      </ion-item>
+    </ion-list>
+    <ion-fab right bottom  >
+      <button  ion-button outline icon-left  (click)="closeUnitSearchbar(item)">
+        <ion-icon name="ios-arrow-dropleft-circle">
+        </ion-icon>
+        close
+      </button>
+    </ion-fab>
+  </ion-content>
+</ion-content>

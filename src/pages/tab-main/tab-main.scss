@@ -1,0 +1,26 @@
+page-test {
+  .header{
+    padding: 20px;
+  }
+
+}
+.fab-ios {
+  color: #387ef5;
+  background-color: transparent;
+}
+
+a.tab-button:not(.has-title){
+  display: none;
+}
+
+
+a[target="_blank"] {
+  background-color: yellow;
+}
+
+.aa {
+  .content {
+    background-image: url('../assets/img/home/background.jpg');
+    background-size: cover;
+  }
+}

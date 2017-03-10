@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss(title)">Back to overview</button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!-- CONTENT TITLE -->
+  <div class="contenttitle">
+    <ion-title>{{Data.product}}</ion-title>
+  </div><!-- END CONTENT TITLE -->
+
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title>
+       {{Data.title}}
+      </ion-card-title>
+      <p>
+       {{Data.text}}
+      </p>
+      <p>
+      {{Data.description}}
+      </p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col offset-67>
+        <button ion-button icon-left small clear right="" (click)="openProductPdf(Data.file)">
+          <ion-icon name="ios-eye"></ion-icon>
+          <div>View</div>
+        </button>
+
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+</ion-content>

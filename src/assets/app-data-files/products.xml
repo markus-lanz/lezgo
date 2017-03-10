@@ -1,0 +1,4683 @@
+<?xml version="1.0"?>
+<additives>
+  <samples>
+    <additive>ACTAL-UG 1</additive>
+    <size>1 unit / 1 unit</size>
+    <id>733-1</id>
+  </samples>
+  <samples>
+    <additive>ADJUST-4</additive>
+    <size>1 unit / 1 unit</size>
+    <id>918-1</id>
+  </samples>
+  <samples>
+    <additive>ADVITROL-100</additive>
+    <size>1 unit / 1 unit</size>
+    <id>919-1</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-203</additive>
+    <size>60 ml / 2 oz</size>
+    <id>68-60</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-203</additive>
+    <size>500 ml / 16 oz</size>
+    <id>68-500</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-204</additive>
+    <size>500 ml / 16 oz</size>
+    <id>69-500</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-204</additive>
+    <size>60 ml / 2 oz</size>
+    <id>69-60</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-210</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1044-60</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-210</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1044-500</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-250</additive>
+    <size>500 ml / 16 oz</size>
+    <id>73-500</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-250</additive>
+    <size>60 ml / 2 oz</size>
+    <id>73-60</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-U</additive>
+    <size>60 ml / 2 oz</size>
+    <id>75-60</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-U</additive>
+    <size>500 ml / 16 oz</size>
+    <id>75-500</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-U 100</additive>
+    <size>500 ml / 16 oz</size>
+    <id>77-500</id>
+  </samples>
+  <samples>
+    <additive>ANTI-TERRA-U 100</additive>
+    <size>60 ml / 2 oz</size>
+    <id>77-60</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1013</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1069-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1021</additive>
+    <size>500 ml / 16 oz</size>
+    <id>107-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1021</additive>
+    <size>250 ml / 8 oz</size>
+    <id>107-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1031</additive>
+    <size>250 ml / 8 oz</size>
+    <id>109-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1031</additive>
+    <size>500 ml / 16 oz</size>
+    <id>109-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1035</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1056-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1039</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1070-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1040</additive>
+    <size>500 ml / 16 oz</size>
+    <id>110-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1040</additive>
+    <size>250 ml / 8 oz</size>
+    <id>110-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1041</additive>
+    <size>250 ml / 8 oz</size>
+    <id>111-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1041</additive>
+    <size>500 ml / 16 oz</size>
+    <id>111-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1061</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1030-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1063</additive>
+    <size>500 ml / 16 oz</size>
+    <id>112-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1063</additive>
+    <size>250 ml / 8 oz</size>
+    <id>112-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1510</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1031-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1510</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1031-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1547</additive>
+    <size>500 ml / 16 oz</size>
+    <id>520-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 1547</additive>
+    <size>250 ml / 8 oz</size>
+    <id>520-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 2500</additive>
+    <size>500 ml / 16 oz</size>
+    <id>117-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 2500</additive>
+    <size>250 ml / 8 oz</size>
+    <id>117-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 2650</additive>
+    <size>250 ml / 8 oz</size>
+    <id>118-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 2650</additive>
+    <size>500 ml / 16 oz</size>
+    <id>118-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 3500</additive>
+    <size>500 ml / 16 oz</size>
+    <id>119-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 3500</additive>
+    <size>250 ml / 8 oz</size>
+    <id>119-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 494</additive>
+    <size>250 ml / 8 oz</size>
+    <id>720-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 494</additive>
+    <size>500 ml / 16 oz</size>
+    <id>720-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 497</additive>
+    <size>500 ml / 16 oz</size>
+    <id>727-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 497</additive>
+    <size>250 ml / 8 oz</size>
+    <id>727-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 501</additive>
+    <size>500 ml / 16 oz</size>
+    <id>81-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 501</additive>
+    <size>250 ml / 8 oz</size>
+    <id>81-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 506</additive>
+    <size>250 ml / 8 oz</size>
+    <id>83-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 506</additive>
+    <size>500 ml / 16 oz</size>
+    <id>83-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 507</additive>
+    <size>500 ml / 16 oz</size>
+    <id>84-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 507</additive>
+    <size>250 ml / 8 oz</size>
+    <id>84-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 513</additive>
+    <size>250 ml / 8 oz</size>
+    <id>85-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 513</additive>
+    <size>500 ml / 16 oz</size>
+    <id>85-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 517</additive>
+    <size>250 ml / 8 oz</size>
+    <id>987-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 519</additive>
+    <size>500 ml / 16 oz</size>
+    <id>88-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 519</additive>
+    <size>250 ml / 8 oz</size>
+    <id>88-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 526</additive>
+    <size>250 ml / 8 oz</size>
+    <id>89-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 526</additive>
+    <size>500 ml / 16 oz</size>
+    <id>89-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 527</additive>
+    <size>500 ml / 16 oz</size>
+    <id>90-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 527</additive>
+    <size>250 ml / 8 oz</size>
+    <id>90-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 528</additive>
+    <size>500 ml / 16 oz</size>
+    <id>605-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 528</additive>
+    <size>250 ml / 8 oz</size>
+    <id>605-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 530</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1061-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 531</additive>
+    <size>500 ml / 16 oz</size>
+    <id>91-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 531</additive>
+    <size>250 ml / 8 oz</size>
+    <id>91-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 532</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1060-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 533</additive>
+    <size>500 ml / 16 oz</size>
+    <id>92-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 533</additive>
+    <size>250 ml / 8 oz</size>
+    <id>92-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 537</additive>
+    <size>250 ml / 8 oz</size>
+    <id>94-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 537</additive>
+    <size>500 ml / 16 oz</size>
+    <id>94-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 539</additive>
+    <size>500 ml / 16 oz</size>
+    <id>95-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 539</additive>
+    <size>250 ml / 8 oz</size>
+    <id>95-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 541</additive>
+    <size>250 ml / 8 oz</size>
+    <id>96-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 541</additive>
+    <size>500 ml / 16 oz</size>
+    <id>96-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 552</additive>
+    <size>500 ml / 16 oz</size>
+    <id>97-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 552</additive>
+    <size>250 ml / 8 oz</size>
+    <id>97-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 561</additive>
+    <size>250 ml / 8 oz</size>
+    <id>98-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 561</additive>
+    <size>500 ml / 16 oz</size>
+    <id>98-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 565</additive>
+    <size>500 ml / 16 oz</size>
+    <id>99-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 565</additive>
+    <size>250 ml / 8 oz</size>
+    <id>99-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 581</additive>
+    <size>250 ml / 8 oz</size>
+    <id>101-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 581</additive>
+    <size>500 ml / 16 oz</size>
+    <id>101-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 593</additive>
+    <size>500 ml / 16 oz</size>
+    <id>102-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 593</additive>
+    <size>250 ml / 8 oz</size>
+    <id>102-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 595</additive>
+    <size>250 ml / 8 oz</size>
+    <id>103-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 595</additive>
+    <size>500 ml / 16 oz</size>
+    <id>103-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 597</additive>
+    <size>500 ml / 16 oz</size>
+    <id>104-500</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 597</additive>
+    <size>250 ml / 8 oz</size>
+    <id>104-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 840</additive>
+    <size>250 ml / 8 oz</size>
+    <id>105-250</id>
+  </samples>
+  <samples>
+    <additive>AQUACER 840</additive>
+    <size>500 ml / 16 oz</size>
+    <id>105-500</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 1400</additive>
+    <size>250 ml / 8 oz</size>
+    <id>595-250</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 1400</additive>
+    <size>500 ml / 16 oz</size>
+    <id>595-500</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 208</additive>
+    <size>500 ml / 16 oz</size>
+    <id>122-500</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 208</additive>
+    <size>250 ml / 8 oz</size>
+    <id>122-250</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 263</additive>
+    <size>250 ml / 8 oz</size>
+    <id>123-250</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 263</additive>
+    <size>500 ml / 16 oz</size>
+    <id>123-500</id>
+  </samples>
+  <samples>
+    <additive>AQUAMAT 272</additive>
+    <size>250 ml / 8 oz</size>
+    <id>549-250</id>
+  </samples>
+  <samples>
+    <additive>AQUATIX 8421</additive>
+    <size>500 ml / 16 oz</size>
+    <id>125-500</id>
+  </samples>
+  <samples>
+    <additive>AQUATIX 8421</additive>
+    <size>250 ml / 8 oz</size>
+    <id>125-250</id>
+  </samples>
+  <samples>
+    <additive>BENTOLITE-2422</additive>
+    <size>1 unit / 1 unit</size>
+    <id>739-1</id>
+  </samples>
+  <samples>
+    <additive>BENTOLITE-865</additive>
+    <size>1 unit / 1 unit</size>
+    <id>738-1</id>
+  </samples>
+  <samples>
+    <additive>BENTOLITE-H</additive>
+    <size>1 unit / 1 unit</size>
+    <id>740-1</id>
+  </samples>
+  <samples>
+    <additive>BENTOLITE-L 10</additive>
+    <size>1 unit / 1 unit</size>
+    <id>754-1</id>
+  </samples>
+  <samples>
+    <additive>BENTOLITE-L 10 C</additive>
+    <size>1 unit / 1 unit</size>
+    <id>755-1</id>
+  </samples>
+  <samples>
+    <additive>BENTOLITE-L 3</additive>
+    <size>1 unit / 1 unit</size>
+    <id>742-1</id>
+  </samples>
+  <samples>
+    <additive>BYK-011</additive>
+    <size>60 ml / 2 oz</size>
+    <id>126-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-011</additive>
+    <size>500 ml / 16 oz</size>
+    <id>126-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-012</additive>
+    <size>500 ml / 16 oz</size>
+    <id>127-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-012</additive>
+    <size>60 ml / 2 oz</size>
+    <id>127-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-014</additive>
+    <size>60 ml / 2 oz</size>
+    <id>128-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-014</additive>
+    <size>500 ml / 16 oz</size>
+    <id>128-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-015</additive>
+    <size>60 ml / 2 oz</size>
+    <id>526-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-015</additive>
+    <size>500 ml / 16 oz</size>
+    <id>526-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-016</additive>
+    <size>60 ml / 2 oz</size>
+    <id>129-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-016</additive>
+    <size>500 ml / 16 oz</size>
+    <id>129-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-017</additive>
+    <size>500 ml / 16 oz</size>
+    <id>130-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-017</additive>
+    <size>60 ml / 2 oz</size>
+    <id>130-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-018</additive>
+    <size>60 ml / 2 oz</size>
+    <id>131-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-018</additive>
+    <size>500 ml / 16 oz</size>
+    <id>131-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-019</additive>
+    <size>500 ml / 16 oz</size>
+    <id>132-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-019</additive>
+    <size>60 ml / 2 oz</size>
+    <id>132-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-021</additive>
+    <size>60 ml / 2 oz</size>
+    <id>134-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-021</additive>
+    <size>500 ml / 16 oz</size>
+    <id>134-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-022</additive>
+    <size>500 ml / 16 oz</size>
+    <id>135-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-022</additive>
+    <size>60 ml / 2 oz</size>
+    <id>135-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-023</additive>
+    <size>60 ml / 2 oz</size>
+    <id>136-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-023</additive>
+    <size>500 ml / 16 oz</size>
+    <id>136-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-024</additive>
+    <size>500 ml / 16 oz</size>
+    <id>137-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-024</additive>
+    <size>60 ml / 2 oz</size>
+    <id>137-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-025</additive>
+    <size>60 ml / 2 oz</size>
+    <id>138-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-025</additive>
+    <size>500 ml / 16 oz</size>
+    <id>138-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-028</additive>
+    <size>500 ml / 16 oz</size>
+    <id>139-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-028</additive>
+    <size>60 ml / 2 oz</size>
+    <id>139-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-035</additive>
+    <size>60 ml / 2 oz</size>
+    <id>144-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-035</additive>
+    <size>500 ml / 16 oz</size>
+    <id>144-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-037</additive>
+    <size>500 ml / 16 oz</size>
+    <id>145-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-037</additive>
+    <size>60 ml / 2 oz</size>
+    <id>145-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-038</additive>
+    <size>60 ml / 2 oz</size>
+    <id>146-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-038</additive>
+    <size>500 ml / 16 oz</size>
+    <id>146-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-044</additive>
+    <size>500 ml / 16 oz</size>
+    <id>147-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-044</additive>
+    <size>60 ml / 2 oz</size>
+    <id>147-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-051 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>149-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-051 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>149-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-052 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>150-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-052 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>150-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-054</additive>
+    <size>60 ml / 2 oz</size>
+    <id>152-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-054</additive>
+    <size>500 ml / 16 oz</size>
+    <id>152-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-055</additive>
+    <size>500 ml / 16 oz</size>
+    <id>153-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-055</additive>
+    <size>60 ml / 2 oz</size>
+    <id>153-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-057</additive>
+    <size>60 ml / 2 oz</size>
+    <id>154-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-057</additive>
+    <size>500 ml / 16 oz</size>
+    <id>154-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-065</additive>
+    <size>500 ml / 16 oz</size>
+    <id>156-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-065</additive>
+    <size>60 ml / 2 oz</size>
+    <id>156-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-066 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>157-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-066 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>157-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-067 A</additive>
+    <size>500 ml / 16 oz</size>
+    <id>158-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-067 A</additive>
+    <size>60 ml / 2 oz</size>
+    <id>158-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-070</additive>
+    <size>60 ml / 2 oz</size>
+    <id>159-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-070</additive>
+    <size>500 ml / 16 oz</size>
+    <id>159-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-072</additive>
+    <size>500 ml / 16 oz</size>
+    <id>161-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-072</additive>
+    <size>60 ml / 2 oz</size>
+    <id>161-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-077</additive>
+    <size>60 ml / 2 oz</size>
+    <id>162-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-077</additive>
+    <size>500 ml / 16 oz</size>
+    <id>162-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-081</additive>
+    <size>60 ml / 2 oz</size>
+    <id>723-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-081</additive>
+    <size>500 ml / 16 oz</size>
+    <id>723-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-085</additive>
+    <size>60 ml / 2 oz</size>
+    <id>163-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-085</additive>
+    <size>500 ml / 16 oz</size>
+    <id>163-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-088</additive>
+    <size>500 ml / 16 oz</size>
+    <id>164-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-088</additive>
+    <size>60 ml / 2 oz</size>
+    <id>164-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-093</additive>
+    <size>60 ml / 2 oz</size>
+    <id>165-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-093</additive>
+    <size>500 ml / 16 oz</size>
+    <id>165-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-094</additive>
+    <size>500 ml / 16 oz</size>
+    <id>166-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-094</additive>
+    <size>60 ml / 2 oz</size>
+    <id>166-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1160</additive>
+    <size>60 ml / 2 oz</size>
+    <id>721-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1160</additive>
+    <size>500 ml / 16 oz</size>
+    <id>721-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1161</additive>
+    <size>60 ml / 2 oz</size>
+    <id>235-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1161</additive>
+    <size>500 ml / 16 oz</size>
+    <id>235-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1162</additive>
+    <size>500 ml / 16 oz</size>
+    <id>236-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1162</additive>
+    <size>60 ml / 2 oz</size>
+    <id>236-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1163</additive>
+    <size>60 ml / 2 oz</size>
+    <id>735-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1163</additive>
+    <size>500 ml / 16 oz</size>
+    <id>735-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1164</additive>
+    <size>500 ml / 16 oz</size>
+    <id>736-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1164</additive>
+    <size>60 ml / 2 oz</size>
+    <id>736-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1165</additive>
+    <size>60 ml / 2 oz</size>
+    <id>722-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1165</additive>
+    <size>500 ml / 16 oz</size>
+    <id>722-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-141</additive>
+    <size>60 ml / 2 oz</size>
+    <id>167-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-141</additive>
+    <size>500 ml / 16 oz</size>
+    <id>167-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-152 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1059-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-152 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1059-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-153</additive>
+    <size>500 ml / 16 oz</size>
+    <id>546-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-153</additive>
+    <size>60 ml / 2 oz</size>
+    <id>546-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-154</additive>
+    <size>60 ml / 2 oz</size>
+    <id>169-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-154</additive>
+    <size>500 ml / 16 oz</size>
+    <id>169-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-155 US</additive>
+    <size>500 ml / 16 oz</size>
+    <id>171-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-155 US</additive>
+    <size>60 ml / 2 oz</size>
+    <id>171-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-156</additive>
+    <size>60 ml / 2 oz</size>
+    <id>172-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-156</additive>
+    <size>500 ml / 16 oz</size>
+    <id>172-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1610</additive>
+    <size>500 ml / 16 oz</size>
+    <id>237-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1610</additive>
+    <size>60 ml / 2 oz</size>
+    <id>237-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1611</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1050-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1611</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1050-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1615</additive>
+    <size>500 ml / 16 oz</size>
+    <id>238-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1615</additive>
+    <size>60 ml / 2 oz</size>
+    <id>238-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1617</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1051-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1617</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1051-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1640</additive>
+    <size>500 ml / 16 oz</size>
+    <id>981-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1640</additive>
+    <size>60 ml / 2 oz</size>
+    <id>981-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1650</additive>
+    <size>60 ml / 2 oz</size>
+    <id>239-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1650</additive>
+    <size>500 ml / 16 oz</size>
+    <id>239-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1679</additive>
+    <size>500 ml / 16 oz</size>
+    <id>241-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1679</additive>
+    <size>250 ml / 8 oz</size>
+    <id>241-250</id>
+  </samples>
+  <samples>
+    <additive>BYK-1690 SD</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1028-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1691 SD</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1029-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1691 SD</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1029-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1710</additive>
+    <size>60 ml / 2 oz</size>
+    <id>575-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1710</additive>
+    <size>500 ml / 16 oz</size>
+    <id>575-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1711</additive>
+    <size>500 ml / 16 oz</size>
+    <id>553-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1711</additive>
+    <size>60 ml / 2 oz</size>
+    <id>553-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1719</additive>
+    <size>60 ml / 2 oz</size>
+    <id>242-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1719</additive>
+    <size>500 ml / 16 oz</size>
+    <id>242-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1723</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1052-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1723</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1052-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1724</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1053-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1724</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1053-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1730</additive>
+    <size>500 ml / 16 oz</size>
+    <id>243-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1730</additive>
+    <size>60 ml / 2 oz</size>
+    <id>243-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1740</additive>
+    <size>60 ml / 2 oz</size>
+    <id>529-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1740</additive>
+    <size>500 ml / 16 oz</size>
+    <id>529-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1752</additive>
+    <size>60 ml / 2 oz</size>
+    <id>244-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1752</additive>
+    <size>500 ml / 16 oz</size>
+    <id>244-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1770</additive>
+    <size>500 ml / 16 oz</size>
+    <id>245-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1770</additive>
+    <size>60 ml / 2 oz</size>
+    <id>245-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1780</additive>
+    <size>60 ml / 2 oz</size>
+    <id>611-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1780</additive>
+    <size>500 ml / 16 oz</size>
+    <id>611-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1785</additive>
+    <size>500 ml / 16 oz</size>
+    <id>612-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1785</additive>
+    <size>60 ml / 2 oz</size>
+    <id>612-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1788</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1071-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1788</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1071-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1790</additive>
+    <size>500 ml / 16 oz</size>
+    <id>246-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1790</additive>
+    <size>60 ml / 2 oz</size>
+    <id>246-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1791</additive>
+    <size>60 ml / 2 oz</size>
+    <id>528-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1791</additive>
+    <size>500 ml / 16 oz</size>
+    <id>528-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1794</additive>
+    <size>500 ml / 16 oz</size>
+    <id>583-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1794</additive>
+    <size>60 ml / 2 oz</size>
+    <id>583-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1798</additive>
+    <size>60 ml / 2 oz</size>
+    <id>541-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-1798</additive>
+    <size>500 ml / 16 oz</size>
+    <id>541-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1799</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1072-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-1799</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1072-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-220 S</additive>
+    <size>500 ml / 16 oz</size>
+    <id>173-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-220 S</additive>
+    <size>60 ml / 2 oz</size>
+    <id>173-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-2616</additive>
+    <size>500 ml / 16 oz</size>
+    <id>247-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-300</additive>
+    <size>500 ml / 16 oz</size>
+    <id>174-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-300</additive>
+    <size>60 ml / 2 oz</size>
+    <id>174-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-302</additive>
+    <size>60 ml / 2 oz</size>
+    <id>176-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-302</additive>
+    <size>500 ml / 16 oz</size>
+    <id>176-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-306</additive>
+    <size>500 ml / 16 oz</size>
+    <id>177-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-306</additive>
+    <size>60 ml / 2 oz</size>
+    <id>177-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-307</additive>
+    <size>60 ml / 2 oz</size>
+    <id>178-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-307</additive>
+    <size>500 ml / 16 oz</size>
+    <id>178-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-310</additive>
+    <size>500 ml / 16 oz</size>
+    <id>179-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-310</additive>
+    <size>60 ml / 2 oz</size>
+    <id>179-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3105</additive>
+    <size>60 ml / 2 oz</size>
+    <id>248-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3105</additive>
+    <size>500 ml / 16 oz</size>
+    <id>248-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-313</additive>
+    <size>500 ml / 16 oz</size>
+    <id>180-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-313</additive>
+    <size>60 ml / 2 oz</size>
+    <id>180-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-315 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>181-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-315 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>181-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3155</additive>
+    <size>500 ml / 16 oz</size>
+    <id>249-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3155</additive>
+    <size>60 ml / 2 oz</size>
+    <id>249-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3160</additive>
+    <size>500 ml / 16 oz</size>
+    <id>250-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-320</additive>
+    <size>500 ml / 16 oz</size>
+    <id>182-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-320</additive>
+    <size>60 ml / 2 oz</size>
+    <id>182-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-322</additive>
+    <size>60 ml / 2 oz</size>
+    <id>184-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-322</additive>
+    <size>500 ml / 16 oz</size>
+    <id>184-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-323</additive>
+    <size>500 ml / 16 oz</size>
+    <id>185-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-323</additive>
+    <size>60 ml / 2 oz</size>
+    <id>185-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-325</additive>
+    <size>60 ml / 2 oz</size>
+    <id>186-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-325</additive>
+    <size>500 ml / 16 oz</size>
+    <id>186-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-326</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1066-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-326</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1066-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-330</additive>
+    <size>500 ml / 16 oz</size>
+    <id>187-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-330</additive>
+    <size>60 ml / 2 oz</size>
+    <id>187-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-331</additive>
+    <size>60 ml / 2 oz</size>
+    <id>188-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-331</additive>
+    <size>500 ml / 16 oz</size>
+    <id>188-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-332</additive>
+    <size>500 ml / 16 oz</size>
+    <id>189-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-332</additive>
+    <size>60 ml / 2 oz</size>
+    <id>189-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-333</additive>
+    <size>60 ml / 2 oz</size>
+    <id>190-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-333</additive>
+    <size>500 ml / 16 oz</size>
+    <id>190-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3400</additive>
+    <size>500 ml / 16 oz</size>
+    <id>251-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3400</additive>
+    <size>60 ml / 2 oz</size>
+    <id>251-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3410</additive>
+    <size>60 ml / 2 oz</size>
+    <id>252-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3410</additive>
+    <size>500 ml / 16 oz</size>
+    <id>252-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-342</additive>
+    <size>60 ml / 2 oz</size>
+    <id>540-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-342</additive>
+    <size>500 ml / 16 oz</size>
+    <id>540-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3440</additive>
+    <size>500 ml / 16 oz</size>
+    <id>542-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3440</additive>
+    <size>60 ml / 2 oz</size>
+    <id>542-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3441</additive>
+    <size>60 ml / 2 oz</size>
+    <id>543-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3441</additive>
+    <size>500 ml / 16 oz</size>
+    <id>543-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-345</additive>
+    <size>60 ml / 2 oz</size>
+    <id>197-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-345</additive>
+    <size>500 ml / 16 oz</size>
+    <id>197-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3455</additive>
+    <size>60 ml / 2 oz</size>
+    <id>527-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3455</additive>
+    <size>500 ml / 16 oz</size>
+    <id>527-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-346</additive>
+    <size>60 ml / 2 oz</size>
+    <id>198-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-346</additive>
+    <size>500 ml / 16 oz</size>
+    <id>198-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-347</additive>
+    <size>500 ml / 16 oz</size>
+    <id>199-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-347</additive>
+    <size>60 ml / 2 oz</size>
+    <id>199-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-348</additive>
+    <size>60 ml / 2 oz</size>
+    <id>200-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-348</additive>
+    <size>500 ml / 16 oz</size>
+    <id>200-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-349</additive>
+    <size>500 ml / 16 oz</size>
+    <id>201-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-349</additive>
+    <size>60 ml / 2 oz</size>
+    <id>201-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3499</additive>
+    <size>250 ml / 8 oz</size>
+    <id>253-250</id>
+  </samples>
+  <samples>
+    <additive>BYK-3499</additive>
+    <size>500 ml / 16 oz</size>
+    <id>253-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-350</additive>
+    <size>500 ml / 16 oz</size>
+    <id>202-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-352</additive>
+    <size>500 ml / 16 oz</size>
+    <id>203-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-352</additive>
+    <size>60 ml / 2 oz</size>
+    <id>203-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-354</additive>
+    <size>60 ml / 2 oz</size>
+    <id>204-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-354</additive>
+    <size>500 ml / 16 oz</size>
+    <id>204-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-355</additive>
+    <size>500 ml / 16 oz</size>
+    <id>205-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-355</additive>
+    <size>60 ml / 2 oz</size>
+    <id>205-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3550</additive>
+    <size>60 ml / 2 oz</size>
+    <id>256-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3550</additive>
+    <size>500 ml / 16 oz</size>
+    <id>256-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-356</additive>
+    <size>500 ml / 16 oz</size>
+    <id>206-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3560</additive>
+    <size>60 ml / 2 oz</size>
+    <id>729-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3560</additive>
+    <size>500 ml / 16 oz</size>
+    <id>729-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-358 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>207-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-358 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>207-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-359</additive>
+    <size>500 ml / 16 oz</size>
+    <id>208-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-360 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>209-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-361 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>210-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-361 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>210-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-364 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>211-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-366 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>212-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-368 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>213-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-370</additive>
+    <size>500 ml / 16 oz</size>
+    <id>214-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-370</additive>
+    <size>60 ml / 2 oz</size>
+    <id>214-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-377</additive>
+    <size>60 ml / 2 oz</size>
+    <id>218-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-377</additive>
+    <size>500 ml / 16 oz</size>
+    <id>218-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-378</additive>
+    <size>500 ml / 16 oz</size>
+    <id>219-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-378</additive>
+    <size>60 ml / 2 oz</size>
+    <id>219-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-381</additive>
+    <size>60 ml / 2 oz</size>
+    <id>221-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-381</additive>
+    <size>500 ml / 16 oz</size>
+    <id>221-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3900 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>257-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3902 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>258-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-392</additive>
+    <size>500 ml / 16 oz</size>
+    <id>224-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-392</additive>
+    <size>60 ml / 2 oz</size>
+    <id>224-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3931 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>259-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3932 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>260-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3933 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>539-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-394</additive>
+    <size>500 ml / 16 oz</size>
+    <id>225-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-394</additive>
+    <size>60 ml / 2 oz</size>
+    <id>225-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3950 P</additive>
+    <size>60 ml / 2 oz</size>
+    <id>261-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3950 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>261-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3951 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>262-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-3951 P</additive>
+    <size>60 ml / 2 oz</size>
+    <id>262-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3955 P</additive>
+    <size>60 ml / 2 oz</size>
+    <id>263-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-3955 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>263-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-399</additive>
+    <size>60 ml / 2 oz</size>
+    <id>538-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-399</additive>
+    <size>500 ml / 16 oz</size>
+    <id>538-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-405</additive>
+    <size>60 ml / 2 oz</size>
+    <id>226-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-405</additive>
+    <size>500 ml / 16 oz</size>
+    <id>226-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-410</additive>
+    <size>500 ml / 16 oz</size>
+    <id>227-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-410</additive>
+    <size>60 ml / 2 oz</size>
+    <id>227-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-411</additive>
+    <size>60 ml / 2 oz</size>
+    <id>228-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-411</additive>
+    <size>500 ml / 16 oz</size>
+    <id>228-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-415</additive>
+    <size>500 ml / 16 oz</size>
+    <id>229-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-415</additive>
+    <size>60 ml / 2 oz</size>
+    <id>229-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-420</additive>
+    <size>60 ml / 2 oz</size>
+    <id>230-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-420</additive>
+    <size>500 ml / 16 oz</size>
+    <id>230-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-425</additive>
+    <size>500 ml / 16 oz</size>
+    <id>231-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-425</additive>
+    <size>60 ml / 2 oz</size>
+    <id>231-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-430</additive>
+    <size>60 ml / 2 oz</size>
+    <id>233-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-430</additive>
+    <size>500 ml / 16 oz</size>
+    <id>233-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-431</additive>
+    <size>500 ml / 16 oz</size>
+    <id>234-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-431</additive>
+    <size>60 ml / 2 oz</size>
+    <id>234-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4500</additive>
+    <size>60 ml / 2 oz</size>
+    <id>264-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4500</additive>
+    <size>500 ml / 16 oz</size>
+    <id>264-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-4509</additive>
+    <size>60 ml / 2 oz</size>
+    <id>600-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4509</additive>
+    <size>500 ml / 16 oz</size>
+    <id>600-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-4510</additive>
+    <size>60 ml / 2 oz</size>
+    <id>265-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4510</additive>
+    <size>500 ml / 16 oz</size>
+    <id>265-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-4511</additive>
+    <size>60 ml / 2 oz</size>
+    <id>570-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4511</additive>
+    <size>500 ml / 16 oz</size>
+    <id>570-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-4512</additive>
+    <size>500 ml / 16 oz</size>
+    <id>601-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-4512</additive>
+    <size>60 ml / 2 oz</size>
+    <id>601-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4513</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1011-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-4513</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1011-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-5128</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1067-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-5128</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1067-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-7410 ET</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1007-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-7410 ET</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1007-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-7411 ES</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1008-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-7411 ES</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1008-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-7420 ES</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1009-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-7420 ES</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1009-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-8020</additive>
+    <size>500 ml / 16 oz</size>
+    <id>266-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-8070</additive>
+    <size>500 ml / 16 oz</size>
+    <id>267-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-9076</additive>
+    <size>500 ml / 16 oz</size>
+    <id>268-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-9076</additive>
+    <size>60 ml / 2 oz</size>
+    <id>268-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-9077</additive>
+    <size>60 ml / 2 oz</size>
+    <id>269-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-9077</additive>
+    <size>500 ml / 16 oz</size>
+    <id>269-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 500</additive>
+    <size>500 ml / 16 oz</size>
+    <id>270-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 500</additive>
+    <size>60 ml / 2 oz</size>
+    <id>270-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 501</additive>
+    <size>60 ml / 2 oz</size>
+    <id>271-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 501</additive>
+    <size>500 ml / 16 oz</size>
+    <id>271-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 505</additive>
+    <size>60 ml / 2 oz</size>
+    <id>610-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 505</additive>
+    <size>500 ml / 16 oz</size>
+    <id>610-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 515</additive>
+    <size>60 ml / 2 oz</size>
+    <id>274-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 515</additive>
+    <size>500 ml / 16 oz</size>
+    <id>274-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 525</additive>
+    <size>500 ml / 16 oz</size>
+    <id>275-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 525</additive>
+    <size>60 ml / 2 oz</size>
+    <id>275-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 530</additive>
+    <size>60 ml / 2 oz</size>
+    <id>276-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 530</additive>
+    <size>500 ml / 16 oz</size>
+    <id>276-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 535</additive>
+    <size>500 ml / 16 oz</size>
+    <id>278-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 535</additive>
+    <size>60 ml / 2 oz</size>
+    <id>278-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 550</additive>
+    <size>60 ml / 2 oz</size>
+    <id>279-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 550</additive>
+    <size>500 ml / 16 oz</size>
+    <id>279-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 555</additive>
+    <size>500 ml / 16 oz</size>
+    <id>280-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 555</additive>
+    <size>60 ml / 2 oz</size>
+    <id>280-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 560</additive>
+    <size>60 ml / 2 oz</size>
+    <id>281-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-A 560</additive>
+    <size>500 ml / 16 oz</size>
+    <id>281-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8000</additive>
+    <size>500 ml / 16 oz</size>
+    <id>282-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8000</additive>
+    <size>60 ml / 2 oz</size>
+    <id>282-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8001</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1043-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8001</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1043-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8002</additive>
+    <size>500 ml / 16 oz</size>
+    <id>544-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8002</additive>
+    <size>60 ml / 2 oz</size>
+    <id>544-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8003</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1055-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-C 8003</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1055-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-CATALYST 450</additive>
+    <size>500 ml / 16 oz</size>
+    <id>283-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-CATALYST 450</additive>
+    <size>60 ml / 2 oz</size>
+    <id>283-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-D 410</additive>
+    <size>60 ml / 2 oz</size>
+    <id>285-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-D 410</additive>
+    <size>500 ml / 16 oz</size>
+    <id>285-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-D 420</additive>
+    <size>500 ml / 16 oz</size>
+    <id>286-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-D 420</additive>
+    <size>60 ml / 2 oz</size>
+    <id>286-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-DYNWET 800 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>287-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-DYNWET 800 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>287-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-ES 80</additive>
+    <size>500 ml / 16 oz</size>
+    <id>291-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-ES 80</additive>
+    <size>60 ml / 2 oz</size>
+    <id>291-60</id>
+  </samples>
+  <samples>
+    <additive>BYKETOL-AQ</additive>
+    <size>60 ml / 2 oz</size>
+    <id>353-60</id>
+  </samples>
+  <samples>
+    <additive>BYKETOL-AQ</additive>
+    <size>500 ml / 16 oz</size>
+    <id>353-500</id>
+  </samples>
+  <samples>
+    <additive>BYKETOL-PC</additive>
+    <size>500 ml / 16 oz</size>
+    <id>355-500</id>
+  </samples>
+  <samples>
+    <additive>BYKETOL-PC</additive>
+    <size>60 ml / 2 oz</size>
+    <id>355-60</id>
+  </samples>
+  <samples>
+    <additive>BYKETOL-WS</additive>
+    <size>60 ml / 2 oz</size>
+    <id>357-60</id>
+  </samples>
+  <samples>
+    <additive>BYKETOL-WS</additive>
+    <size>500 ml / 16 oz</size>
+    <id>357-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-GO 8720</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1073-1</id>
+  </samples>
+  <samples>
+    <additive>BYK-GO 8750</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1074-1</id>
+  </samples>
+  <samples>
+    <additive>BYK-GO 8751</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1075-1</id>
+  </samples>
+  <samples>
+    <additive>BYK-GO 8780</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1076-1</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9131</additive>
+    <size>500 ml / 16 oz</size>
+    <id>531-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9131</additive>
+    <size>60 ml / 2 oz</size>
+    <id>531-60</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9132</additive>
+    <size>60 ml / 2 oz</size>
+    <id>532-60</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9132</additive>
+    <size>500 ml / 16 oz</size>
+    <id>532-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9133</additive>
+    <size>500 ml / 16 oz</size>
+    <id>533-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9133</additive>
+    <size>60 ml / 2 oz</size>
+    <id>533-60</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9142</additive>
+    <size>60 ml / 2 oz</size>
+    <id>734-60</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9142</additive>
+    <size>500 ml / 16 oz</size>
+    <id>734-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9150</additive>
+    <size>500 ml / 16 oz</size>
+    <id>534-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9150</additive>
+    <size>60 ml / 2 oz</size>
+    <id>534-60</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9151</additive>
+    <size>60 ml / 2 oz</size>
+    <id>596-60</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9151</additive>
+    <size>500 ml / 16 oz</size>
+    <id>596-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9152</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1026-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9170</additive>
+    <size>500 ml / 16 oz</size>
+    <id>535-500</id>
+  </samples>
+  <samples>
+    <additive>BYKJET-9170</additive>
+    <size>60 ml / 2 oz</size>
+    <id>535-60</id>
+  </samples>
+  <samples>
+    <additive>BYKO2BLOCK-1200</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1062-60</id>
+  </samples>
+  <samples>
+    <additive>BYKO2BLOCK-1200</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1062-250</id>
+  </samples>
+  <samples>
+    <additive>BYKOPLAST-1000</additive>
+    <size>60 ml / 2 oz</size>
+    <id>358-60</id>
+  </samples>
+  <samples>
+    <additive>BYKOPLAST-1000</additive>
+    <size>500 ml / 16 oz</size>
+    <id>358-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 104</additive>
+    <size>60 ml / 2 oz</size>
+    <id>295-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 104</additive>
+    <size>500 ml / 16 oz</size>
+    <id>295-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 104 S</additive>
+    <size>500 ml / 16 oz</size>
+    <id>296-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 104 S</additive>
+    <size>60 ml / 2 oz</size>
+    <id>296-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 105</additive>
+    <size>500 ml / 16 oz</size>
+    <id>297-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 4100</additive>
+    <size>500 ml / 16 oz</size>
+    <id>298-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 4100</additive>
+    <size>60 ml / 2 oz</size>
+    <id>298-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 4101</additive>
+    <size>1000 g / 35 oz</size>
+    <id>299-1000-g</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 4102</additive>
+    <size>1000 g / 35 oz</size>
+    <id>300-1000-g</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 4200</additive>
+    <size>1000 g / 35 oz</size>
+    <id>301-1000-g</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9050</additive>
+    <size>60 ml / 2 oz</size>
+    <id>302-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9050</additive>
+    <size>500 ml / 16 oz</size>
+    <id>302-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9051</additive>
+    <size>500 ml / 16 oz</size>
+    <id>303-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9060</additive>
+    <size>500 ml / 16 oz</size>
+    <id>304-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9065</additive>
+    <size>500 ml / 16 oz</size>
+    <id>305-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9065</additive>
+    <size>60 ml / 2 oz</size>
+    <id>305-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9080</additive>
+    <size>500 ml / 16 oz</size>
+    <id>306-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9085</additive>
+    <size>500 ml / 16 oz</size>
+    <id>582-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9902</additive>
+    <size>500 ml / 16 oz</size>
+    <id>309-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9904</additive>
+    <size>500 ml / 16 oz</size>
+    <id>311-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9904</additive>
+    <size>60 ml / 2 oz</size>
+    <id>311-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9908</additive>
+    <size>60 ml / 2 oz</size>
+    <id>536-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9908</additive>
+    <size>500 ml / 16 oz</size>
+    <id>536-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9909</additive>
+    <size>500 ml / 16 oz</size>
+    <id>537-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9909</additive>
+    <size>60 ml / 2 oz</size>
+    <id>537-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9912</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1027-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9912</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1027-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9915</additive>
+    <size>60 ml / 2 oz</size>
+    <id>314-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9915</additive>
+    <size>500 ml / 16 oz</size>
+    <id>314-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9920</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1006-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9920</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1006-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9928</additive>
+    <size>60 ml / 2 oz</size>
+    <id>315-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-P 9928</additive>
+    <size>500 ml / 16 oz</size>
+    <id>315-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-R 605</additive>
+    <size>500 ml / 16 oz</size>
+    <id>316-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-R 605</additive>
+    <size>60 ml / 2 oz</size>
+    <id>316-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-R 606</additive>
+    <size>60 ml / 2 oz</size>
+    <id>317-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-R 606</additive>
+    <size>500 ml / 16 oz</size>
+    <id>317-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-R 607</additive>
+    <size>60 ml / 2 oz</size>
+    <id>730-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-R 607</additive>
+    <size>500 ml / 16 oz</size>
+    <id>730-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 706</additive>
+    <size>60 ml / 2 oz</size>
+    <id>318-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 706</additive>
+    <size>500 ml / 16 oz</size>
+    <id>318-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 732</additive>
+    <size>60 ml / 2 oz</size>
+    <id>615-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 732</additive>
+    <size>500 ml / 16 oz</size>
+    <id>615-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 740</additive>
+    <size>500 ml / 16 oz</size>
+    <id>319-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 750 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>320-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 760</additive>
+    <size>500 ml / 16 oz</size>
+    <id>613-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 780</additive>
+    <size>500 ml / 16 oz</size>
+    <id>321-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 781</additive>
+    <size>500 ml / 16 oz</size>
+    <id>322-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-S 782</additive>
+    <size>500 ml / 16 oz</size>
+    <id>323-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-SILCLEAN 3700</additive>
+    <size>500 ml / 16 oz</size>
+    <id>324-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-SILCLEAN 3700</additive>
+    <size>60 ml / 2 oz</size>
+    <id>324-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-SILCLEAN 3701</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1054-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-SILCLEAN 3701</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1054-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-SILCLEAN 3720</additive>
+    <size>500 ml / 16 oz</size>
+    <id>326-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-SILCLEAN 3720</additive>
+    <size>60 ml / 2 oz</size>
+    <id>326-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-SYNERGIST 2100</additive>
+    <size>60 ml / 2 oz</size>
+    <id>327-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-SYNERGIST 2102</additive>
+    <size>60 ml / 2 oz</size>
+    <id>552-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-SYNERGIST 2105</additive>
+    <size>60 ml / 2 oz</size>
+    <id>328-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-TS 3200</additive>
+    <size>1000 g / 35 oz</size>
+    <id>725-1000-g</id>
+  </samples>
+  <samples>
+    <additive>BYK-TS 3201</additive>
+    <size>500 g / 18 oz</size>
+    <id>726-500-g</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3500</additive>
+    <size>60 ml / 2 oz</size>
+    <id>329-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3500</additive>
+    <size>500 ml / 16 oz</size>
+    <id>329-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3505</additive>
+    <size>60 ml / 2 oz</size>
+    <id>606-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3505</additive>
+    <size>500 ml / 16 oz</size>
+    <id>606-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3510</additive>
+    <size>60 ml / 2 oz</size>
+    <id>330-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3510</additive>
+    <size>500 ml / 16 oz</size>
+    <id>330-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3530</additive>
+    <size>500 ml / 16 oz</size>
+    <id>331-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3530</additive>
+    <size>60 ml / 2 oz</size>
+    <id>331-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3535</additive>
+    <size>60 ml / 2 oz</size>
+    <id>607-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3535</additive>
+    <size>500 ml / 16 oz</size>
+    <id>607-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3570</additive>
+    <size>60 ml / 2 oz</size>
+    <id>332-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3570</additive>
+    <size>500 ml / 16 oz</size>
+    <id>332-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3575</additive>
+    <size>60 ml / 2 oz</size>
+    <id>608-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3575</additive>
+    <size>500 ml / 16 oz</size>
+    <id>608-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3576</additive>
+    <size>500 ml / 16 oz</size>
+    <id>609-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-UV 3576</additive>
+    <size>60 ml / 2 oz</size>
+    <id>609-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 9010</additive>
+    <size>60 ml / 2 oz</size>
+    <id>350-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 9010</additive>
+    <size>500 ml / 16 oz</size>
+    <id>350-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 9011</additive>
+    <size>500 ml / 16 oz</size>
+    <id>351-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 9011</additive>
+    <size>60 ml / 2 oz</size>
+    <id>351-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 9012</additive>
+    <size>60 ml / 2 oz</size>
+    <id>719-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 9012</additive>
+    <size>500 ml / 16 oz</size>
+    <id>719-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 903</additive>
+    <size>60 ml / 2 oz</size>
+    <id>333-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 903</additive>
+    <size>500 ml / 16 oz</size>
+    <id>333-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 908</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1063-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 908</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1063-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 909</additive>
+    <size>500 ml / 16 oz</size>
+    <id>334-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 909</additive>
+    <size>60 ml / 2 oz</size>
+    <id>334-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 940</additive>
+    <size>60 ml / 2 oz</size>
+    <id>337-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 940</additive>
+    <size>500 ml / 16 oz</size>
+    <id>337-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 961</additive>
+    <size>500 ml / 16 oz</size>
+    <id>338-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 961</additive>
+    <size>60 ml / 2 oz</size>
+    <id>338-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 966</additive>
+    <size>60 ml / 2 oz</size>
+    <id>340-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 966</additive>
+    <size>500 ml / 16 oz</size>
+    <id>340-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 969</additive>
+    <size>500 ml / 16 oz</size>
+    <id>342-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 969</additive>
+    <size>60 ml / 2 oz</size>
+    <id>342-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 972</additive>
+    <size>60 ml / 2 oz</size>
+    <id>343-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 972</additive>
+    <size>500 ml / 16 oz</size>
+    <id>343-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 974</additive>
+    <size>500 ml / 16 oz</size>
+    <id>344-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 974</additive>
+    <size>60 ml / 2 oz</size>
+    <id>344-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 980</additive>
+    <size>60 ml / 2 oz</size>
+    <id>345-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 980</additive>
+    <size>500 ml / 16 oz</size>
+    <id>345-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 985</additive>
+    <size>500 ml / 16 oz</size>
+    <id>346-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 985</additive>
+    <size>60 ml / 2 oz</size>
+    <id>346-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 995</additive>
+    <size>60 ml / 2 oz</size>
+    <id>347-60</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 995</additive>
+    <size>500 ml / 16 oz</size>
+    <id>347-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 996</additive>
+    <size>500 ml / 16 oz</size>
+    <id>348-500</id>
+  </samples>
+  <samples>
+    <additive>BYK-W 996</additive>
+    <size>60 ml / 2 oz</size>
+    <id>348-60</id>
+  </samples>
+  <samples>
+    <additive>CARBOBYK-9810</additive>
+    <size>60 ml / 2 oz</size>
+    <id>576-60</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 2600</additive>
+    <size>250 ml / 8 oz</size>
+    <id>993-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 2600</additive>
+    <size>500 ml / 16 oz</size>
+    <id>993-500</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 604</additive>
+    <size>250 ml / 8 oz</size>
+    <id>368-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 604</additive>
+    <size>500 ml / 16 oz</size>
+    <id>368-500</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 607</additive>
+    <size>500 ml / 16 oz</size>
+    <id>369-500</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 607</additive>
+    <size>250 ml / 8 oz</size>
+    <id>369-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 609 N</additive>
+    <size>250 ml / 8 oz</size>
+    <id>370-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 609 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>370-500</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 79</additive>
+    <size>250 ml / 8 oz</size>
+    <id>361-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 79</additive>
+    <size>500 ml / 16 oz</size>
+    <id>361-500</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 80</additive>
+    <size>500 ml / 16 oz</size>
+    <id>362-500</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 80</additive>
+    <size>250 ml / 8 oz</size>
+    <id>362-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 83</additive>
+    <size>250 ml / 8 oz</size>
+    <id>363-250</id>
+  </samples>
+  <samples>
+    <additive>CERACOL 83</additive>
+    <size>500 ml / 16 oz</size>
+    <id>363-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 100</additive>
+    <size>500 ml / 16 oz</size>
+    <id>371-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 100</additive>
+    <size>250 ml / 8 oz</size>
+    <id>371-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 103</additive>
+    <size>250 ml / 8 oz</size>
+    <id>372-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 103</additive>
+    <size>500 ml / 16 oz</size>
+    <id>372-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 106</additive>
+    <size>500 ml / 16 oz</size>
+    <id>373-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 106</additive>
+    <size>250 ml / 8 oz</size>
+    <id>373-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 110</additive>
+    <size>250 ml / 8 oz</size>
+    <id>374-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 110</additive>
+    <size>500 ml / 16 oz</size>
+    <id>374-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 111</additive>
+    <size>500 ml / 16 oz</size>
+    <id>375-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 111</additive>
+    <size>250 ml / 8 oz</size>
+    <id>375-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 117</additive>
+    <size>250 ml / 8 oz</size>
+    <id>728-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 117</additive>
+    <size>500 ml / 16 oz</size>
+    <id>728-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 127 N</additive>
+    <size>250 ml / 8 oz</size>
+    <id>377-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 127 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>377-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 140 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>379-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFAK 140 N</additive>
+    <size>250 ml / 8 oz</size>
+    <id>379-250</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 1000</additive>
+    <size>500 ml / 16 oz</size>
+    <id>573-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 913</additive>
+    <size>500 ml / 16 oz</size>
+    <id>382-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 914</additive>
+    <size>500 ml / 16 oz</size>
+    <id>383-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 915</additive>
+    <size>500 ml / 16 oz</size>
+    <id>384-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 916</additive>
+    <size>500 ml / 16 oz</size>
+    <id>385-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 917</additive>
+    <size>500 ml / 16 oz</size>
+    <id>724-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 920</additive>
+    <size>500 ml / 16 oz</size>
+    <id>386-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 925</additive>
+    <size>500 ml / 16 oz</size>
+    <id>602-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 927</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1064-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 929</additive>
+    <size>500 ml / 16 oz</size>
+    <id>548-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 932 G</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1034-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 932 P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1035-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 950</additive>
+    <size>500 ml / 16 oz</size>
+    <id>389-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 955</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1077-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 958</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1078-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 959</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1079-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 960</additive>
+    <size>500 ml / 16 oz</size>
+    <id>390-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 961</additive>
+    <size>500 ml / 16 oz</size>
+    <id>391-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 962</additive>
+    <size>500 ml / 16 oz</size>
+    <id>392-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 964</additive>
+    <size>500 ml / 16 oz</size>
+    <id>994-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 965</additive>
+    <size>500 ml / 16 oz</size>
+    <id>393-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 967</additive>
+    <size>500 ml / 16 oz</size>
+    <id>394-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 968</additive>
+    <size>500 ml / 16 oz</size>
+    <id>395-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 969</additive>
+    <size>500 ml / 16 oz</size>
+    <id>396-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 970</additive>
+    <size>500 ml / 16 oz</size>
+    <id>397-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 981</additive>
+    <size>500 ml / 16 oz</size>
+    <id>398-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 988</additive>
+    <size>500 ml / 16 oz</size>
+    <id>399-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 991</additive>
+    <size>500 ml / 16 oz</size>
+    <id>401-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 993</additive>
+    <size>500 ml / 16 oz</size>
+    <id>598-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 994</additive>
+    <size>500 ml / 16 oz</size>
+    <id>403-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 996</additive>
+    <size>500 ml / 16 oz</size>
+    <id>405-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 997</additive>
+    <size>500 ml / 16 oz</size>
+    <id>406-500</id>
+  </samples>
+  <samples>
+    <additive>CERAFLOUR 998</additive>
+    <size>500 ml / 16 oz</size>
+    <id>407-500</id>
+  </samples>
+  <samples>
+    <additive>CERAMAT 248</additive>
+    <size>500 ml / 16 oz</size>
+    <id>409-500</id>
+  </samples>
+  <samples>
+    <additive>CERAMAT 248</additive>
+    <size>250 ml / 8 oz</size>
+    <id>409-250</id>
+  </samples>
+  <samples>
+    <additive>CERAMAT 250</additive>
+    <size>250 ml / 8 oz</size>
+    <id>410-250</id>
+  </samples>
+  <samples>
+    <additive>CERAMAT 250</additive>
+    <size>500 ml / 16 oz</size>
+    <id>410-500</id>
+  </samples>
+  <samples>
+    <additive>CERAMAT 258</additive>
+    <size>500 ml / 16 oz</size>
+    <id>411-500</id>
+  </samples>
+  <samples>
+    <additive>CERAMAT 258</additive>
+    <size>250 ml / 8 oz</size>
+    <id>411-250</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8461</additive>
+    <size>250 ml / 8 oz</size>
+    <id>412-250</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8461</additive>
+    <size>500 ml / 16 oz</size>
+    <id>412-500</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8463</additive>
+    <size>500 ml / 16 oz</size>
+    <id>413-500</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8463</additive>
+    <size>250 ml / 8 oz</size>
+    <id>413-250</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8466</additive>
+    <size>250 ml / 8 oz</size>
+    <id>414-250</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8466</additive>
+    <size>500 ml / 16 oz</size>
+    <id>414-500</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8561</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1080-250</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8563</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1081-250</id>
+  </samples>
+  <samples>
+    <additive>CERATIX 8566</additive>
+    <size>250 ml / 8 oz</size>
+    <id>1082-250</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-3</additive>
+    <size>1 unit / 1 unit</size>
+    <id>920-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-40</additive>
+    <size>1 unit / 1 unit</size>
+    <id>757-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-AF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>758-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-APA</additive>
+    <size>1 unit / 1 unit</size>
+    <id>759-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-EM</additive>
+    <size>1 unit / 1 unit</size>
+    <id>923-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-ER</additive>
+    <size>1 unit / 1 unit</size>
+    <id>928-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-HT</additive>
+    <size>1 unit / 1 unit</size>
+    <id>760-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-HY</additive>
+    <size>1 unit / 1 unit</size>
+    <id>761-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-II</additive>
+    <size>1 unit / 1 unit</size>
+    <id>929-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-IMG 400</additive>
+    <size>1 unit / 1 unit</size>
+    <id>930-1</id>
+  </samples>
+  <samples>
+    <additive>CLAYTONE-SF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>932-1</id>
+  </samples>
+  <samples>
+    <additive>CLOISITE-116</additive>
+    <size>1 unit / 1 unit</size>
+    <id>912-1</id>
+  </samples>
+  <samples>
+    <additive>CLOISITE-15</additive>
+    <size>1 unit / 1 unit</size>
+    <id>907-1</id>
+  </samples>
+  <samples>
+    <additive>CLOISITE-20</additive>
+    <size>1 unit / 1 unit</size>
+    <id>908-1</id>
+  </samples>
+  <samples>
+    <additive>CLOISITE-5</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1010-1</id>
+  </samples>
+  <samples>
+    <additive>CLOISITE-Ca++</additive>
+    <size>1 unit / 1 unit</size>
+    <id>913-1</id>
+  </samples>
+  <samples>
+    <additive>CLOISITE-Na+</additive>
+    <size>1 unit / 1 unit</size>
+    <id>914-1</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK</additive>
+    <size>500 ml / 16 oz</size>
+    <id>415-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK</additive>
+    <size>60 ml / 2 oz</size>
+    <id>415-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-102</additive>
+    <size>60 ml / 2 oz</size>
+    <id>417-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-102</additive>
+    <size>500 ml / 16 oz</size>
+    <id>417-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-103</additive>
+    <size>500 ml / 16 oz</size>
+    <id>418-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-103</additive>
+    <size>60 ml / 2 oz</size>
+    <id>418-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-107</additive>
+    <size>60 ml / 2 oz</size>
+    <id>420-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-107</additive>
+    <size>500 ml / 16 oz</size>
+    <id>420-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-108</additive>
+    <size>500 ml / 16 oz</size>
+    <id>421-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-108</additive>
+    <size>60 ml / 2 oz</size>
+    <id>421-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-109</additive>
+    <size>60 ml / 2 oz</size>
+    <id>422-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-109</additive>
+    <size>500 ml / 16 oz</size>
+    <id>422-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-110</additive>
+    <size>500 ml / 16 oz</size>
+    <id>423-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-110</additive>
+    <size>60 ml / 2 oz</size>
+    <id>423-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-111</additive>
+    <size>60 ml / 2 oz</size>
+    <id>424-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-111</additive>
+    <size>500 ml / 16 oz</size>
+    <id>424-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-115</additive>
+    <size>500 ml / 16 oz</size>
+    <id>426-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-115</additive>
+    <size>60 ml / 2 oz</size>
+    <id>426-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-118</additive>
+    <size>60 ml / 2 oz</size>
+    <id>604-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-118</additive>
+    <size>500 ml / 16 oz</size>
+    <id>604-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-140</additive>
+    <size>60 ml / 2 oz</size>
+    <id>429-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-140</additive>
+    <size>500 ml / 16 oz</size>
+    <id>429-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-142</additive>
+    <size>500 ml / 16 oz</size>
+    <id>430-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-142</additive>
+    <size>60 ml / 2 oz</size>
+    <id>430-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-145</additive>
+    <size>60 ml / 2 oz</size>
+    <id>431-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-145</additive>
+    <size>500 ml / 16 oz</size>
+    <id>431-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-161</additive>
+    <size>500 ml / 16 oz</size>
+    <id>433-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-161</additive>
+    <size>60 ml / 2 oz</size>
+    <id>433-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-162</additive>
+    <size>60 ml / 2 oz</size>
+    <id>434-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-162</additive>
+    <size>500 ml / 16 oz</size>
+    <id>434-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-163</additive>
+    <size>500 ml / 16 oz</size>
+    <id>435-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-163</additive>
+    <size>60 ml / 2 oz</size>
+    <id>435-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-164</additive>
+    <size>60 ml / 2 oz</size>
+    <id>436-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-164</additive>
+    <size>500 ml / 16 oz</size>
+    <id>436-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-166</additive>
+    <size>500 ml / 16 oz</size>
+    <id>437-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-166</additive>
+    <size>60 ml / 2 oz</size>
+    <id>437-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-167</additive>
+    <size>60 ml / 2 oz</size>
+    <id>438-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-167</additive>
+    <size>500 ml / 16 oz</size>
+    <id>438-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-168</additive>
+    <size>500 ml / 16 oz</size>
+    <id>439-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-168</additive>
+    <size>60 ml / 2 oz</size>
+    <id>439-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-170</additive>
+    <size>60 ml / 2 oz</size>
+    <id>441-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-170</additive>
+    <size>500 ml / 16 oz</size>
+    <id>441-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-171</additive>
+    <size>500 ml / 16 oz</size>
+    <id>442-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-171</additive>
+    <size>60 ml / 2 oz</size>
+    <id>442-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-174</additive>
+    <size>60 ml / 2 oz</size>
+    <id>443-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-174</additive>
+    <size>500 ml / 16 oz</size>
+    <id>443-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-180</additive>
+    <size>500 ml / 16 oz</size>
+    <id>444-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-180</additive>
+    <size>60 ml / 2 oz</size>
+    <id>444-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-181</additive>
+    <size>60 ml / 2 oz</size>
+    <id>445-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-181</additive>
+    <size>500 ml / 16 oz</size>
+    <id>445-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-182</additive>
+    <size>500 ml / 16 oz</size>
+    <id>446-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-182</additive>
+    <size>60 ml / 2 oz</size>
+    <id>446-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-184</additive>
+    <size>60 ml / 2 oz</size>
+    <id>448-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-184</additive>
+    <size>500 ml / 16 oz</size>
+    <id>448-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-185</additive>
+    <size>500 ml / 16 oz</size>
+    <id>449-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-185</additive>
+    <size>60 ml / 2 oz</size>
+    <id>449-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-187</additive>
+    <size>60 ml / 2 oz</size>
+    <id>450-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-187</additive>
+    <size>500 ml / 16 oz</size>
+    <id>450-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-190</additive>
+    <size>500 ml / 16 oz</size>
+    <id>451-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-190</additive>
+    <size>60 ml / 2 oz</size>
+    <id>451-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-191</additive>
+    <size>60 ml / 2 oz</size>
+    <id>452-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-191</additive>
+    <size>500 ml / 16 oz</size>
+    <id>452-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-192</additive>
+    <size>500 ml / 16 oz</size>
+    <id>453-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-192</additive>
+    <size>60 ml / 2 oz</size>
+    <id>453-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-193</additive>
+    <size>60 ml / 2 oz</size>
+    <id>454-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-193</additive>
+    <size>500 ml / 16 oz</size>
+    <id>454-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-194 N</additive>
+    <size>60 ml / 2 oz</size>
+    <id>585-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-194 N</additive>
+    <size>500 ml / 16 oz</size>
+    <id>585-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-199</additive>
+    <size>500 ml / 16 oz</size>
+    <id>525-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-199</additive>
+    <size>60 ml / 2 oz</size>
+    <id>525-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2000</additive>
+    <size>60 ml / 2 oz</size>
+    <id>457-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2000</additive>
+    <size>500 ml / 16 oz</size>
+    <id>457-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2001</additive>
+    <size>500 ml / 16 oz</size>
+    <id>458-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2001</additive>
+    <size>60 ml / 2 oz</size>
+    <id>458-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2008</additive>
+    <size>60 ml / 2 oz</size>
+    <id>459-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2008</additive>
+    <size>500 ml / 16 oz</size>
+    <id>459-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2009</additive>
+    <size>500 ml / 16 oz</size>
+    <id>460-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2009</additive>
+    <size>60 ml / 2 oz</size>
+    <id>460-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2010</additive>
+    <size>60 ml / 2 oz</size>
+    <id>461-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2010</additive>
+    <size>500 ml / 16 oz</size>
+    <id>461-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2012</additive>
+    <size>500 ml / 16 oz</size>
+    <id>462-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2012</additive>
+    <size>60 ml / 2 oz</size>
+    <id>462-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2013</additive>
+    <size>60 ml / 2 oz</size>
+    <id>718-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2013</additive>
+    <size>500 ml / 16 oz</size>
+    <id>718-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2015</additive>
+    <size>60 ml / 2 oz</size>
+    <id>463-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2015</additive>
+    <size>500 ml / 16 oz</size>
+    <id>463-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2022</additive>
+    <size>500 ml / 16 oz</size>
+    <id>465-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2022</additive>
+    <size>60 ml / 2 oz</size>
+    <id>465-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2025</additive>
+    <size>60 ml / 2 oz</size>
+    <id>466-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2025</additive>
+    <size>500 ml / 16 oz</size>
+    <id>466-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2026</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1045-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2026</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1045-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2050</additive>
+    <size>500 ml / 16 oz</size>
+    <id>467-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2050</additive>
+    <size>60 ml / 2 oz</size>
+    <id>467-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2055</additive>
+    <size>60 ml / 2 oz</size>
+    <id>970-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2055</additive>
+    <size>500 ml / 16 oz</size>
+    <id>970-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2060</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1024-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2060</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1024-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2061</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1025-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2061</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1025-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2096</additive>
+    <size>60 ml / 2 oz</size>
+    <id>473-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2096</additive>
+    <size>500 ml / 16 oz</size>
+    <id>473-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2117</additive>
+    <size>60 ml / 2 oz</size>
+    <id>550-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2117</additive>
+    <size>500 ml / 16 oz</size>
+    <id>550-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2118</additive>
+    <size>500 ml / 16 oz</size>
+    <id>551-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2118</additive>
+    <size>60 ml / 2 oz</size>
+    <id>551-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2150</additive>
+    <size>60 ml / 2 oz</size>
+    <id>474-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2150</additive>
+    <size>500 ml / 16 oz</size>
+    <id>474-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2151</additive>
+    <size>60 ml / 2 oz</size>
+    <id>574-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2151</additive>
+    <size>500 ml / 16 oz</size>
+    <id>574-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2152</additive>
+    <size>500 ml / 16 oz</size>
+    <id>597-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2152</additive>
+    <size>60 ml / 2 oz</size>
+    <id>597-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2155</additive>
+    <size>60 ml / 2 oz</size>
+    <id>475-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2155</additive>
+    <size>500 ml / 16 oz</size>
+    <id>475-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2163</additive>
+    <size>500 ml / 16 oz</size>
+    <id>476-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2163</additive>
+    <size>60 ml / 2 oz</size>
+    <id>476-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2164</additive>
+    <size>60 ml / 2 oz</size>
+    <id>477-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2164</additive>
+    <size>500 ml / 16 oz</size>
+    <id>477-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2200</additive>
+    <size>60 ml / 2 oz</size>
+    <id>732-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2200</additive>
+    <size>500 ml / 16 oz</size>
+    <id>732-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2205</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1068-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERBYK-2205</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1068-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-1018</additive>
+    <size>1000 g / 35 oz</size>
+    <id>478-1000-g</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-1142</additive>
+    <size>500 ml / 16 oz</size>
+    <id>479-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-1142</additive>
+    <size>60 ml / 2 oz</size>
+    <id>479-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-1148</additive>
+    <size>500 ml / 16 oz</size>
+    <id>481-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-1150</additive>
+    <size>500 ml / 16 oz</size>
+    <id>482-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-1150</additive>
+    <size>60 ml / 2 oz</size>
+    <id>482-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-I</additive>
+    <size>60 ml / 2 oz</size>
+    <id>484-60</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-I</additive>
+    <size>500 ml / 16 oz</size>
+    <id>484-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-P</additive>
+    <size>500 ml / 16 oz</size>
+    <id>485-500</id>
+  </samples>
+  <samples>
+    <additive>DISPERPLAST-P</additive>
+    <size>60 ml / 2 oz</size>
+    <id>485-60</id>
+  </samples>
+  <samples>
+    <additive>FULACOLOR-NS</additive>
+    <size>1 unit / 1 unit</size>
+    <id>765-1</id>
+  </samples>
+  <samples>
+    <additive>FULACOLOR-SR</additive>
+    <size>1 unit / 1 unit</size>
+    <id>766-1</id>
+  </samples>
+  <samples>
+    <additive>FULACOLOR-XW</additive>
+    <size>1 unit / 1 unit</size>
+    <id>767-1</id>
+  </samples>
+  <samples>
+    <additive>FULCAT-200</additive>
+    <size>1 unit / 1 unit</size>
+    <id>768-1</id>
+  </samples>
+  <samples>
+    <additive>FULCAT-22 B</additive>
+    <size>1 unit / 1 unit</size>
+    <id>769-1</id>
+  </samples>
+  <samples>
+    <additive>FULCAT-220</additive>
+    <size>1 unit / 1 unit</size>
+    <id>770-1</id>
+  </samples>
+  <samples>
+    <additive>FULCAT-435</additive>
+    <size>1 unit / 1 unit</size>
+    <id>771-1</id>
+  </samples>
+  <samples>
+    <additive>GARAMITE-1210</additive>
+    <size>1 unit / 1 unit</size>
+    <id>772-1</id>
+  </samples>
+  <samples>
+    <additive>GARAMITE-1958</additive>
+    <size>1 unit / 1 unit</size>
+    <id>773-1</id>
+  </samples>
+  <samples>
+    <additive>GARAMITE-2578</additive>
+    <size>1 unit / 1 unit</size>
+    <id>774-1</id>
+  </samples>
+  <samples>
+    <additive>GARAMITE-7303</additive>
+    <size>1 unit / 1 unit</size>
+    <id>775-1</id>
+  </samples>
+  <samples>
+    <additive>GARAMITE-7305</additive>
+    <size>1 unit / 1 unit</size>
+    <id>776-1</id>
+  </samples>
+  <samples>
+    <additive>GELWHITE-GP</additive>
+    <size>1 unit / 1 unit</size>
+    <id>934-1</id>
+  </samples>
+  <samples>
+    <additive>GELWHITE-H</additive>
+    <size>1 unit / 1 unit</size>
+    <id>935-1</id>
+  </samples>
+  <samples>
+    <additive>GELWHITE-L</additive>
+    <size>1 unit / 1 unit</size>
+    <id>936-1</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 02</additive>
+    <size>500 ml / 16 oz</size>
+    <id>486-500</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 02</additive>
+    <size>250 ml / 8 oz</size>
+    <id>486-250</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 03</additive>
+    <size>250 ml / 8 oz</size>
+    <id>487-250</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 03</additive>
+    <size>500 ml / 16 oz</size>
+    <id>487-500</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 34</additive>
+    <size>500 ml / 16 oz</size>
+    <id>488-500</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 34</additive>
+    <size>250 ml / 8 oz</size>
+    <id>488-250</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 35</additive>
+    <size>250 ml / 8 oz</size>
+    <id>489-250</id>
+  </samples>
+  <samples>
+    <additive>HORDAMER PE 35</additive>
+    <size>500 ml / 16 oz</size>
+    <id>489-500</id>
+  </samples>
+  <samples>
+    <additive>LAPONITE-EP</additive>
+    <size>1 unit / 1 unit</size>
+    <id>783-1</id>
+  </samples>
+  <samples>
+    <additive>LAPONITE-JS</additive>
+    <size>1 unit / 1 unit</size>
+    <id>784-1</id>
+  </samples>
+  <samples>
+    <additive>LAPONITE-RD</additive>
+    <size>1 unit / 1 unit</size>
+    <id>787-1</id>
+  </samples>
+  <samples>
+    <additive>LAPONITE-RDS</additive>
+    <size>1 unit / 1 unit</size>
+    <id>789-1</id>
+  </samples>
+  <samples>
+    <additive>LAPONITE-S 482</additive>
+    <size>1 unit / 1 unit</size>
+    <id>791-1</id>
+  </samples>
+  <samples>
+    <additive>LAPONITE-SL 25</additive>
+    <size>1 unit / 1 unit</size>
+    <id>794-1</id>
+  </samples>
+  <samples>
+    <additive>MINERAL COLLOID-BP</additive>
+    <size>1 unit / 1 unit</size>
+    <id>949-1</id>
+  </samples>
+  <samples>
+    <additive>MINERPOL 221</additive>
+    <size>500 ml / 16 oz</size>
+    <id>493-500</id>
+  </samples>
+  <samples>
+    <additive>MINERPOL 221</additive>
+    <size>250 ml / 8 oz</size>
+    <id>493-250</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3600</additive>
+    <size>500 ml / 16 oz</size>
+    <id>495-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3600</additive>
+    <size>60 ml / 2 oz</size>
+    <id>495-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3601</additive>
+    <size>60 ml / 2 oz</size>
+    <id>496-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3601</additive>
+    <size>500 ml / 16 oz</size>
+    <id>496-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3602</additive>
+    <size>500 ml / 16 oz</size>
+    <id>497-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3602</additive>
+    <size>60 ml / 2 oz</size>
+    <id>497-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3603</additive>
+    <size>60 ml / 2 oz</size>
+    <id>731-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3603</additive>
+    <size>500 ml / 16 oz</size>
+    <id>731-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3605</additive>
+    <size>500 ml / 16 oz</size>
+    <id>571-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3605</additive>
+    <size>60 ml / 2 oz</size>
+    <id>571-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3610</additive>
+    <size>60 ml / 2 oz</size>
+    <id>498-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3610</additive>
+    <size>500 ml / 16 oz</size>
+    <id>498-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3620</additive>
+    <size>60 ml / 2 oz</size>
+    <id>603-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3620</additive>
+    <size>500 ml / 16 oz</size>
+    <id>603-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3630</additive>
+    <size>500 ml / 16 oz</size>
+    <id>614-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3630</additive>
+    <size>60 ml / 2 oz</size>
+    <id>614-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3650</additive>
+    <size>60 ml / 2 oz</size>
+    <id>499-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3650</additive>
+    <size>500 ml / 16 oz</size>
+    <id>499-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3810</additive>
+    <size>500 ml / 16 oz</size>
+    <id>502-500</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3810</additive>
+    <size>60 ml / 2 oz</size>
+    <id>502-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3840</additive>
+    <size>60 ml / 2 oz</size>
+    <id>506-60</id>
+  </samples>
+  <samples>
+    <additive>NANOBYK-3840</additive>
+    <size>500 ml / 16 oz</size>
+    <id>506-500</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-1008</additive>
+    <size>1 unit / 1 unit</size>
+    <id>807-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-1056</additive>
+    <size>1 unit / 1 unit</size>
+    <id>808-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-1248</additive>
+    <size>1 unit / 1 unit</size>
+    <id>809-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-6018</additive>
+    <size>1 unit / 1 unit</size>
+    <id>810-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-602</additive>
+    <size>1 unit / 1 unit</size>
+    <id>802-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-6027</additive>
+    <size>1 unit / 1 unit</size>
+    <id>811-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-6042</additive>
+    <size>1 unit / 1 unit</size>
+    <id>812-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-616</additive>
+    <size>1 unit / 1 unit</size>
+    <id>803-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-987</additive>
+    <size>1 unit / 1 unit</size>
+    <id>806-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-MF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>814-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIBENT-NT 10</additive>
+    <size>1 unit / 1 unit</size>
+    <id>816-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-H 3300 VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>832-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-H 370 VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>818-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-H 400</additive>
+    <size>1 unit / 1 unit</size>
+    <id>819-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-H 600 VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>822-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-H 6500 VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>834-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-H 7500 VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>836-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-HV 80</additive>
+    <size>1 unit / 1 unit</size>
+    <id>839-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-L 1400</additive>
+    <size>1 unit / 1 unit</size>
+    <id>850-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-M 2600 VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>854-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-T 1000</additive>
+    <size>1 unit / 1 unit</size>
+    <id>856-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-T 1010</additive>
+    <size>500 ml / 16 oz</size>
+    <id>1083-500</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-T 1010</additive>
+    <size>60 ml / 2 oz</size>
+    <id>1083-60</id>
+  </samples>
+  <samples>
+    <additive>OPTIFLO-TVS VF</additive>
+    <size>1 unit / 1 unit</size>
+    <id>858-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-CG</additive>
+    <size>1 unit / 1 unit</size>
+    <id>868-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-CK</additive>
+    <size>1 unit / 1 unit</size>
+    <id>869-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-CK XR</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1036-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-CL</additive>
+    <size>1 unit / 1 unit</size>
+    <id>871-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-CMO</additive>
+    <size>1 unit / 1 unit</size>
+    <id>884-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-LX</additive>
+    <size>1 unit / 1 unit</size>
+    <id>888-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-W 724</additive>
+    <size>1 unit / 1 unit</size>
+    <id>889-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-WA</additive>
+    <size>1 unit / 1 unit</size>
+    <id>890-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-WH</additive>
+    <size>1 unit / 1 unit</size>
+    <id>891-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-WM</additive>
+    <size>1 unit / 1 unit</size>
+    <id>892-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-WX</additive>
+    <size>1 unit / 1 unit</size>
+    <id>893-1</id>
+  </samples>
+  <samples>
+    <additive>OPTIGEL-WX XR</additive>
+    <size>1 unit / 1 unit</size>
+    <id>1037-1</id>
+  </samples>
+  <samples>
+    <additive>RHEOCIN</additive>
+    <size>1 unit / 1 unit</size>
+    <id>946-1</id>
+  </samples>
+  <samples>
+    <additive>RHEOTIX-240</additive>
+    <size>1 unit / 1 unit</size>
+    <id>947-1</id>
+  </samples>
+  <samples>
+    <additive>RIC-SYN WAX</additive>
+    <size>1 unit / 1 unit</size>
+    <id>967-1</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPEV 1110 PB</additive>
+    <size>1000 g / 35 oz</size>
+    <id>586-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPEV 1112 PB</additive>
+    <size>1000 g / 35 oz</size>
+    <id>587-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPKD 2103 PCS</additive>
+    <size>1000 g / 35 oz</size>
+    <id>588-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPKD 5103 PCS</additive>
+    <size>1000 g / 35 oz</size>
+    <id>589-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPE 2400 GAHD</additive>
+    <size>1000 g / 35 oz</size>
+    <id>590-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPE 5002 GALL</additive>
+    <size>1000 g / 35 oz</size>
+    <id>591-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 2003 GB</additive>
+    <size>1000 g / 35 oz</size>
+    <id>554-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 2112 FA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>555-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 2112 GA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>556-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 8112 FA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>559-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 8112 GA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>560-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 9012 FA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>561-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 9012 GA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>562-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 9112 FA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>563-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 9112 GA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>564-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 9212 FA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>1022-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPPP 9212 GA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>1023-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TPSPS 9012 PA</additive>
+    <size>1000 g / 35 oz</size>
+    <id>592-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSEB 2113 GB</additive>
+    <size>1000 g / 35 oz</size>
+    <id>565-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSKD 9103</additive>
+    <size>1000 g / 35 oz</size>
+    <id>566-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSPE 1112 GALL</additive>
+    <size>1000 g / 35 oz</size>
+    <id>567-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSPE 2102 GAHD</additive>
+    <size>1000 g / 35 oz</size>
+    <id>593-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSPOE 1002 CMB 1-2</additive>
+    <size>1000 g / 35 oz</size>
+    <id>568-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSPOE 1002 GBLL</additive>
+    <size>1000 g / 35 oz</size>
+    <id>569-1000-g</id>
+  </samples>
+  <samples>
+    <additive>SCONA TSPP 10213 GB</additive>
+    <size>1000 g / 35 oz</size>
+    <id>1065-1000-g</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-EZ 100</additive>
+    <size>1 unit / 1 unit</size>
+    <id>894-1</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-MP</additive>
+    <size>1 unit / 1 unit</size>
+    <id>895-1</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-MP 100</additive>
+    <size>1 unit / 1 unit</size>
+    <id>896-1</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-MP 250</additive>
+    <size>1 unit / 1 unit</size>
+    <id>897-1</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-MPZ</additive>
+    <size>1 unit / 1 unit</size>
+    <id>900-1</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-VP</additive>
+    <size>1 unit / 1 unit</size>
+    <id>901-1</id>
+  </samples>
+  <samples>
+    <additive>TIXOGEL-VZ</additive>
+    <size>1 unit / 1 unit</size>
+    <id>902-1</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-4010</additive>
+    <size>500 ml / 16 oz</size>
+    <id>510-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-4015</additive>
+    <size>500 ml / 16 oz</size>
+    <id>511-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-4040</additive>
+    <size>500 ml / 16 oz</size>
+    <id>512-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-4041</additive>
+    <size>500 ml / 16 oz</size>
+    <id>513-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-5025</additive>
+    <size>500 ml / 16 oz</size>
+    <id>514-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-5050</additive>
+    <size>500 ml / 16 oz</size>
+    <id>515-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-5120</additive>
+    <size>500 ml / 16 oz</size>
+    <id>517-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-5125</additive>
+    <size>500 ml / 16 oz</size>
+    <id>518-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOBYK-5130</additive>
+    <size>500 ml / 16 oz</size>
+    <id>547-500</id>
+  </samples>
+  <samples>
+    <additive>VISCOSEAL-R</additive>
+    <size>1 unit / 1 unit</size>
+    <id>968-1</id>
+  </samples>
+</additives>

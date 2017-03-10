@@ -1,0 +1,25 @@
+page-picmodal {
+
+}
+.modal{
+  top: 0 ;
+  bottom: 0 ;
+  left: 0 ;
+  right: 0 ;
+  width: 100% ;
+}
+.action-sheets-basic-page {
+  .ion-md-share {
+    color: #ED4248;
+  }
+  .ion-md-arrow-dropright-circle {
+    color: #508AE4;
+  }
+  .ion-md-heart-outline {
+    color: #31D55F;
+  }
+  .action-sheet-cancel ion-icon,
+  .action-sheet-destructive ion-icon {
+    color: #757575;
+  }
+}

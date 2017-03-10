@@ -1,0 +1,37 @@
+<ion-content class="newproducts" padding>
+
+  <div class="pageInnerContent">
+
+    <!-- CONTENT TITLE -->
+    <div class="contenttitle">
+      <ion-title>New Products</ion-title>
+    </div><!-- END CONTENT TITLE -->
+
+      <ion-row>
+        <ion-col>
+          <p style="margin: 10px">
+            Our detailed product pages provide you with all relevant in-depth information on a single page.<br>
+            You have a free access to download technical data and fact sheets
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row responsive-sm responsive-md responsive-lg>
+        <ion-col width-25 *ngFor="let card of productNewList1">
+          <ion-item class="bla">
+            <div class="itemheadline">{{card.productName}}</div>
+            <div class='link'(click)="openDataSheet(card.file1)">
+              <img src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
+              Technical Data Sheet
+            </div>
+            <div class="link" (click)="openDataSheet(card.file2)">
+              <img src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
+              Safety Data Sheet
+            </div>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+    </div>
+
+</ion-content>

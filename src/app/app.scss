@@ -1,0 +1,235 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+/**
+@media (min-width: 768px) {
+  .ion-page{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0;
+    width: 91%;
+    height: 100%;
+    opacity: 0;
+    margin-left: 10%;
+    margin-right: 2%;
+
+  }
+  ion-menu{
+
+    width: 10% !important;
+    display:block !important;
+   // z-index:100;
+   // right: 0 !important;
+    left: 0 !important;
+  }
+
+  .bar-button-menutoggle {
+    display: none;
+  }
+
+  ion-menu ion-backdrop {
+    display:none;
+  }
+  ion-content {
+    border-left: none;
+  }
+  ion-menu[type=overlay] .menu-inner {
+    -webkit-transform: translateX(0px)!important;
+    transform: translateX(0px)!important;
+    box-shadow: none;
+    width:100%;
+
+  }
+}
+**/
+.no-scroll .scroll-content{
+  overflow: hidden;
+}
+.ios .modal-wrapper{
+  border-radius: 0px;
+}
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+video::-internal-media-controls-download-button {
+  display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+  overflow:hidden;
+}
+video::-webkit-media-controls-panel {
+  width: calc(100% + 30px); /* Adjust as needed */
+}
+
+.toast-success .toast-wrapper{
+  text-align: center;
+  color: white;
+  background: green;
+}
+.toast-error .toast-wrapper {
+  text-align: center;
+  color: white;
+  background: red;
+}
+.list-ios {
+  margin: -1px 0 10px 0;
+}
+.back-button-ios {
+  min-height: 1.2rem;
+}
+
+.missing-content{
+  font-size  : 15rem;
+  text-align : center;
+  margin     : 100px 0;
+  color      : #c0c0c0;
+
+  span{
+    display   : block;
+    margin    : auto;
+    font-size : 2rem;
+  }
+}
+
+@font-face {
+  font-weight : normal;
+  font-style  : normal;
+  font-family : 'lteBold';
+  src         : url( '../assets/fonts/lte50329.eot' );
+  src         : url( '../assets/fonts/lte50329.eot?#iefix' )  format( 'embedded-opentype' ),
+                url( '../assets/fonts/lte50329.woff2' )       format( 'woff2' ),
+                url( '../assets/fonts/lte50329.woff' )        format( 'woff' ),
+                url( '../assets/fonts/lte50329.ttf' )         format( 'truetype' ),
+                url( '../assets/fonts/lte50329.svg#lteBold' ) format( 'svg' );
+}
+
+@font-face {
+  font-weight : normal;
+  font-style  : normal;
+  font-family : 'lteSlim';
+  src         : url( '../assets/fonts/lte52125.eot' );
+  src         : url( '../assets/fonts/lte52125.eot?#iefix' )  format( 'embedded-opentype' ),
+                url( '../assets/fonts/lte52125.woff2' )       format( 'woff2' ),
+                url( '../assets/fonts/lte52125.woff' )        format( 'woff' ),
+                url( '../assets/fonts/lte52125.ttf' )         format( 'truetype' ),
+                url( '../assets/fonts/lte52125.svg#lteSlim' ) format( 'svg' );
+}
+
+@font-face {
+  font-weight : normal;
+  font-style  : normal;
+  font-family : 'lte';
+  src         : url( '../assets/fonts/lte50329.eot' );
+  src         : url( '../assets/fonts/lte50329.eot?#iefix' ) format( 'embedded-opentype' ),
+                url( '../assets/fonts/lte50329.woff2')       format( 'woff2' ),
+                url( '../assets/fonts/lte50329.woff')        format( 'woff' ),
+                url( '../assets/fonts/lte50329.ttf')         format( 'truetype' ),
+                url( '../assets/fonts/lte50329.svg#lte' )    format( 'svg' );
+}
+
+ion-content{
+  font-family: lteSlim;
+}
+
+ion-header{
+  padding: 20px 20px 10px 20px;
+}
+
+/******************************************************** TABBAR ******************************************************/
+.tabbar {
+  justify-content : flex-end !important;
+  padding         : 6px 0;
+  font-family     : 'lteBold';
+
+  .tab-button {
+    border-right : 1px solid #c0c0c0;
+    min-height   : 40px;
+    flex         : initial;
+    padding      : 0 15px;
+
+    .tab-button-icon {
+      font-size : 22px;
+      height    : 22px;
+    }
+
+    &:last-child{
+      border-right : none;
+    }
+  }
+}
+/******************************************************** END TABBAR **************************************************/
+
+
+
+
+/******************************************************** MENU ********************************************************/
+.menu-inner{
+  .scroll-content{
+    padding : 0 !important;
+
+    .list-header{
+      color        : #00A6EB;
+      background   : #e9edee;
+      border-color : #333;
+      margin       : 0
+    }
+
+    .list{
+      margin-bottom : 0;
+    }
+
+    .active{
+      background : lighten(#00A6EB, 10);
+      color      : #fff;
+    }
+  }
+}
+/******************************************************** END MENU ****************************************************/
+
+.contenttitle .toolbar-title {
+  text-transform: uppercase;
+  color: #00A6EB;
+  text-align: left;
+  font-weight: normal;
+  font-size: 2.2rem;
+  padding: 10px;
+}
+
+
+/******************************************************** GENEREAL *****************************************************/
+.h2{
+  color          : #00A6EB;
+  border-color   : #333;
+  margin         : 0 0 14px 0;
+  text-transform : uppercase;
+  font-size      : 2rem;
+}
+
+.nopadding{
+  padding: 0;
+}
+
+.pageInnerContent{
+  margin     : 20px;
+  box-shadow : 0 0 3px 0 #c0c0c0;
+  background : #fff;
+  padding    : 20px;
+}

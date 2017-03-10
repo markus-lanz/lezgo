@@ -1,0 +1,36 @@
+<ion-content padding class="productoverview">
+
+    <div class="pageInnerContent">
+
+        <!-- CONTENT TITLE -->
+        <div class="contenttitle">
+            <ion-title>Product overview</ion-title>
+        </div><!-- END CONTENT TITLE -->
+
+
+        <ion-row>
+            <p style="margin:10px;">
+                Our detailed product pages provide you with all relevant in-depth information on a single page.
+                You have free access to download
+                technical data sheets and requlatory affairs documents
+            </p>
+        </ion-row>
+
+        <ion-row>
+            <ion-col class="colborder" width-20 *ngFor="let z of q">
+                <ion-row>
+                    <ion-col width-25="">
+                        <div class="letter">
+                            <ion-item>{{z.letter}}</ion-item>
+                        </div>
+                    </ion-col>
+                    <ion-col width-75="">
+                        <ion-item  *ngFor="let cat of z.items |orderBy" (click)="gotoDetailsPage(cat.famName, z.letter)">{{cat.famName}}</ion-item>
+                    </ion-col>
+                </ion-row>
+            </ion-col>
+        </ion-row>
+
+    </div>
+
+</ion-content>

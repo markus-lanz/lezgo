@@ -1,0 +1,89 @@
+page-home {
+
+  .home {
+
+    background-image: url("../assets/img/home/background.jpg");
+    background-size: cover;
+
+
+    .slideContainer{
+
+      transition : .5s;
+
+      &.sideanimated{
+
+        &.left {
+          transform         : translateX(-100%);
+          -webkit-transform : translateX(-100%);
+        }
+        &.right {
+          transform         : translateX(100%);
+          -webkit-transform : translateX(100%);
+        }
+      }
+
+      .slideinner{
+
+        margin     : 12px;
+        position   : relative;
+
+
+        img{
+          width : 100%;
+        }
+
+      }
+
+      .frontface{
+        position   : relative;
+        z-index    : 1000;
+        background : white;
+      }
+
+
+      .backface{
+        transition : .5s;
+        transform  : translateX(0);
+        position   : absolute;
+        left       : 0;
+        top        : 0;
+        width      : 100%;
+        height     : 100%;
+        z-index    : -1;
+        background : #00abef;
+        color      : #fff;
+        padding    : 20px;
+
+        .item{
+          background     : transparent;
+          color          : #fff;
+          margin         : auto;
+          border-bottom  : 1px solid #fff;
+          padding        : 0;
+          text-transform : uppercase;
+
+          &:last-child {
+            border-bottom: none !important;
+          }
+
+          &:first-child{
+            border-top : none !important;
+          }
+        }
+
+        &.blabla{
+          z-index           : 200;
+          &.left {
+            transform         : translateX(-100%);
+            -webkit-transform : translateX(-100%);
+          }
+          &.right {
+            transform         : translateX(100%);
+            -webkit-transform : translateX(100%);
+          }
+        }
+      }
+
+    }
+  }
+}

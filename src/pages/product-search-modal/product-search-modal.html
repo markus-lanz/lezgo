@@ -1,0 +1,24 @@
+<!--
+  Generated template for the ProductSearchModal page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content padding>
+  <ion-searchbar  [(ngModel)]="selectedObject.additive" name="selection" (ionInput)="getProductsSearchData($event)"></ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="let item of productSearchBarData" (click)="closeSearchbar(item)">
+      Product: {{ item.additive }}
+    </ion-item>
+  </ion-list>
+  <ion-fab right bottom  >
+    <button  ion-button outline icon-left  (click)="closeSearchbar(item)">
+      <ion-icon name="ios-arrow-dropleft-circle">
+      </ion-icon>
+      close
+    </button>
+  </ion-fab>
+</ion-content>
