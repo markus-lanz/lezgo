@@ -3,6 +3,41 @@ page-mediainterview {
     background-image : url("../assets/img/news/background.jpg");
     background-size  : cover;
     background-color : transparent;
+
+    .catheadline{
+      color          : #00abef;
+      text-transform : uppercase;
+      font-size      : 1.6rem;
+      margin         : 20px 10px 0 10px;
+    }
+
+    .bla {
+
+      border-bottom : none;
+
+      &.item-block {
+
+        .itemheadline {
+          font-size     : 2rem;
+          margin-bottom : 15px;
+        }
+
+        .link{
+          margin-bottom: 0;
+        }
+
+        .label{
+          margin : 0;
+        }
+
+        .item-inner {
+          padding: 0;
+          box-shadow: none;
+          border: none;
+        }
+      }
+
+    }
   }
 
 }
