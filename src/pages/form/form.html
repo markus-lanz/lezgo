@@ -1,4 +1,6 @@
-<ion-content>
+<ion-content padding class="form">
+
+  <div class="pageInnerContent">
 
   <!-- CONTENT TITLE -->
   <div class="contenttitle">
@@ -489,11 +491,10 @@
             </ion-row>
           </div>
           <div *ngIf="wizzardStep === 'process'">
-            <ion-label>Processed Report</ion-label>
             <ion-row>
               <ion-col width-100>
                   <button  ion-button outline icon-right (click)="processedReport()">
-                    Report Saved And Send
+                    Send report to office
                     <ion-icon name="ios-checkmark-circle-outline">
                     </ion-icon>
                   </button>
@@ -502,7 +503,7 @@
             <ion-row>
               <ion-col width-100>
                   <button  ion-button outline icon-right (click)="processedConfirmMail()">
-                    Send Confirmation Email
+                    Send subscriber confirmation
                     <ion-icon name="ios-checkmark-circle-outline">
                     </ion-icon>
                   </button>
@@ -511,7 +512,7 @@
             <ion-row>
               <ion-col width-100>
                   <button  ion-button outline icon-right type="submit">
-                    Reset Exhibition Report
+                    Save & reset exhibition report
                     <ion-icon name="ios-checkmark-circle-outline">
                     </ion-icon>
                   </button>
@@ -566,15 +567,17 @@
   </ion-row>
   </ion-grid>
   </div>
+
+  </div>
 </ion-content>
 <ion-fab fab-fixed right bottom style="z-index:100">
-  <button  ion-button outline icon-right (click)="nextStep(wizzardStep)">
+  <button  ion-button outline icon-right (click)="nextStep(wizzardStep)" style="background: #fff">
     Save and Continue
     <ion-icon name="ios-arrow-dropright-circle">
     </ion-icon></button>
 </ion-fab>
 <ion-fab fab-fixed left bottom style="z-index:100"> 
-  <button  ion-button outline icon-left  (click)="openExternalApp()">
+  <button  ion-button outline icon-left  (click)="openExternalApp()" style="background: #fff">
     <ion-icon name="ios-arrow-dropleft-circle">
     </ion-icon>
    openApp

@@ -3,27 +3,15 @@
   <ion-content class="outer-content">
 
 
-    <!-- NEWS -->
+    <!-- BYK NEWS -->
     <ion-list>
       <ion-list-header>
-        NEWS
+        BYK NEWS
       </ion-list-header>
       <button ion-item *ngFor="let L1 of byknews" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
         <label>{{L1.title}}</label>
       </button>
     </ion-list><!-- END NEWS -->
-
-
-
-    <!-- BYK -->
-    <ion-list>
-      <ion-list-header>
-        BYK
-      </ion-list-header>
-      <button ion-item *ngFor="let L1 of byk" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">
-        <label>{{L1.title}} </label>
-      </button>
-    </ion-list><!-- END BYK -->
 
 
 
