@@ -334,15 +334,15 @@ export class HomePage {
       this.closeEverything();
       this.backfaceIsOpened = false;
     } else {
-      this.slideBackface1   = false;
-      this.slideBackface2   = false;
+      this.slideBackface1   = '';
+      this.slideBackface2   = '';
       this.slideBackface3   = 'left';
-      this.slideBackface4   = false;
+      this.slideBackface4   = '';
 
       this.slideContainer1  = 'left';
       this.slideContainer2  = 'left';
-      this.slideContainer3  = false;
-      this.slideContainer4  = false;
+      this.slideContainer3  = '';
+      this.slideContainer4  = '';
 
       this.backfaceIsOpened = true;
     }
@@ -353,15 +353,15 @@ export class HomePage {
       this.closeEverything();
       this.backfaceIsOpened = false;
     } else {
-      this.slideBackface1   = false;
-      this.slideBackface2   = false;
-      this.slideBackface3   = false;
+      this.slideBackface1   = '';
+      this.slideBackface2   = '';
+      this.slideBackface3   = '';
       this.slideBackface4   = 'left';
 
       this.slideContainer1  = 'left';
       this.slideContainer2  = 'left';
       this.slideContainer3  = 'left';
-      this.slideContainer4  = false;
+      this.slideContainer4  = '';
 
       this.backfaceIsOpened = true;
     }

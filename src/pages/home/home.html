@@ -1,11 +1,13 @@
 <ion-content class="home card-background-page">
 
+  <ion-grid>
 
+    <ion-row center responsive-sm responsive-md  responsive-lg>
 
 
 
       <!-- BYK NEWS -->
-      <div style="width:25%; float:left" class="slideContainer {{slideContainer1}}" [ngClass]="{'sideanimated': slideContainer1 !== '' }">
+      <ion-col width-25 class="slideContainer {{slideContainer1}}" [ngClass]="{'sideanimated': slideContainer1 !=='' }">
 
         <!-- Ion-card -->
         <div  class="slideinner">
@@ -14,19 +16,19 @@
             <img src="assets/img/home/item1.jpg"/>
           </div>
 
-          <div class="backface {{slideBackface1}}" [ngClass]="{'blabla': slideBackface1 !== '' }">
+          <div class="backface {{slideBackface1}}" [ngClass]="{'blabla': slideBackface1 !=='' }">
             <ion-list>
               <ion-item *ngFor="let L1 of byknews" (tap)="openPage(L1)" [ngClass]="{active: L1.selected==true}">{{L1.title}}</ion-item>
             </ion-list>
           </div>
         </div><!-- End Ion-card -->
 
-      </div><!-- END NEWS-->
+      </ion-col><!-- END NEWS-->
 
 
 
       <!-- MARKETS -->
-      <div style="width:25%; float:left" class="slideContainer {{slideContainer2}}" [ngClass]="{'sideanimated': slideContainer2 !== '' }">
+      <ion-col width-25 class="slideContainer {{slideContainer2}}" [ngClass]="{'sideanimated': slideContainer2 !== '' }">
 
         <!-- Ion-card -->
         <div class="slideinner">
@@ -35,13 +37,57 @@
             <img src="assets/img/home/item2.jpg"/>
           </div>
 
-          <div class="backface {{slideBackface2}}" [ngClass]="{'blabla': slideBackface2 !== '' }">
+          <div class="backface {{slideBackface2}}" [ngClass]="{'blabla': slideBackface2 !=='' }">
             <ion-item *ngFor="let L1 of markets" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">{{L1.title}}</ion-item>
           </div>
 
         </div><!-- End Ion-card -->
 
-      </div><!-- END MARKETS -->
+      </ion-col><!-- END MARKETS -->
 
+
+
+      <!-- PRODUCTS GROUPS -->
+      <ion-col width-25 class="slideContainer {{slideContainer3}}" [ngClass]="{'sideanimated': slideContainer3 !== '' }">
+
+        <!-- Ion-card -->
+        <div  class="slideinner">
+
+          <div class="frontface" (tap)="openSlideContainer3()">
+            <img src="assets/img/home/item3.jpg"/>
+          </div>
+
+          <div class="backface {{slideBackface3}}" [ngClass]="{'blabla': slideBackface3 !== '' }">
+            <ion-item *ngFor="let L1 of productGroups" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">{{L1.title}}</ion-item>
+          </div>
+
+        </div><!-- End Ion-card -->
+
+      </ion-col><!-- END PRODUCTS GROUPS -->
+
+
+
+      <!-- PRODUCTS & SOLUTIONS -->
+      <ion-col width-25 class="slideContainer {{slideContainer4}}" [ngClass]="{'sideanimated' : slideContainer4 }">
+
+        <!-- Ion-card -->
+        <div class="slideinner">
+          <div class="frontface" (tap)="openSlideContainer4()">
+            <img src="assets/img/home/item4.jpg"/>
+          </div>
+
+          <div class="backface {{slideBackface4}}" [ngClass]="{'blabla': slideBackface4 !== '' }">
+            <ion-item *ngFor="let L1 of productssolutions" (click)="openPage(L1)" [ngClass]="{active: L1.selected==true}">{{L1.title}}</ion-item>
+          </div>
+
+        </div><!-- End Ion-card -->
+
+      </ion-col><!-- END PRODUCTS & SOLUTIONS -->
+
+
+
+    </ion-row>
+
+  </ion-grid>
 
 </ion-content>
