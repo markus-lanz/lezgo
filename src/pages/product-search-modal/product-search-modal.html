@@ -2,39 +2,40 @@
 
   <ion-grid>
 
-  <ion-row>
-    <ion-col width-10>
-      <button  ion-button outline icon-left  (click)="closeSearchbar(item)">
-        <ion-icon name="ios-arrow-dropleft-circle">
-        </ion-icon>
-        Close
-      </button>
-    </ion-col>
-    <ion-col width-40>
-      <!-- CONTENT TITLE -->
-      <div class="contenttitle">
-        <ion-title>Product overview</ion-title>
-      </div><!-- END CONTENT TITLE -->
-    </ion-col>
-    <ion-col width-50>
-      <ion-searchbar [(ngModel)]="selectedObject.additive"
-                     name="selection"
-                     (ionInput)="getProductsSearchData($event)">
-      </ion-searchbar>
+    <ion-row>
+      <ion-col width-10>
+        <button ion-button outline icon-left (click)="closeSearchbar(item)">
+          <ion-icon name="ios-close-circle"></ion-icon>Close
+        </button>
+      </ion-col>
 
-    </ion-col>
-  </ion-row>
+      <ion-col width-40>
+        <!-- CONTENT TITLE -->
+        <div class="contenttitle">
+          <ion-title>Product overview</ion-title>
+        </div><!-- END CONTENT TITLE -->
+      </ion-col>
 
-  <ion-row>
-    <ion-col>
-      <hr>
-    </ion-col>
-  </ion-row>
+      <ion-col width-50>
+        <ion-searchbar [(ngModel)]="selectedObject.additive"
+                       name="selection"
+                       (ionInput)="getProductsSearchData($event)">
+        </ion-searchbar>
 
-  <ion-row>
-    <ion-col width-25 *ngFor="let item of productSearchBarData" (tap)="closeSearchbar(item)" class="bla">
-      {{ item.additive }}
-    </ion-col>
-  </ion-row>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <hr>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col width-25 *ngFor="let item of productSearchBarData" (tap)="closeSearchbar(item)" class="bla">
+        {{ item.additive }}
+      </ion-col>
+    </ion-row>
   </ion-grid>
+
 </ion-content>
