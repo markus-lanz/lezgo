@@ -5,6 +5,44 @@ page-product-ov-details {
 
     background-image: url("../../../assets/img/news/background.jpg");
     background-size: cover;
+
+    ion-col {
+      padding: 10px;
+
+      &:nth-child(4n) {
+
+        .bla {
+          border-right: none;
+        }
+      }
+
+      &:nth-last-child( -n + 4 ) {
+        .bla {
+          border-bottom: none;
+        }
+      }
+    }
+
+    .bla {
+      border-bottom : 1px solid #eee;
+      border-right  : 1px solid #eee;
+
+      ion-icon{
+        margin-right: 8px;
+      }
+
+      .itemheadline {
+        font-size     : 2rem;
+        margin-bottom : 15px;
+        color         : #00abef;
+      }
+
+      p{
+        margin-bottom : 8px;
+        color         : #999
+      }
+
+    }
   }
 
 }

@@ -19,7 +19,8 @@ import { InAppBrowser      } from 'ionic-native';
 
 // EXPORT
 export class ProductOVDetailsPage {
-  pageTitle =  null;
+
+  pageTitle = null;
   productA  = null;
   productB  = null;
   productC  = null;
@@ -35,7 +36,7 @@ export class ProductOVDetailsPage {
   productS  = null;
   productT  = null;
   productV  = null;
-  category  =  null;
+  category  = null;
   categoryData = null;
   productCategoryDetails = null;
   searchedProduct = {
@@ -44,10 +45,14 @@ export class ProductOVDetailsPage {
   productFamName = null;
 
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,public ut:UtilityService,public modalCtrl:ModalController) {
-    this.pageTitle = navParams.get('famName');
-    this.category = navParams.get('cat');
-    this.productFamName = navParams.get('famName');
+  constructor( public navCtrl: NavController,
+               public navParams: NavParams,
+               public ut:UtilityService,
+               public modalCtrl:ModalController) {
+
+    this.pageTitle              = navParams.get( 'famName' );
+    this.category               = navParams.get( 'cat' );
+    this.productFamName         = navParams.get( 'famName' );
     this.productCategoryDetails = ut.getResultArray();
 
     this.productA = this.productCategoryDetails['A'];
@@ -66,11 +71,11 @@ export class ProductOVDetailsPage {
     this.productT = this.productCategoryDetails['T'];
     this.productV = this.productCategoryDetails['V'];
 
-    this.getProductCategory(this.category,this.productFamName);
+    this.getProductCategory( this.category,this.productFamName );
   }
 
 
-  getProductCategory = (cat:string,famName:string) =>{
+  getProductCategory = ( cat:string, famName:string ) => {
     switch(cat){
       case "A":
        return this.categoryData = this.productA.filter( (item) => item.famName === famName);
@@ -104,36 +109,22 @@ export class ProductOVDetailsPage {
         return this.categoryData = this.productV.filter( (item) => item.famName === famName);
 
     }
-  }
+  };
 
 
-  openDetails(item){
-      let productModal = this.modalCtrl.create(ProductModalsPage,{"data": item});
-    productModal.present();
-  }
-
-
-  getProductsList(ev:any){
-    this.categoryData = this.getProductCategory(this.category,this.productFamName);
-    //this.cFormService.initializeItems();
-    // set val to the Value of the searchbar
+  getProductsList( ev:any ){
+    this.categoryData = this.getProductCategory( this.category,this.productFamName );
     let val = ev.target.value;
-    console.log(val)
-    // if the Value is an empty String don't filter the items
-    if(val && val.trim() !=''){
-      this.categoryData = this.categoryData.filter( (item) =>{
-        console.log(item.product)
-        return (item.product.toLowerCase().indexOf(val.toLowerCase()) > -1);
+    if( val && val.trim() !='' ) {
+      this.categoryData = this.categoryData.filter( ( item ) =>{
+        return ( item.product.toLowerCase().indexOf( val.toLowerCase() ) > -1 );
       })
     }
   }
 
-  openProductPdf(file){
-    console.log(file);
-    const name = 'ng-book.pdf';
-    //InAppBrowser.open('assets/ng-book.pdf','_system','location=yes');
-    new InAppBrowser(`assets/productfiles/${file}`,'_blank','location=no');
 
+  openProductPdf(file){
+    new InAppBrowser(`assets/productfiles/${file}`,'_blank','location=no');
   }
 
 
