@@ -1,31 +1,27 @@
 <ion-content padding class="product-ov-details">
-
     <div class="pageInnerContent">
+
+        <ion-navbar></ion-navbar>
+
+        <ion-searchbar [(ngModel)]="searchedProduct.product"
+                       name="selection"
+                       [showCancelButton]="true"
+                       (ionInput)="getProductsList($event)">
+        </ion-searchbar>
+
         <!-- CONTENT TITLE -->
         <div class="contenttitle">
-            <ion-navbar>
-                <ion-title>Back to product overview</ion-title>
-            </ion-navbar>
             <ion-title>{{pageTitle}}</ion-title>
         </div><!-- END CONTENT TITLE -->
 
-
-        <ion-searchbar [(ngModel)]="searchedProduct.product" name="selection" [showCancelButton]="true" (ionInput)="getProductsList($event)"></ion-searchbar>
-        <ion-list>
-            <ion-item *ngFor="let item of categoryData">
-                <h2>Title : {{item.title}}</h2>
-                <h2>Product: {{item.product}}</h2>
-                <!--  <h3>Description:{{item.description}}</h3> -->
-                <button ion-button icon-left small clear style="float:right" (click)="openDetails(item)">
-                    <ion-icon name="ios-more" item-right></ion-icon>
-                    <div>Details</div>
-                </button>
-            </ion-item>
-        </ion-list>
-
-        <ion-list-header [hidden]="categoryData.length > 0">
-            No Sessions Found
-        </ion-list-header>
+        <ion-grid>
+            <ion-row>
+                <ion-col width-33 *ngFor="let item of categoryData" (tap)="openProductPdf(item.file)">
+                    <h2><ion-icon name="document"></ion-icon>{{item.product}}</h2>
+                    <p>{{item.description}}</p>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
     </div>
 
 </ion-content>

@@ -1,42 +1,49 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams,ModalController } from 'ionic-angular';
-import{UtilityService} from '../../providers/utility-service';
-import{ProductModalsPage} from '../product-modals/product-modals';
+// IMPORTS
+import { Component         } from '@angular/core';
+import { NavController,
+         NavParams,
+         ModalController   } from 'ionic-angular';
+import { UtilityService    } from '../../providers/utility-service';
+import { ProductModalsPage } from '../product-modals/product-modals';
+import { InAppBrowser      } from 'ionic-native';
 
-/*
-  Generated class for the ProductOVDetails page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
+
+// COMPONENT
 @Component({
-  selector: 'page-product-ov-details',
-  templateUrl: 'product-ov-details.html'
+  selector    : 'page-product-ov-details',
+  templateUrl : 'product-ov-details.html'
 })
+
+
+
+// EXPORT
 export class ProductOVDetailsPage {
   pageTitle =  null;
-  productA= null;
-  productB = null;
-  productC = null;
-  productD = null;
-  productF = null;
-  productG = null;
-  productH = null;
-  productL = null;
-  productM = null;
-  productN = null;
-  productO = null;
-  productR = null;
-  productS = null;
-  productT = null;
-  productV = null;
-  productCategoryDetails = null;
-  category =  null;
+  productA  = null;
+  productB  = null;
+  productC  = null;
+  productD  = null;
+  productF  = null;
+  productG  = null;
+  productH  = null;
+  productL  = null;
+  productM  = null;
+  productN  = null;
+  productO  = null;
+  productR  = null;
+  productS  = null;
+  productT  = null;
+  productV  = null;
+  category  =  null;
   categoryData = null;
+  productCategoryDetails = null;
   searchedProduct = {
     product :''
   };
   productFamName = null;
+
+
   constructor(public navCtrl: NavController, public navParams: NavParams,public ut:UtilityService,public modalCtrl:ModalController) {
     this.pageTitle = navParams.get('famName');
     this.category = navParams.get('cat');
@@ -67,16 +74,12 @@ export class ProductOVDetailsPage {
     switch(cat){
       case "A":
        return this.categoryData = this.productA.filter( (item) => item.famName === famName);
-       // console.log(this.categoryData)
-        // return  this.categoryData;
-       // break;
       case "B":
         return this.categoryData = this.productB.filter( (item) => item.famName === famName);
       case "C":
         return this.categoryData = this.productC.filter( (item) => item.famName === famName);
       case "D":
         return this.categoryData = this.productD.filter( (item) => item.famName === famName);
-
       case "F":
         return this.categoryData = this.productF.filter( (item) => item.famName === famName);
       case "G":
@@ -102,10 +105,13 @@ export class ProductOVDetailsPage {
 
     }
   }
+
+
   openDetails(item){
       let productModal = this.modalCtrl.create(ProductModalsPage,{"data": item});
     productModal.present();
   }
+
 
   getProductsList(ev:any){
     this.categoryData = this.getProductCategory(this.category,this.productFamName);
@@ -121,6 +127,16 @@ export class ProductOVDetailsPage {
       })
     }
   }
+
+  openProductPdf(file){
+    console.log(file);
+    const name = 'ng-book.pdf';
+    //InAppBrowser.open('assets/ng-book.pdf','_system','location=yes');
+    new InAppBrowser(`assets/productfiles/${file}`,'_blank','location=no');
+
+  }
+
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProductOVDetailsPage');
   }
