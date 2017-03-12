@@ -1,20 +1,31 @@
 <ion-content padding class="product-ov-details">
     <div class="pageInnerContent">
 
-        <ion-navbar></ion-navbar>
-
-        <ion-searchbar [(ngModel)]="searchedProduct.product"
-                       name="selection"
-                       [showCancelButton]="true"
-                       (ionInput)="getProductsList($event)">
-        </ion-searchbar>
-
-        <!-- CONTENT TITLE -->
-        <div class="contenttitle">
-            <ion-title>{{pageTitle}}</ion-title>
-        </div><!-- END CONTENT TITLE -->
-
         <ion-grid>
+
+            <ion-row>
+                <ion-col width-15>
+                    <ion-navbar></ion-navbar>
+                </ion-col>
+                <ion-col width-35>
+                    <!-- CONTENT TITLE -->
+                    <div class="contenttitle">
+                        <ion-title>{{pageTitle}}</ion-title>
+                    </div><!-- END CONTENT TITLE -->
+                </ion-col>
+                <ion-col width-50>
+                    <ion-searchbar [(ngModel)]="searchedProduct.product"
+                                   name="selection"
+                                   [showCancelButton]="true"
+                                   (ionInput)="getProductsList($event)">
+                    </ion-searchbar>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <hr>
+                </ion-col>
+            </ion-row>
             <ion-row>
                 <ion-col width-25 *ngFor="let item of categoryData" (tap)="openProductPdf(item.file)" class="bla">
                     <h2 class="itemheadline"><img src="assets/img/pdf.png" height="30" />{{item.product}}</h2>

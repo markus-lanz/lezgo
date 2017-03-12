@@ -8,7 +8,7 @@ page-product-ov-details {
 
 
     .bla {
-      border-top    : 1px solid #eee;
+      border-bottom : 1px solid #eee;
       border-right  : 1px solid #eee;
       padding       : 10px;
 
@@ -29,10 +29,6 @@ page-product-ov-details {
 
       &:nth-child(4n) {
           border-right: none !important;
-      }
-
-      &:nth-child( 4 ) {
-        border-bottom: none;
       }
 
     }
