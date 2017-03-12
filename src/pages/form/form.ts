@@ -510,7 +510,7 @@ save(form){
   // open Modal to Scan Business Card
   scanBsCardAlert(){
     let alert =  this.alertCtrl.create({
-      title: 'SCAN BUSINESS CARD?',
+      title: 'SCAN BUSINESS CARD',
      // cssClass :'alert-wrapper',
       buttons: [
         {
@@ -520,7 +520,7 @@ save(form){
           }
         },
         {
-          text: 'OPEN CAMERA AND SCAN',
+          text: 'SCAN',
           handler: () => {
             this.presentPicModal();
           }

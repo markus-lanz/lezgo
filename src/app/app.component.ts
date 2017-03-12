@@ -89,10 +89,8 @@ export class MyApp {
       { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index: 2 },
       { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index: 3 },
       { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index: 4 },
-      { title: 'Video',                          selected: false, component: TabMainPage, tabComponent: VideosPage,               index: 5 },
-      { title: 'BYK at a Glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 6 },
-      { title: 'Product Overview',               selected: false, component: TabMainPage, tabComponent: ProductsgroupsPage,       index: 7 },
-      { title: 'Exhibition Report',              selected: false, component: TabMainPage, tabComponent: FormPage,                 index: 8 },
+      { title: 'Videos',                         selected: false, component: TabMainPage, tabComponent: VideosPage,               index: 5 },
+      { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 6 },
     ];
 
     // MARKETS
