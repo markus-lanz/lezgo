@@ -3,31 +3,16 @@ page-product-ov-details {
     padding: 20px;
     border: 1px solid #c0c0c0;
 
-    background-image: url("../../../assets/img/news/background.jpg");
+    background-image: url("../assets/img/news/background.jpg");
     background-size: cover;
 
-    ion-col {
-      padding: 10px;
-
-      &:nth-child(4n) {
-
-        .bla {
-          border-right: none;
-        }
-      }
-
-      &:nth-last-child( -n + 4 ) {
-        .bla {
-          border-bottom: none;
-        }
-      }
-    }
 
     .bla {
-      border-bottom : 1px solid #eee;
+      border-top    : 1px solid #eee;
       border-right  : 1px solid #eee;
+      padding       : 10px;
 
-      ion-icon{
+      img{
         margin-right: 8px;
       }
 
@@ -42,7 +27,16 @@ page-product-ov-details {
         color         : #999
       }
 
+      &:nth-child(4n) {
+          border-right: none !important;
+      }
+
+      &:nth-child( 4 ) {
+        border-bottom: none;
+      }
+
     }
+
   }
 
 }
