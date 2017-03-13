@@ -475,24 +475,44 @@ export class ContentForm {
             ad = `Dear Mrs ${model.name}`;
         }
 
-
         let formContent = `
         <div>
         <h3>${ad}</h3>
         <p></p>
-        <p>Thank you for getting in touch! We appreciate you contacting us about [Contact Reason]. We try to respond as soon as possible, so one of our Customer Service colleagues will get back to you within a few hours. Have a great day ahead!
+        <p>We thank you for visiting our BYK booth at this year’s ECS in Nuremberg.</p>
+        <p></p>
+        <p>Following our conversation, we hereby attach the technical information requested and confirm your sample ordering.</p>
+        <p></p>
+        <p>
+          For further information, call BYK’s experts on: +49 281 28099<br>
+          or send an e-mail to: asktheexpert.byk@altana.com
         </p>
         <p></p>
-        <p></p>
-        <p>Yours sincerely</p>
+        <p>Yours faithfully</p>
         <p>Byk Team </p>
+        <br>
+        <br>
+        <br>
+        <p>BYK-Chemie GmbH</p>
+        <p>Abelstrasse 45</p> 
+        <p>46483 Wesel</p> 
+        <p>Germany</p>
+        <p>Tel +49 281 670-0</p>
+        <p>Fax +49 281 657-35</p>
+        <p>mailto:info@byk.com</p>   
+        <p>www.byk.com</p>
+        <br>
+        <br>
+        <p>BYK-Chemie GmbH, Sitz: Wesel, HRB 10656, AG Duisburg</p>
+        <p>Geschäftsführer: Dr. Stephan Glander (Vorsitzender), Albert von Hebel, Gerd Judith</p>
+        <p>Vorsitzender des Aufsichtsrats: Martin Babilas</p>
         </div>`;
 
         let clientEmail = model.e_mail;
 
         cordova.plugins.email.open({
             to: `${clientEmail}`,
-            subject: 'Exhibition Report Confirm',
+            subject: 'Your visit to BYK at ECS 2017',
             body: `${formContent}`,
             isHtml: true
         });
