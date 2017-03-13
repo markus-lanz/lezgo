@@ -13,28 +13,28 @@
         <ion-row responsive-sm responsive-md  responsive-lg>
           <ion-toolbar no-border>
             <ion-segment class='wizard' [(ngModel)]="wizzardStep">
-              <ion-segment-button (click)="StepStill('visitor_data')" value="visitor_data" [ngClass]="getClassName('visitor_data')" style="width: 50px">
+              <ion-segment-button (click)="StepStill('visitor_data')" value="visitor_data" [ngClass]="getClassName('visitor_data')" style="width: 12%">
                 Visitor Data
               </ion-segment-button>
-              <ion-segment-button  (click)="StepStill('meetings_details')" value="meetings_details" [ngClass]="getClassName('meetings_details')" style="width: 150px">
+              <ion-segment-button  (click)="StepStill('meetings_details')" value="meetings_details" [ngClass]="getClassName('meetings_details')" style="width: 20%">
                 Meeting Details
               </ion-segment-button>
-              <ion-segment-button (click)="StepStill('sample_order')" value="sample_order" [ngClass]="getClassName('sample_order')">
+              <ion-segment-button (click)="StepStill('sample_order')" value="sample_order" [ngClass]="getClassName('sample_order')" style="width: 12%">
                 Samples
               </ion-segment-button>
-              <ion-segment-button (click)="StepStill('literatur')" value="literatur" [ngClass]="getClassName('literatur')">
+              <ion-segment-button (click)="StepStill('literatur')" value="literatur" [ngClass]="getClassName('literatur')" style="width: 12%">
                 Literature
               </ion-segment-button>
-              <ion-segment-button (click)="StepStill('role_class')" value="role_class" [ngClass]="getClassName('role_class')">
+              <ion-segment-button (click)="StepStill('role_class')" value="role_class" [ngClass]="getClassName('role_class')" style="width: 12%">
                 Role
               </ion-segment-button>
-              <ion-segment-button (click)="StepStill('end_use')" value="end_use" [ngClass]="getClassName('end_use')">
+              <ion-segment-button (click)="StepStill('end_use')" value="end_use" [ngClass]="getClassName('end_use')" style="width: 10%">
                 End Use
               </ion-segment-button>
-              <ion-segment-button (click)="StepStill('author_date')" value="author_date" [ngClass]="getClassName('author_date')">
+              <ion-segment-button (click)="StepStill('author_date')" value="author_date" [ngClass]="getClassName('author_date')" style="width: 14%">
                 Author & Date
               </ion-segment-button>
-              <ion-segment-button value="process" (click)="StepStill('process')" [ngClass]="getClassName('process')">
+              <ion-segment-button value="process" (click)="StepStill('process')" [ngClass]="getClassName('process')" style="width: 8%">
                 <ion-icon name="ios-checkmark-circle-outline"></ion-icon>
               </ion-segment-button>
 

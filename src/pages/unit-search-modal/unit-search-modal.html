@@ -8,19 +8,31 @@
 
 <ion-content padding>
 
-  <ion-content padding>
-    <ion-searchbar  [(ngModel)]="selectedUnitObject.size" name="selection" (ionInput)="getUnitsSearchData($event)"></ion-searchbar>
-    <ion-list>
-      <ion-item *ngFor="let item of unitSearchBarData" (click)="closeUnitSearchbar(item)">
-        Product: {{ item.size }}
-      </ion-item>
-    </ion-list>
-    <ion-fab right bottom  >
-      <button  ion-button outline icon-left  (click)="closeUnitSearchbar(item)">
-        <ion-icon name="ios-arrow-dropleft-circle">
-        </ion-icon>
-        close
-      </button>
-    </ion-fab>
-  </ion-content>
+  <ion-grid>
+
+    <ion-row>
+      <ion-col width-10>
+        <button ion-button outline icon-left (click)="closeUnitSearchbar(item)">
+          <ion-icon name="ios-close-circle"></ion-icon>Close
+        </button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <hr>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item *ngFor="let item of unitSearchBarData" (click)="closeUnitSearchbar(item)">
+            Product: {{ item.size }}
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>

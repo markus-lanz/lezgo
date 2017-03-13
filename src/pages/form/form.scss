@@ -91,6 +91,7 @@ page-form {
           overflow      : hidden;
           position      : relative;
           z-index       : 100;
+          justify-content : flex-start;
         }
 
         .segment-button{
@@ -100,6 +101,7 @@ page-form {
           line-height : 4rem;
           color       : #00A6EB;
           height      : 38px;
+          flex        : none;
 
           &.entered{
             background : #eee;
