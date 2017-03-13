@@ -468,7 +468,7 @@ export class ContentForm {
 
     openClientMail(model) {
         let ad = null;
-        if (model.mr === true) {
+        if (model.mr) {
             ad = `Dear Mr ${model.name}`;
         }
         else {
@@ -488,8 +488,9 @@ export class ContentForm {
           or send an e-mail to: asktheexpert.byk@altana.com
         </p>
         <p></p>
+        <br>
         <p>Yours faithfully</p>
-        <p>Byk Team </p>
+        <p>${model.newAuthorName}</p>
         <br>
         <br>
         <br>
@@ -503,9 +504,10 @@ export class ContentForm {
         <p>www.byk.com</p>
         <br>
         <br>
-        <p>BYK-Chemie GmbH, Sitz: Wesel, HRB 10656, AG Duisburg</p>
-        <p>Geschäftsführer: Dr. Stephan Glander (Vorsitzender), Albert von Hebel, Gerd Judith</p>
-        <p>Vorsitzender des Aufsichtsrats: Martin Babilas</p>
+        <p style="font-size:12px">
+          BYK-Chemie GmbH, Sitz: Wesel, HRB 10656, AG Duisburg<br>
+          Geschäftsführer: Dr. Stephan Glander (Vorsitzender), Albert von Hebel, Gerd Judith<br>
+          Vorsitzender des Aufsichtsrats: Martin Babilas</p>
         </div>`;
 
         let clientEmail = model.e_mail;

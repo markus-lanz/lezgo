@@ -13,10 +13,10 @@
         <ion-row responsive-sm responsive-md  responsive-lg>
           <ion-toolbar no-border>
             <ion-segment class='wizard' [(ngModel)]="wizzardStep">
-              <ion-segment-button (click)="StepStill('visitor_data')" value="visitor_data" [ngClass]="getClassName('visitor_data')">
+              <ion-segment-button (click)="StepStill('visitor_data')" value="visitor_data" [ngClass]="getClassName('visitor_data')" style="width: 50px">
                 Visitor Data
               </ion-segment-button>
-              <ion-segment-button  (click)="StepStill('meetings_details')" value="meetings_details" [ngClass]="getClassName('meetings_details')">
+              <ion-segment-button  (click)="StepStill('meetings_details')" value="meetings_details" [ngClass]="getClassName('meetings_details')" style="width: 150px">
                 Meeting Details
               </ion-segment-button>
               <ion-segment-button (click)="StepStill('sample_order')" value="sample_order" [ngClass]="getClassName('sample_order')">
@@ -364,13 +364,10 @@
                   <ion-col width-50>
                     <ion-label>Select a category</ion-label>
                     <ion-list>
-                      <ion-item *ngFor="let item of literaData | orderByLit; let caati = index">
-                        <button ion-button
-                                outline
+                      <ion-item *ngFor="let item of literaData | orderByLit; let caati = index"
                                 [ngClass]="{'selected' : caati == selectedRow}"
                                 (tap)="presentSearchLitModal(item,caati)">
                           {{ item.cattitle1 }}
-                        </button>
                       </ion-item>
                     </ion-list>
                   </ion-col>
@@ -381,15 +378,13 @@
                         <ion-col width-50>
                           <ion-label>{{ lit.subcatname }}</ion-label>
                           <div *ngFor="let subitem of lit.items; let si=index">
-                            <ion-item>
-                              <img src="assets/img/pdf.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 30px;"/>
-                              <ion-label>{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
-                              <ion-checkbox mode="ios"
-                                            item-left
-                                            [(ngModel)]="subitem.checked"
-                                            (tap)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
-                                            name="ra_{{subitem.brochuretitle}}"></ion-checkbox>
-                            </ion-item>
+                            <img src="assets/img/pdf.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 30px;"/>
+                            <ion-label>{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
+                            <ion-checkbox mode="ios"
+                                          item-left
+                                          [(ngModel)]="subitem.checked"
+                                          (tap)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
+                                          name="ra_{{subitem.brochuretitle}}"></ion-checkbox>
                           </div>
                         </ion-col>
                         <ion-col width-20>

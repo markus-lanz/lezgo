@@ -121,7 +121,7 @@ export class ProductOVDetailsPage {
 
 
   openProductPdf(file){
-    new InAppBrowser(`assets/pdf/productfiles/${file}`,'_blank','location=no');
+    new InAppBrowser(`assets/pdf/products/${file}`,'_blank','location=no');
   }
 
 
