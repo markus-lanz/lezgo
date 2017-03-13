@@ -206,7 +206,7 @@
               <!----------------------------------------------- MEETING DETAIL -------------------------------------------->
               <div *ngIf="wizzardStep === 'meetings_details'" >
                 <ion-row>
-                  <ion-col width-10="">
+                  <ion-col width-20="">
                     <ion-label class="infolabel">MEETING DETAILS</ion-label>
                   </ion-col>
                   <ion-col width-10>
@@ -287,64 +287,66 @@
 
               <!----------------------------------------------- SAMPLE ORDER ---------------------------------------------->
               <div *ngIf="wizzardStep === 'sample_order'">
+
                 <ion-row>
-                  <ion-label class="infolabel">Samples</ion-label>
+                  <ion-label class="infolabel">SAMPLES</ion-label>
                 </ion-row>
+
                 <ion-row>
-                  <ion-col width-45 class="nopadding">
-                    <ion-item class="bla bdrl bdrt bdrr bdrb">
-                      <ion-label>Select a Product</ion-label>
-                         <ion-icon item-right name="ios-search" (click)="presentSearchProductsModal()"></ion-icon>
-                        <ion-input [disabled]="true" type="text" (click)="presentSearchProductsModal()" [(ngModel)]="tempOrderProduct.product" name="e_product"></ion-input>
-                    </ion-item>
-
+                  <ion-col width-10 class="nopadding">
+                    <ion-label>Select a Product</ion-label>
                   </ion-col>
-                  <ion-col width-45 class="nopadding">
-                    <ion-item class="bla bdrl bdrt bdrr bdrb">
-                      <ion-label>Unit</ion-label>
-                         <ion-icon item-right  name="ios-search" (click)="presentSearchUnitsModal()" ></ion-icon>
-                      <ion-icon name="ios-add-circle"></ion-icon>
-                    <ion-input [disabled]="true" type="text" (click)="presentSearchUnitsModal()" [(ngModel)]="tempOrderUnit.unit" name="e_unit"></ion-input>
-                    </ion-item>
 
+                  <ion-col width-33="" class="nopadding">
+                    <ion-item class="bla bdrl bdrt bdrr bdrb" (tap)="presentSearchProductsModal()">
+                      <ion-label>Open product catalogue</ion-label>
+                      <ion-icon item-right name="ios-folder-open-outline"></ion-icon>
+                      <ion-input [disabled]="true" type="text" [(ngModel)]="tempOrderProduct.product" name="e_product"></ion-input>
+                    </ion-item>
                   </ion-col>
+
+                  <ion-col width-10 class="nopadding">
+                    <ion-label style="text-align: center">Unit</ion-label>
+                  </ion-col>
+
+                  <ion-col width-33 class="nopadding">
+                    <ion-item class="bla bdrl bdrt bdrr bdrb" (tap)="presentSearchUnitsModal()">
+                      <ion-icon item-right name="ios-beaker-outline"></ion-icon>
+                      <ion-input [disabled]="true" type="text" [(ngModel)]="tempOrderUnit.unit" name="e_unit"></ion-input>
+                    </ion-item>
+                  </ion-col>
+
                   <ion-col width-10>
-                    <button ion-button [disabled]="(!tempOrderProduct.product) && (!tempOrderUnit.unit)" icon-only  clear (click)="addOrder($event,tempOrderUnit.unit,tempOrderProduct.product)">
-                      <ion-icon  name="ios-add-circle"></ion-icon>
+                    <button ion-button [disabled]="(!tempOrderProduct.product) && (!tempOrderUnit.unit)" icon-only  clear (tap)="addOrder( $event,tempOrderUnit.unit, tempOrderProduct.product )">
+                      Add to cart <ion-icon  name="ios-add-circle"></ion-icon>
                     </button>
                   </ion-col>
                 </ion-row>
 
-                <ion-row  *ngFor="let ord of  contentFromModel.orders; let i=index">
-                  <ion-col width-10>
-                      <ion-icon name="ios-download-outline"></ion-icon>
-                  </ion-col>
-
-                  <ion-col width-40>
+                <ion-row *ngFor="let ord of contentFromModel.orders; let i=index">
+                  <ion-col width-50>
                     <ion-item>
-                      {{ ord.product }}
-                    </ion-item>
-                  </ion-col>
-
-                  <ion-col width-40>
-                    <ion-item>
-                      {{ord.unit}}
-                    </ion-item>
-
-                  </ion-col>
-                  <ion-col width-10>
-                    <button ion-button (click)="deleteOrder(i)" icon-only  clear >
-                      <ion-icon name="ios-trash"></ion-icon>
+                      <img style="vertical-align: middle; height:40px;" src="assets/img/downloadicon.png" /> {{ ord.product }} {{ord.unit}} <button ion-button (tap)="deleteOrder(i)" icon-only clear><ion-icon name="ios-trash"></ion-icon>
                     </button>
+                    </ion-item>
                   </ion-col>
                 </ion-row>
+
                 <br>
                 <br>
-                <ion-row >
-                  <ion-col width-100 class="nopadding">
+                <br>
+                <br>
+
+                <ion-row>
+                  <ion-col width-25>
+                    <ion-item style="padding : 0">
+                      <ion-label>Order a product  that is no Listed</ion-label>
+                    </ion-item>
+                  </ion-col>
+                  <ion-col width-33 class="nopadding">
                     <ion-item class="bla bdrt bdrl bdrr bdrb">
-                      <ion-label >Order a product <br> that is no Listed</ion-label>
-                      <ion-input type="text" rows="8"  [(ngModel)]="contentFromModel.orderNewProduct" name="orderNewProduct"></ion-input>
+                      <ion-label ></ion-label>
+                      <ion-input type="text" rows="8" [(ngModel)]="contentFromModel.orderNewProduct" name="orderNewProduct"></ion-input>
                     </ion-item>
                   </ion-col>
                 </ion-row>
@@ -356,56 +358,50 @@
 
               <!----------------------------------------------- LITERATURE ------------------------------------------------>
               <div *ngIf="wizzardStep === 'literatur'">
-                <ion-label class="infolabel">Literatur</ion-label>
+
+                <ion-row>
+                  <ion-label class="infolabel">LITERATUR</ion-label>
+                </ion-row>
+
                 <ion-row>
                   <ion-col width-50>
-                      <ion-label>Select a category</ion-label>
-                      <ion-list>
-                        <ion-item *ngFor="let item of literaData | orderByLit; let caati = index"  [ngClass]="{'selected' : caati == selectedRow}" (click)="presentSearchLitModal(item,caati)">
-                        <ion-label>{{ item.cattitle1 }}</ion-label>
+                    <ion-label>Select a category</ion-label>
+                    <ion-list>
+                      <ion-item *ngFor="let item of literaData | orderByLit; let caati = index">
+                        <button ion-button
+                                outline
+                                [ngClass]="{'selected' : caati == selectedRow}"
+                                (tap)="presentSearchLitModal(item,caati)">
+                          {{ item.cattitle1 }}
+                        </button>
+                      </ion-item>
+                    </ion-list>
+                  </ion-col>
 
-                        </ion-item>
-                      </ion-list>
-
-                  <!--  <ion-item (click)="presentSearchLitModal()">
-                      <ion-label>search category</ion-label>
-
-                     <ion-icon item-left (click)="presentSearchLitModal()" name="ios-search" ></ion-icon>
-
-                   </ion-item> -->
-                    </ion-col>
                   <ion-col width-50 *ngIf="literaturModel.length > 0">
-                                <ion-label>{{tempLiterature.cattitle1}}</ion-label>
-                                <ion-row  *ngFor="let lit of  literaturModel; let i=index">
-                                  <ion-col width-45>
-                                    <ion-label>
-                                      {{ lit.subcatname }}
-                                    </ion-label>
-                                    <ion-list >
-                                        <ion-item  *ngFor="let subitem of lit.items; let si=index">
-                                          <ion-label>
-                                            {{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
-                                            <ion-icon item-left name="ios-eye" (click)="viewPdfOfSubCategory(subitem.file)" ></ion-icon>
-                                              <ion-checkbox mode="ios" item-left [(ngModel)]="subitem.checked" (click)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
-                                               name="ra_{{subitem.brochuretitle}}"></ion-checkbox>
-                                        </ion-item>
-                                    </ion-list>
-                                  </ion-col>
-                                <!--  <ion-col width-20 style="text-align:start">
-                                    <button ion-button (click)="deleteLiteratur(i)" icon-only  clear >
-                                      <ion-icon name="ios-trash"></ion-icon>
-                                    </button>
-                                  </ion-col> -->
-                                  <ion-col width-20>
-
-                                  </ion-col>
-                                </ion-row>
-                  <!--  <button ion-button [disabled]="(!literaturObject.topic)" icon-only  clear (click)="addLiteratur($event)">
-                      <ion-icon  name="ios-add-circle"></ion-icon>
-                    </button> -->
+                    <ion-label>{{tempLiterature.cattitle1}}</ion-label>
+                      <ion-row  *ngFor="let lit of  literaturModel; let i=index">
+                        <ion-col width-50>
+                          <ion-label>{{ lit.subcatname }}</ion-label>
+                          <ion-list>
+                            <ion-item  *ngFor="let subitem of lit.items; let si=index">
+                              <ion-label>{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
+                              <img src="assets/img/pdf.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 40px;"/>
+                              <ion-checkbox mode="ios"
+                                            item-left
+                                            [(ngModel)]="subitem.checked"
+                                            (tap)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
+                                            name="ra_{{subitem.brochuretitle}}"></ion-checkbox>
+                            </ion-item>
+                          </ion-list>
+                        </ion-col>
+                        <ion-col width-20>
+                      </ion-col>
+                    </ion-row>
                   </ion-col>
                 </ion-row>
-                <ion-row >
+
+                <ion-row>
                   <ion-col width-100>
                     <ion-item>
                       <ion-label>Order a product <br> that is no Listed</ion-label>
