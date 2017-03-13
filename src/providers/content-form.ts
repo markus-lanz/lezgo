@@ -378,40 +378,90 @@ export class ContentForm {
         }
 
         let modelToSend = `
-        <div>
-        <p>Name : ${model.name}</p>
-        <p>Ms : ${model.Mr}</p>
-        <p>Mrs : ${model.Mrs}</p>
-        <p>Company : ${model.company}</p>
-        <p>Dept : ${model.dept}</p>
-        <p>Adress : ${model.adress}</p>
-        <p>Country : ${model.country}</p>
-        <p>Language : ${model.language}</p>
-        <p>Phone : ${model.phone}</p>
-        <p>Fax : ${model.fax}</p>
-        <p>E-Mail : ${model.e_mail}</p>
-        <p>CRM_RECORD : ${model.CRM_RECORD.YES}</p>
-        <p>CRM_RECORD : ${model.CRM_RECORD.NO}</p>
-        <p>CRM_RECORD-DETAILS : ${model.CRM_RECORD.DETAILS}</p>
-        <p>Order New Product : ${model.orderNewProduct}</p>
-        <p>Addional Information to Order : ${model.addionalInformationToOrder}</p>
-
-        <p>End Use : ${model.EndUse}</p>
-        <p>Product Group : ${model.ProductGroup}</p>
-        <p>Customer Rolle : ${model.CustomerRolle}</p>
-        <p>Classification : ${model.Classification}</p>
-        <p>Author Name : ${model.authorName}</p>
-        <p>Author E-Mail : ${model.authorEmail}</p>
-        <p>New Author Name : ${model.newAuthorName}</p>
-        <p>New Author Email : ${model.newAuthorEmail}</p>
-        <p>Date : ${model.date}</p>`;
+        <table>
+        <tr>
+          <td>Name:</td><td>${model.name}</td>
+        </tr>
+        <tr>
+          <td>Ms:</td><td>${model.Mr}</td>
+        </tr>
+        <tr>
+          <td>Mrs:</td><td>${model.Mrs}</td>
+        </tr>
+        <tr>
+          <td>Company:</td><td>${model.company}</td>
+        </tr>
+        <tr>
+          <td>Dept:</td><td>${model.dept}</td>
+        </tr>
+        <tr>
+          <td>Address:</td><td>${model.adress}</td>
+        </tr>
+        <tr>
+          <td>Country:</td><td>${model.country}</td>
+        </tr>
+        <tr>
+          <td>Language:</td><td>${model.language}</td>
+        </tr> 
+        <tr>
+          <td>Phone:</td><td>${model.phone}</td>
+        </tr>
+        <tr>
+          <td>Fax:</td><td>${model.fax}</td>
+        </tr>
+        <tr>
+          <td>E-Mail:</td><td>${model.e_mail}</td>
+        </tr>
+        <tr>
+          <td>CRM_RECORD:</td><td>${model.CRM_RECORD.YES}</td>
+        </tr>
+        <tr>
+          <td>CRM_RECORD:</td><td>${model.CRM_RECORD.NO}</td>
+        </tr>
+        <tr>
+          <td>CRM_RECORD-DETAILS:</td><td>${model.CRM_RECORD.YES}</td>
+        </tr>
+        <tr>
+          <td>Order New Product:</td><td>${model.orderNewProduct}</td>
+        </tr>
+        <tr>
+          <td>Addional Information to Order:</td><td>${model.addionalInformationToOrder}</td>
+        </tr>
+        <tr>
+          <td>End Use:</td><td>${model.EndUse}</td>
+        </tr>
+        <tr>
+          <td>Product Group:</td><td>${model.ProductGroup}</td>
+        </tr>
+        <tr>
+          <td>Customer Rolle:</td><td>${model.CustomerRolle}</td>
+        </tr>
+        <tr>
+          <td>Classification:</td><td>${model.Classification}</td>
+        </tr>
+        <tr>
+          <td>Author Name:</td><td>${model.authorName}</td>
+        </tr>
+        <tr>
+          <td>Author E-Mail:</td><td>${model.authorEmail}</td>
+        </tr>
+        <tr>
+          <td>New Author Name:</td><td>${model.newAuthorName}</td>
+        </tr>
+        <tr>
+          <td>New Author E-Mail:</td><td>${model.newAuthorName}</td>
+        </tr>
+        <tr>
+          <td>Date:</td><td>${model.date}</td>
+        </tr>
+        </table>`;
 
         cordova.plugins.email.open({
-            to: 'byk@drive.eu',
-            attachments: [`${imgToSend}`],
-            subject: 'Exhibition Report',
-            body: `${modelToSend}`,
-            isHtml: true
+            to          : 'byk@drive.eu',
+            attachments : [`${imgToSend}`],
+            subject     : 'Exhibition Report',
+            body        : `${modelToSend}`,
+            isHtml      : true
         });
     }
 

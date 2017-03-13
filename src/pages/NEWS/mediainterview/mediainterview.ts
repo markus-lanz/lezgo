@@ -1,22 +1,30 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+// IMPORTS
+import { Component      } from '@angular/core';
+import { NavController,
+         NavParams      } from 'ionic-angular';
+import { InAppBrowser   } from 'ionic-native';
 
-/*
-  Generated class for the Mediainterview page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
-@Component({
-  selector: 'page-mediainterview',
-  templateUrl: 'mediainterview.html'
-})
+
+// COMPONENT
+@Component( {
+  selector    : 'page-mediainterview',
+  templateUrl : 'mediainterview.html'
+} )
+
+
+// EXPORT
 export class MediainterviewPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor( public navCtrl: NavController,
+               public navParams: NavParams ) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MediainterviewPage');
+  }
+
+  openDataSheet( filename ) {
+    new InAppBrowser(`assets/pdf/mediainterviews/${filename}`, '_blank', 'location=no');
   }
 
 }
