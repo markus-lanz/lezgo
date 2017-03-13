@@ -4,6 +4,8 @@ import { NavController,
 import { Component                } from '@angular/core';
 import { HomePage                 } from '../home/home';
 import { FormPage                 } from '../form/form';
+import { InAppBrowser             } from 'ionic-native';
+
 
 // - News
 import { ShowNewsPage             } from '../NEWS/shownews/shownews';
@@ -33,7 +35,6 @@ import { AdditivesGuidePage       } from '../PRODUCTSSOLUTIONS/additives-guide/a
 import { LapappVideosPage         } from '../PRODUCTSSOLUTIONS/lapapp-videos/lapapp-videos';
 import { BrandsPage               } from '../PRODUCTSSOLUTIONS/brands/brands';
 
-import { InAppBrowser   } from 'ionic-native';
 
 
 
@@ -87,9 +88,6 @@ export class TabMainPage {
       additivesguide       : AdditivesGuidePage,
       labvideos            : LapappVideosPage,
       brands               : BrandsPage,
-
-      ebooks               : false
-
     };
 
     //console.log(navCtrl.canGoBack())

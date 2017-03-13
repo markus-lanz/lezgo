@@ -5,7 +5,7 @@ import { Component,
          trigger,
          state,
          style          } from '@angular/core';
-
+import { InAppBrowser   } from 'ionic-native';
 import { NavController,
          NavParams,
          Nav            } from 'ionic-angular';
@@ -98,44 +98,44 @@ export class HomePage {
 
     // BYK NEWS
     this.byknews = [
-      { title: 'ECS Show News',                  selected: false, component: TabMainPage, tabComponent: ShowNewsPage,             index: 1 },
-      { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index: 2 },
-      { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index: 3 },
-      { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index: 4 },
-      { title: 'Video',                          selected: false, component: TabMainPage, tabComponent: VideosPage,               index: 5 },
-      { title: 'BYK at a Glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 6 },
-      { title: 'Product Overview',               selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 7 },
-      { title: 'Exhibition Report',              selected: false, component: TabMainPage, tabComponent: FormPage,                 index: 8 },
+      { title: 'ECS Show News',                  selected: false, component: TabMainPage, tabComponent: ShowNewsPage,             index:  1 },
+      { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index:  7 },
+      { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index:  8 },
+      { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index:  9 },
+      { title: 'Videos',                          selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
+      { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 10 },
+      { title: 'Product Overview',               selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index:  3 },
+      { title: 'Exhibition Report',              selected: false, component: TabMainPage, tabComponent: FormPage,                 index:  6 },
     ];
 
     // MARKETS
     this.markets = [
-      { title: 'Decorative coatings', selected: false, component: TabMainPage, tabComponent: DeCoatingsPage,       index:  9 },
-      { title: 'Wood & furniture',    selected: false, component: TabMainPage, tabComponent: WoodFurniturePage,    index: 10 },
-      { title: 'Transportation',      selected: false, component: TabMainPage, tabComponent: TransportationPage,   index: 11 },
-      { title: 'Marine & protective', selected: false, component: TabMainPage, tabComponent: MarineprotectivePage, index: 12 },
-      { title: 'Special Coatings ',   selected: false, component: TabMainPage, tabComponent: SpecialCoatingsPage,  index: 13 }
+      { title: 'Decorative coatings', selected: false, component: TabMainPage, tabComponent: DeCoatingsPage,       index: 11 },
+      { title: 'Wood & furniture',    selected: false, component: TabMainPage, tabComponent: WoodFurniturePage,    index: 12 },
+      { title: 'Transportation',      selected: false, component: TabMainPage, tabComponent: TransportationPage,   index: 13 },
+      { title: 'Marine & protective', selected: false, component: TabMainPage, tabComponent: MarineprotectivePage, index: 14 },
+      { title: 'Special Coatings ',   selected: false, component: TabMainPage, tabComponent: SpecialCoatingsPage,  index: 15 }
     ];
 
     // PRODUCT GROUPS
     this.productGroups = [
-      { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
-      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
-      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
-      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
+      { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
     ];
 
     // PRODUCTS & SOLUTIONS
     this.productssolutions = [
-      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 16 },
+      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 18 },
       { title: 'Technical Data Sheets',  selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
-      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 17 },
-      { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index : 18 },
-      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 19 }
+      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 19 },
+      { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },
+      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 21 }
     ];
 
   }
@@ -251,7 +251,13 @@ export class HomePage {
   openPage(page) {
     if (page.index) {
       this.closeEverything();
-      this.nav.setRoot( page.component, { tabIndex : page.index, testData : page.title, selected: page.selected } );
+      if ( page.title === 'ECS Show News' ) {
+        new InAppBrowser(`assets/pdf/ecsshownews/Vorschau_Show_News_ECS_2017_V9.pdf`, '_blank', 'location=no');
+      } else if ( page.title === 'Additive Guide' ) {
+        new InAppBrowser('https://itunes.apple.com/de/app/additive-guide/id423808347?mt=8', '_blank', 'location=no');
+      } else {
+        this.nav.setRoot(page.component, {tabIndex: page.index, testData: page.title, selected: page.selected});
+      }
     } else {
       this.nav.push(page.component, true);
     }

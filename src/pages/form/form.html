@@ -293,13 +293,10 @@
                 </ion-row>
 
                 <ion-row>
-                  <ion-col width-10 class="nopadding">
-                    <ion-label>Select a Product</ion-label>
-                  </ion-col>
 
-                  <ion-col width-34 class="nopadding">
+                  <ion-col width-50 class="nopadding">
                     <ion-item class="bla bdrl bdrt bdrr bdrb" (tap)="presentSearchProductsModal()">
-                      <ion-label>Open catalogue</ion-label>
+                      <ion-label>Open product catalogue</ion-label>
                       <ion-icon item-right name="ios-folder-open-outline"></ion-icon>
                       <ion-input [disabled]="true" type="text" [(ngModel)]="tempOrderProduct.product" name="e_product"></ion-input>
                     </ion-item>
