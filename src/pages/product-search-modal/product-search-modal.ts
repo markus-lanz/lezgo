@@ -32,7 +32,7 @@ export class ProductSearchModalPage {
 
     // set val to the Value of the searchbar
     let val = ev.target.value;
-   console.log(val)
+   console.log(ev)
     // if the Value is an empty String don't filter the items
     if(val && val.trim() !=''){
       this.productSearchBarData = this.productSearchBarData.filter( (item) =>{

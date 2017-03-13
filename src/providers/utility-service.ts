@@ -83,7 +83,7 @@ export class UtilityService {
   };
 
   loadProductData(){
-    this.http.get('assets/app-data-files/data3.xml')
+    this.http.get('assets/XML/ProductDB.xml')
       .map(res => res.text())
       .subscribe((dataPro)=>
       {
@@ -147,7 +147,7 @@ export class UtilityService {
     return tempObj;
   }
   loadXml(){
-    this.http.get('assets/app-data-files/xml-data.xml')
+    this.http.get('assets/XML/LiteratureCategory.xml')
       .map(res => res.text())
       .subscribe((data)=>
       {
@@ -179,7 +179,7 @@ getLiteraturDataFromXMl():any{
 return this._literaturDataFromXMl;
 }
 loadXmlLiteraturData(){
-  this.http.get('assets/app-data-files/literature.xml')
+  this.http.get('assets/XML/LiteratureDB.xml')
     .map(res => res.text())
     .subscribe((dataLit)=>
     {
@@ -241,7 +241,7 @@ return this._productsDataFromXMl;
 }
 
   loadXmlProductData(){
-    this.http.get('assets/app-data-files/products.xml')
+    this.http.get('assets/XML/SamplesDB.xml')
       .map(res => res.text())
       .subscribe((dataxml)=>
       {

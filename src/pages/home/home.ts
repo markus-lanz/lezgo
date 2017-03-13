@@ -16,7 +16,6 @@ import { TabMainPage    } from "../tab-main/tab-main";
 import { ShowNewsPage              } from '../../pages/NEWS/shownews/shownews';
 import { NewproductsPage           } from '../../pages/NEWS/newproducts/newproducts';
 import { MediainterviewPage        } from '../../pages/NEWS/mediainterview/mediainterview';
-import { ProductsgroupsPage        } from '../../pages/NEWS/productsgroups/productsgroups';
 import { ProductPresentationsPage  } from '../../pages/NEWS/product-presentations/product-presentations';
 import { DataGlancePage            } from '../../pages/BYK/data-glance/data-glance';
 import { FormPage                  } from '../../pages/form/form';
@@ -105,7 +104,7 @@ export class HomePage {
       { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index: 4 },
       { title: 'Video',                          selected: false, component: TabMainPage, tabComponent: VideosPage,               index: 5 },
       { title: 'BYK at a Glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 6 },
-      { title: 'Product Overview',               selected: false, component: TabMainPage, tabComponent: ProductsgroupsPage,       index: 7 },
+      { title: 'Product Overview',               selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 7 },
       { title: 'Exhibition Report',              selected: false, component: TabMainPage, tabComponent: FormPage,                 index: 8 },
     ];
 

@@ -95,6 +95,6 @@ export class NewproductsPage {
   }
 
   openDataSheet(filename) {
-    new InAppBrowser(`assets/productfiles/${filename}`, '_blank', 'location=no');
+    new InAppBrowser(`assets/pdf/newproducts/${filename}`, '_blank', 'location=no');
   }
 }

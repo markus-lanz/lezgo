@@ -1,8 +1,7 @@
 // IMPORTS
 import { Component         } from '@angular/core';
 import { NavController,
-         NavParams,
-         ModalController   } from 'ionic-angular';
+         NavParams         } from 'ionic-angular';
 import { UtilityService    } from '../../providers/utility-service';
 import { InAppBrowser      } from 'ionic-native';
 
@@ -46,8 +45,7 @@ export class ProductOVDetailsPage {
 
   constructor( public navCtrl: NavController,
                public navParams: NavParams,
-               public ut:UtilityService,
-               public modalCtrl:ModalController) {
+               public ut:UtilityService) {
 
     this.pageTitle              = navParams.get( 'famName' );
     this.category               = navParams.get( 'cat' );
@@ -123,7 +121,7 @@ export class ProductOVDetailsPage {
 
 
   openProductPdf(file){
-    new InAppBrowser(`assets/productfiles/${file}`,'_blank','location=no');
+    new InAppBrowser(`assets/pdf/productfiles/${file}`,'_blank','location=no');
   }
 
 

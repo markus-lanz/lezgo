@@ -98,17 +98,23 @@ export class TabMainPage {
 
   }
 
- openWebSite(){
- new InAppBrowser('http://www.byk.com', '_blank', 'location=no');
- }
- editivGuide(){
- new InAppBrowser('https://itunes.apple.com/de/app/additive-guide/id423808347?mt=8', '_blank', 'location=no');
- }
-ebookWeb(){
- new InAppBrowser('https://ebooks.byk.com/de/wetting-and-dispersing/warum-werden-netz-und-dispergieradditive-eingesetzt/', '_blank', 'location=no');
-}
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TestPage');
-  }
+    openWebSite() {
+        new InAppBrowser('http://www.byk.com', '_blank', 'location=no');
+        return false;
+    }
+
+    openNews() {
+        new InAppBrowser(`assets/pdf/ecsshownews/Vorschau_Show_News_ECS_2017_V9.pdf`, '_blank', 'location=no');
+        return false;
+    }
+
+    ebookWeb() {
+        new InAppBrowser('https://ebooks.byk.com/de/wetting-and-dispersing/warum-werden-netz-und-dispergieradditive-eingesetzt/', '_blank', 'location=no');
+        return false;
+    }
+
+    ionViewDidLoad() {
+        console.log('ionViewDidLoad TestPage');
+    }
 
 }

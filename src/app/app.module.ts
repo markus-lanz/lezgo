@@ -25,7 +25,6 @@ import { ProductPresentationsPage } from '../pages/NEWS/product-presentations/pr
 // - Products Group
 import { WaxAdditivesPage         } from  '../pages/PRODUCTGROUPS/wax-additives/wax-additives';
 import { WeetingDispersingPage    } from  '../pages/PRODUCTGROUPS/weeting-dispersing/weeting-dispersing';
-import { ProductsgroupsPage       } from  '../pages/NEWS/productsgroups/productsgroups';
 // - Market
 import{ DeCoatingsPage            } from '../pages/MARKETS/de-coatings/de-coatings';
 import{ WoodFurniturePage         } from '../pages/MARKETS/wood-furniture/wood-furniture';
@@ -59,12 +58,10 @@ import{LiteratureSearchModalPage} from '../pages/literature-search-modal/literat
     VideomodalPage,
     PdfmodalPage,
     EbooksPage,
-    ProductsgroupsPage,
     ShowNewsPage,
     DataGlancePage,
     PicmodalPage,
     ProductoverviewPage,
-    ProductsgroupsPage,
     NewproductsPage,
     MediainterviewPage,
     DeCoatingsPage,
@@ -113,12 +110,10 @@ import{LiteratureSearchModalPage} from '../pages/literature-search-modal/literat
     VideomodalPage,
     PdfmodalPage,
     EbooksPage,
-    ProductsgroupsPage,
     ShowNewsPage,
     DataGlancePage,
     PicmodalPage,
     ProductoverviewPage,
-    ProductsgroupsPage,
     NewproductsPage,
     MediainterviewPage,
     DeCoatingsPage,

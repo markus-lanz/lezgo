@@ -9,6 +9,8 @@ import { Component,
 import { StatusBar,
          Splashscreen              } from 'ionic-native';
 import { TabMainPage               } from '../pages/tab-main/tab-main';
+import { InAppBrowser              } from 'ionic-native';
+
 
 // - Byk news
 import { ShowNewsPage              } from '../pages/NEWS/shownews/shownews';
@@ -143,18 +145,25 @@ export class MyApp {
   }
 
   openPage(page) {
-    // close the menu when clicking a link from the; menu
+
     this.menu.close();
-    // navigate to the new page if it is not the current page
+
     if (page.index) {
 
       this.setClickStatusToFalse();
-      page.selected = true;
-      this.nav.setRoot( page.component, { tabIndex : page.index, testData : page.title, selected: page.selected } );
+
+      if ( page.title === 'ECS Show News' ) {
+        new InAppBrowser(`assets/pdf/ecsshownews/Vorschau_Show_News_ECS_2017_V9.pdf`, '_blank', 'location=no');
+      } else if ( page.title === 'Additive Guide' ) {
+        new InAppBrowser('https://itunes.apple.com/de/app/additive-guide/id423808347?mt=8', '_blank', 'location=no');
+      } else {
+        page.selected = true;
+        this.nav.setRoot( page.component, { tabIndex: page.index, testData: page.title, selected: page.selected } );
+      }
 
     } else {
 
-      this.nav.push(page.component, true);
+      this.nav.push( page.component, true );
     }
   }
 

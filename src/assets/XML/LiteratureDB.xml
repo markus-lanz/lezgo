@@ -1,0 +1,619 @@
+<?xml version="1.0"?>
+<dataset>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>L-WI1</brochurecode>
+		<brochuretitle>Wetting and Dispersing Additives</brochuretitle>
+		<file>BYK_L-WI1_WettingDispersing_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>L-SI1</brochurecode>
+		<brochuretitle>Surface Additives </brochuretitle>
+		<file>BYK_L-SI1_Surface_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>L-DI1</brochurecode>
+		<brochuretitle>Defoamers and Air Release Additives</brochuretitle>
+		<file>BYK_L-DI1_Defoamers_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>L-RI1</brochurecode>
+		<brochuretitle>Rheology Additives</brochuretitle>
+		<file>BYK_L-RI1_Rheology_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>L-AI1</brochurecode>
+		<brochuretitle>Adhesion Promoters</brochuretitle>
+		<file>BYK_L-AI1_Adhesion_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.1</brochurecode>
+		<brochuretitle>Architectural Coatings</brochuretitle>
+		<file>BYK_L-AG1.1_Architectural_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.2</brochurecode>
+		<brochuretitle>Industrial Coatings</brochuretitle>
+		<file>BYK_L-AG1.2_Industrial_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.3</brochurecode>
+		<brochuretitle>Heavy Duty Coatings</brochuretitle>
+		<file>BYK_L-AG1.3_HeavyDuty_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.4</brochurecode>
+		<brochuretitle>Wood and Furniture Coatings</brochuretitle>
+		<file>BYK_L-AG1.4_Wood_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.5</brochurecode>
+		<brochuretitle>Automotive Coatings</brochuretitle>
+		<file>BYK_L-AG1.5_Automotive_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.6</brochurecode>
+		<brochuretitle>Can Coatings</brochuretitle>
+		<file>BYK_L-AG1.6_Can_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.7</brochurecode>
+		<brochuretitle>Coil Coatings</brochuretitle>
+		<file>BYK_L-AG1.7_Coil_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive News of topical interest</cattitle2>
+		<brochurecode>L-AN5</brochurecode>
+		<brochuretitle>Controlled Radical Polymerization</brochuretitle>
+		<file>BYK_L-AN5_CPT_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Powder Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>H-AG1</brochurecode>
+		<brochuretitle>Additives for Powder Coatings</brochuretitle>
+		<file>BYK_H-AG1_Powder_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Printing Inks</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>P-AG1</brochurecode>
+		<brochuretitle>Additives for Printing Inks and Overprint Varnishes</brochuretitle>
+		<file>BYK_P-AG1_PrintingInks_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A1</brochurecode>
+		<brochuretitle>Polyurethane Applications</brochuretitle>
+		<file>BYK_CC-A1_Polyurethane_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>TS-A1</brochurecode>
+		<brochuretitle>Cultured Marble. Onyx, Polymer Concrete</brochuretitle>
+		<file>BYK_TS-A1_CastingResin_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>TS-A2</brochurecode>
+		<brochuretitle>Gel Coats</brochuretitle>
+		<file>BYK_TS-A2_GelCoats_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A4</brochurecode>
+		<brochuretitle>Epoxy Applications</brochuretitle>
+		<file>BYK_CC-A4_Epoxy_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Closed Mold</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>CM-PG1</brochurecode>
+		<brochuretitle>Sheet Molding Compounds (SMC)</brochuretitle>
+		<file>BYK_CM-PG1_SMC_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Closed Mold</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>CM-PG2</brochurecode>
+		<brochuretitle>Additives for Bulk Molding Compounds (BMC) and Thick Molding Compounds (TMC)</brochuretitle>
+		<file>BYK_CM-PG2_BMC-TMC_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Closed Mold</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>CM-PG3</brochurecode>
+		<brochuretitle>Additives for Pultrusion</brochuretitle>
+		<file>BYK_CM-PG3_Pultrusion_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Closed Mold</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>CM-TI1</brochurecode>
+		<brochuretitle>Additives for the Closed Mold Application</brochuretitle>
+		<file>BYK_CM-TI1_ClosedMoldApplication_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Guide (in tabular form)</cattitle2>
+		<brochurecode>PVC-G1</brochurecode>
+		<brochuretitle>Additives for PVC Plastisols</brochuretitle>
+		<file>BYK_PVC-G1_Plastisols_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A1</brochurecode>
+		<brochuretitle>Artificial Leather</brochuretitle>
+		<file>BYK_PVC-A1_ArtificialLeather_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A2</brochurecode>
+		<brochuretitle>Carpet Backing</brochuretitle>
+		<file>BYK_PVC-A2_CarpetBacking_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A3</brochurecode>
+		<brochuretitle>Conveyor Belts</brochuretitle>
+		<file>BYK_PVC-A3_ConveyorBelts_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A4</brochurecode>
+		<brochuretitle>Dip Coating</brochuretitle>
+		<file>BYK_PVC-A4_DipCoating_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A5</brochurecode>
+		<brochuretitle>Fiber / Strand Coating</brochuretitle>
+		<file>BYK_PVC-A5_Fiber_StrandCoating_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A6</brochurecode>
+		<brochuretitle>Flooring</brochuretitle>
+		<file>BYK_PVC-A6_Flooring_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A7</brochurecode>
+		<brochuretitle>Rotational Molding</brochuretitle>
+		<file>BYK_PVC-A7_RotationalMolding_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A8</brochurecode>
+		<brochuretitle>Screening Inks</brochuretitle>
+		<file>BYK_PVC-A8_ScreeningInks_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A9</brochurecode>
+		<brochuretitle>Tarpaulins</brochuretitle>
+		<file>BYK_PVC-A9_Tarpaulins_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A10</brochurecode>
+		<brochuretitle>Traffic Cones</brochuretitle>
+		<file>BYK_PVC-A10_TrafficCones_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A11</brochurecode>
+		<brochuretitle>Underbody Coatings / Sealants</brochuretitle>
+		<file>BYK_PVC-A11_UnderbodyCoatings_Sealants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive Selection Guides (application specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>PVC-A12</brochurecode>
+		<brochuretitle>Wall Coverings</brochuretitle>
+		<file>BYK_PVC-A12_WallCoverings_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI1</brochurecode>
+		<brochuretitle>Viscosity Depressants</brochuretitle>
+		<file>BYK_PVC-TI1_ViscosityDepressants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI2</brochurecode>
+		<brochuretitle>Wetting and Dispersing Additives</brochuretitle>
+		<file>BYK_PVC-TI2_WettingDispersing_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI3</brochurecode>
+		<brochuretitle>Air Release Additives</brochuretitle>
+		<file>BYK_PVC-TI3_AirRelease_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI4</brochurecode>
+		<brochuretitle>Rheology Additives</brochuretitle>
+		<file>BYK_PVC-TI4_Rheology_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI5</brochurecode>
+		<brochuretitle>Moisture Absorber</brochuretitle>
+		<file>BYK_PVC-TI5_MoistureAbsorber_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI6</brochurecode>
+		<brochuretitle>Foam Stabilizers for Mechanical Foam</brochuretitle>
+		<file>BYK_PVC-TI6_FoamStabilizers_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>PVC-TI7</brochurecode>
+		<brochuretitle>Processing Additives</brochuretitle>
+		<file>BYK_PVC-TI7_Processing_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for PVC</cattitle1>
+		<cattitle2>Additive News of topical interest</cattitle2>
+		<brochurecode>PVC-AN1</brochurecode>
+		<brochuretitle>BYK®-P 4100 - A Unique Additive to Improve Processing of PVC Calendering Applications</brochuretitle>
+		<file>BYK_PVC-AN1_BYK-P 4100_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Thermoplastics</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>TP-TI</brochurecode>
+		<brochuretitle>BYKOPLAST-1000</brochuretitle>
+		<file>BYK_TP-TI1_BYKOPLAST-1000_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>L-G1</brochurecode>
+		<brochuretitle>Paint Additives</brochuretitle>
+		<file>BYK_L-G1_Paint_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>L-G5</brochurecode>
+		<brochuretitle>Additives for Radiation Curing Systems</brochuretitle>
+		<file>BYK_L-G5_Radiation_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>L-G6</brochurecode>
+		<brochuretitle>Additives for Aqueous Coatings</brochuretitle>
+		<file>BYK_L-G6_Aqueous_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Paper Coatings</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>K-A1</brochurecode>
+		<brochuretitle>Paper Coatings</brochuretitle>
+		<file>BYK_K-A1_PaperCoatings-Converting_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Wax Additives </cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>B-G1</brochurecode>
+		<brochuretitle>Wax Additives</brochuretitle>
+		<file>BYK_B-G1_Wax_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for the Construction Industry</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>CO-G1</brochurecode>
+		<brochuretitle>Additives for the Construction Industry</brochuretitle>
+		<file>BYK_CO-G1_Construction_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Adhesives and Sealants</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>AS-TI1</brochurecode>
+		<brochuretitle>Defoamers and Air Release Agents for Adhesives and Sealants</brochuretitle>
+		<file>BYK_AS-TI1_Defoamers_AdhesivesSealants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Adhesives and Sealants</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>AS-TI2</brochurecode>
+		<brochuretitle>Rheology Additives for Adhesives and Sealants</brochuretitle>
+		<file>BYK_AS-TI2_Rheology_AdhesivesSealants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Adhesives and Sealants</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>AS-TI4</brochurecode>
+		<brochuretitle>Surface Additives for Adhesives and Sealants</brochuretitle>
+		<file>BYK_AS-TI4_Surface_AdhesivesSealants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Paper Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>K-AG1</brochurecode>
+		<brochuretitle>Paper Coatings </brochuretitle>
+		<file>BYK_K-AG1_PaperCoatings_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Adhesives and Sealants</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>AS-AG1</brochurecode>
+		<brochuretitle>Additives for Adhesives and Sealants</brochuretitle>
+		<file>BYK_AS-AG1_Overview_AdhesivesSealants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Thermoplastics</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>TP-AG1</brochurecode>
+		<brochuretitle>Additives for Thermoplastics</brochuretitle>
+		<file>BYK_TP-AG1_Thermoplastics_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Greenability</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>B-G2</brochurecode>
+		<brochuretitle>Additives for "Greener" Systems</brochuretitle>
+		<file>BYK_B-G2_GreenerSystems_US.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Greenability</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>B-G5</brochurecode>
+		<brochuretitle>Additives Based on Renewable Raw Materials</brochuretitle>
+		<file>BYK_B-G5_RenewableRawMaterials_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Greenability</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>L-G20</brochurecode>
+		<brochuretitle>Additives for "Greener" Coatings</brochuretitle>
+		<file>BYK_L-G20_GreenerCoatings_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Greenability</cattitle1>
+		<cattitle2>Overview</cattitle2>
+		<brochurecode>B-1</brochurecode>
+		<brochuretitle>Achieving "green" goals together. Greenability.</brochuretitle>
+		<file>BYK_B-1_GreenabilityOverview_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Greenability</cattitle1>
+		<cattitle2>Product Guides (in tabular form)</cattitle2>
+		<brochurecode>CM-G20</brochurecode>
+		<brochuretitle>Additives for "Greener" Closed Mold Applications</brochuretitle>
+		<file>BYK_CM-G20_GreenerClosedMold_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Wax Additives </cattitle1>
+		<cattitle2>Technology Broschures</cattitle2>
+		<brochurecode>B-TI1</brochurecode>
+		<brochuretitle>HORDAMER  Primary Polyethylene Dispersions</brochuretitle>
+		<file>BYK_B-TI1_HORDAMER_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Home Care</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>HC-AG1</brochurecode>
+		<brochuretitle>Household, Industrial &amp; Institutional Cleaners</brochuretitle>
+		<file>BYK_HC-AG1_HomeCare_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A6</brochurecode>
+		<brochuretitle>Acrylate Applications</brochuretitle>
+		<file>BYK_CC-A6_Acrylate_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A5</brochurecode>
+		<brochuretitle>Ambient Curing Polyester Resins</brochuretitle>
+		<file>BYK_CC-A5_AmbientCuringResins_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A7</brochurecode>
+		<brochuretitle>Putties</brochuretitle>
+		<file>BYK_CC-A7_Putties_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Adhesives and Sealants</cattitle1>
+		<cattitle2>Product Groups (background information, working mechanisms, theory and practice)</cattitle2>
+		<brochurecode>AS-TI3</brochurecode>
+		<brochuretitle>Wetting and Dispersing Additives for Adhesives and Sealants</brochuretitle>
+		<file>BYK_AS-TI3_WettingDispersing_AdhesivesSealants_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Liquid Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>L-AG1.8</brochurecode>
+		<brochuretitle>Deflocculating Wetting and Dispersing Additives - Aqueous Systems</brochuretitle>
+		<file>BYK_L-AG1.8_WettingDispersing_Aqueous_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Thermoplastics</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>TP-A2</brochurecode>
+		<brochuretitle>Modifiers for Glass Fiber-reinforced Polypropylene and Polyamide</brochuretitle>
+		<file>BYK_TP-A2_GlassFiberModifiers_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Thermoplastics</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>TP-A1</brochurecode>
+		<brochuretitle>Modifiers for Wood Plastic Composites (WPC)</brochuretitle>
+		<file>BYK_TP-A1_WPC Modifiers_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Thermoplastics</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>TP-TI</brochurecode>
+		<brochuretitle>Technology of SCONA Plastic Modifiers</brochuretitle>
+		<file>BYK_TP-TI2_SCONA Technology_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Thermoplastics</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>TP-A3</brochurecode>
+		<brochuretitle>Modifiers for Adhesion Improvement in TPE-S Overmolding Compounds</brochuretitle>
+		<file>BYK_TP-A3_OvermoldingCompoundsModifiers_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A8</brochurecode>
+		<brochuretitle>Insulating Materials for Use in the Electrical and Electronics Industry</brochuretitle>
+		<file>BYK_CC-A8_InsulatingMaterials_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Ambient Curing Resins</cattitle1>
+		<cattitle2>Additive Recommendations</cattitle2>
+		<brochurecode>CC-A9</brochurecode>
+		<brochuretitle>Chemical Anchoring and Fixing Products</brochuretitle>
+		<file>BYK_CC-A9_ChemicalAnchoring_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Printing Inks</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>P-AG2</brochurecode>
+		<brochuretitle>Inkjet Inks</brochuretitle>
+		<file>BYK_P-AG2_InkjetInks_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Home Care</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>CP-TI1</brochurecode>
+		<brochuretitle>Additives for Aqueous Floor Polishes</brochuretitle>
+		<file>BYK_CP-TI1_FloorPolishes_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Home Care</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>HC-TI1</brochurecode>
+		<brochuretitle>Additives for Cleaning, Surface and Fabric Care Products</brochuretitle>
+		<file>BYK_HC-TI1_Cleaning-Surface-FabricCare_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Floor Coatings</cattitle1>
+		<cattitle2>Additive Selection Charts (end-use specific problem solutions in tabular form)</cattitle2>
+		<brochurecode>FL-AG1</brochurecode>
+		<brochuretitle>Additives for Floor Coatings</brochuretitle>
+		<file>BYK_FL-AG1_FloorCoatings_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>L-RI1</brochurecode>
+		<brochuretitle>Rheology Additives</brochuretitle>
+		<file>BYK_L-RI1_Rheology_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI10</brochurecode>
+		<brochuretitle>CLOISITE</brochuretitle>
+		<file>BYK_B-RI10_CLOISITE_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI11</brochurecode>
+		<brochuretitle>OPTIBENT</brochuretitle>
+		<file>BYK_B-RI11_OPTIBENT_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI16</brochurecode>
+		<brochuretitle>OPTIGEL/LAPONITE</brochuretitle>
+		<file>BYK_B-RI16_OPTIGEL_LAPONITE_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI17</brochurecode>
+		<brochuretitle>TIXOGEL</brochuretitle>
+		<file>BYK_B-RI17_TIXOGEL_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI18</brochurecode>
+		<brochuretitle>OPTIFLO</brochuretitle>
+		<file>BYK_B-RI18_OPTIFLO_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI20</brochurecode>
+		<brochuretitle>GARAMITE</brochuretitle>
+		<file>BYK_B-RI20_GARAMITE_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Rheology Additives</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>B-RI21</brochurecode>
+		<brochuretitle>LAPONITE</brochuretitle>
+		<file>BYK_B-RI21_LAPONITE_EN.pdf</file>
+	</item>
+	<item>
+		<cattitle1>Additives for Floor Coatings</cattitle1>
+		<cattitle2>Technology Brochures</cattitle2>
+		<brochurecode>FL-TI1</brochurecode>
+		<brochuretitle>Solvent-borne and Solvent-free Floor Coatings</brochuretitle>
+		<file>BYK_FL-TI1_FloorCoatings_EN.pdf</file>
+	</item>
+</dataset>
