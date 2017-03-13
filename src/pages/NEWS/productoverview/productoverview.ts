@@ -1,19 +1,19 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-import{UtilityService} from '../../../providers/utility-service';
-import{OrderBy} from '../../../providers/orderBy';
-import{ProductOVDetailsPage} from '../../product-ov-details/product-ov-details';
-/*
-  Generated class for the Productoverview page.
+// IMPORTS
+import { Component           } from '@angular/core';
+import { NavController,
+         NavParams           } from 'ionic-angular';
+import{ UtilityService       } from '../../../providers/utility-service';
+import{ ProductOVDetailsPage } from '../../product-ov-details/product-ov-details';
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
-@Component({
-  selector: 'page-productoverview',
-  templateUrl: 'productoverview.html',
 
-})
+// COMPONENT
+@Component( {
+  selector    : 'page-productoverview',
+  templateUrl : 'productoverview.html',
+} )
+
+
+// EXPORT
 export class ProductoverviewPage {
    productCategory = null;
   productA= null;
@@ -33,7 +33,10 @@ export class ProductoverviewPage {
   productV = null;
   q = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public ut:UtilityService) {
+  constructor( public navCtrl: NavController,
+               public navParams: NavParams,
+               public ut:UtilityService ) {
+
     this.productCategory = ut.getResultArray();
     this.productA = this.productCategory['A'];
     this.productB = this.productCategory['B'];
@@ -70,12 +73,12 @@ export class ProductoverviewPage {
   }
 
 
-
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProductoverviewPage');
   }
+
+
   gotoDetailsPage(data,dataCat){
-    console.log(data);
     this.navCtrl.push(ProductOVDetailsPage,{famName:data,cat:dataCat});
   }
 }

@@ -14,10 +14,8 @@ import { TabMainPage               } from '../pages/tab-main/tab-main';
 import { ShowNewsPage              } from '../pages/NEWS/shownews/shownews';
 import { NewproductsPage           } from '../pages/NEWS/newproducts/newproducts';
 import { MediainterviewPage        } from '../pages/NEWS/mediainterview/mediainterview';
-import { ProductsgroupsPage        } from '../pages/NEWS/productsgroups/productsgroups';
 import { ProductPresentationsPage  } from '../pages/NEWS/product-presentations/product-presentations';
 import { DataGlancePage            } from '../pages/BYK/data-glance/data-glance';
-import { FormPage                  } from '../pages/form/form';
 import { VideosPage                } from '../pages/BYK/videos/videos';
 
 // - Markets
@@ -85,42 +83,42 @@ export class MyApp {
 
     // BYK NEWS
     this.byknews = [
-      { title: 'ECS Show News',                  selected: false, component: TabMainPage, tabComponent: ShowNewsPage,             index: 1 },
-      { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index: 2 },
-      { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index: 3 },
-      { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index: 4 },
-      { title: 'Videos',                         selected: false, component: TabMainPage, tabComponent: VideosPage,               index: 5 },
-      { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 6 },
+      { title: 'ECS Show News',                  selected: false, component: TabMainPage, tabComponent: ShowNewsPage,             index:  1 },
+      { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index:  7 },
+      { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index:  8 },
+      { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index:  9 },
+      { title: 'Videos',                         selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
+      { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 10 },
     ];
 
     // MARKETS
     this.markets = [
-      { title: 'Decorative coatings', selected: false, component: TabMainPage, tabComponent: DeCoatingsPage,       index:  9 },
-      { title: 'Wood & furniture',    selected: false, component: TabMainPage, tabComponent: WoodFurniturePage,    index: 10 },
-      { title: 'Transportation',      selected: false, component: TabMainPage, tabComponent: TransportationPage,   index: 11 },
-      { title: 'Marine & protective', selected: false, component: TabMainPage, tabComponent: MarineprotectivePage, index: 12 },
-      { title: 'Special Coatings ',   selected: false, component: TabMainPage, tabComponent: SpecialCoatingsPage,  index: 13 }
+      { title: 'Decorative coatings', selected: false, component: TabMainPage, tabComponent: DeCoatingsPage,       index: 11 },
+      { title: 'Wood & furniture',    selected: false, component: TabMainPage, tabComponent: WoodFurniturePage,    index: 12 },
+      { title: 'Transportation',      selected: false, component: TabMainPage, tabComponent: TransportationPage,   index: 13 },
+      { title: 'Marine & protective', selected: false, component: TabMainPage, tabComponent: MarineprotectivePage, index: 14 },
+      { title: 'Special Coatings ',   selected: false, component: TabMainPage, tabComponent: SpecialCoatingsPage,  index: 15 }
     ];
 
     // PRODUCT GROUPS
     this.productGroups = [
-      { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 14 },
-      { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
-      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
-      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
-      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 15 },
+      { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
     ];
 
     // PRODUCTS & SOLUTIONS
     this.productssolutions = [
-      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 16 },
+      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 18 },
       { title: 'Technical Data Sheets',  selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
-      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 17 },
-      { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index : 18 },
-      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 19 }
+      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 19 },
+      { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },
+      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 21 }
     ];
 
     this.utilityService.loadXml();
@@ -133,18 +131,11 @@ export class MyApp {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      //this.menu.open();
-    //  StatusBar.styleDefault();
-    //  StatusBar.overlaysWebView(false);
-     // StatusBar.backgroundColorByHexString('#ffffff');
-  StatusBar.hide();
+      StatusBar.hide();
       Splashscreen.hide();
-
     });
-
   }
+
 
   navigateTo(page){
     this.menu.close();
@@ -157,23 +148,18 @@ export class MyApp {
     // navigate to the new page if it is not the current page
     if (page.index) {
 
-      this.setClickStatustoFalse();
+      this.setClickStatusToFalse();
       page.selected = true;
       this.nav.setRoot( page.component, { tabIndex : page.index, testData : page.title, selected: page.selected } );
 
     } else {
-    /*  this.nav.setRoot(page.component).catch(() => {
-
-        console.log("Didn't set nav root");
-      }); */
-      // this.nav.setRoot(page.component);
 
       this.nav.push(page.component, true);
     }
   }
 
 
-  setClickStatustoFalse(){
+  setClickStatusToFalse(){
     for(let item in this.byknews){
       this.byknews[item].selected = false;
     }

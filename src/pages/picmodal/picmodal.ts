@@ -1,11 +1,3 @@
-/*
- Generated class for the Picmodal page.
-
- See http://ionicframework.com/docs/v2/components/#navigation for more info on
- Ionic pages and navigation.
- */
-
-
 // IMPORTS
 import { Component,
          NgZone                 } from '@angular/core';
@@ -35,14 +27,14 @@ export class PicmodalPage {
 
   picRes:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,
-              public actionsheetCtrl: ActionSheetController,public viewCtrl: ViewController,private zone:NgZone,public toastCtrl:ToastController) {
-
-
-
-
-
+  constructor( public navCtrl: NavController,
+               public navParams: NavParams,
+               public actionsheetCtrl: ActionSheetController,
+               public viewCtrl: ViewController,
+               private zone:NgZone,
+               public toastCtrl:ToastController ) {
   }
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PicmodalPage');
@@ -50,74 +42,57 @@ export class PicmodalPage {
   }
 
 
-    ooClick() {
+  ooClick() {
 
-      Camera.getPicture({
-        quality:50,
-        destinationType: Camera.DestinationType.DATA_URL,
-        sourceType: Camera.PictureSourceType.CAMERA,
-        targetWidth: 200,
-        targetHeight: 200,
-        saveToPhotoAlbum: true,
-        correctOrientation: true
-      }).then((imageData) => {
-        // imageData is either a base64 encoded string or a file URI
-        // If it's base64:
-        let base64Image = 'data:image/jpeg;base64,' + imageData;
-        //this.picRes = base64Image;
-      //  (<HTMLImageElement>document.getElementById('pics')).src = base64Image;
-      }, (err) => {
-        console.log(err);
-      });
+    Camera.getPicture({
+      quality            : 50,
+      destinationType    : Camera.DestinationType.DATA_URL,
+      sourceType         : Camera.PictureSourceType.CAMERA,
+      targetWidth        : 200,
+      targetHeight       : 200,
+      saveToPhotoAlbum   : true,
+      correctOrientation : true
+    }).then((imageData) => {
+    }, (err) => {
+      console.log(err);
+    });
+  }
 
 
-      /*
-
-
-      let cameraRect:CameraPreviewRect = {
-        x: 44,
-        y: 100,
-        width: this.calcWidth,
-        height: 200
-      };
-      CameraPreview.startCamera(
-        cameraRect, // position and size of preview
-        'back', // default camera
-        true, // tap to take picture
-        false, // disable drag
-        false, // keep preview in front. Set to true (back of the screen) to apply overlaying elements
-        1 // set the preview alpha
-      );
-*/
-    }
-
-  stopCamera(){
+  stopCamera() {
     CameraPreview.stopCamera();
   }
 
-  takePicture(){
 
-    let size = { maxWidth:640,
-      maxHeight: 640};
+  takePicture() {
+
+    let size = {
+      maxWidth  : 640,
+      maxHeight : 640
+    };
     CameraPreview.takePicture(size);
 
   }
 
-  SwitchCamera(){
+
+  SwitchCamera() {
     CameraPreview.switchCamera();
   }
-  showCamera(){
+
+
+  showCamera() {
     CameraPreview.show();
   }
-  hideCamera(){
+
+
+  hideCamera() {
     CameraPreview.hide();
   }
 
-  switch(){
+
+  switch() {
     CameraPreview.switchCamera();
   }
-
-
 
 
   openMenu() {
@@ -141,7 +116,7 @@ export class PicmodalPage {
         {
           text: 'Switch Cam',
           handler: () => {
-           this.SwitchCamera();
+            this.SwitchCamera();
           }
         },
         {
@@ -155,14 +130,15 @@ export class PicmodalPage {
           role: 'cancel', // will always sort to be on the bottom
           icon: 'close',
           handler: () => {
-            console.log('Cancel clicked');
           }
         }
       ]
     });
     actionSheet.present();
   }
-  dismiss(picData){
+
+
+  dismiss(picData) {
     this.stopCamera();
     this.viewCtrl.dismiss(picData);
   }

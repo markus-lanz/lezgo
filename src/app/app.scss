@@ -160,14 +160,29 @@ ion-header{
   font-family     : 'lteBold';
 
   .tab-button {
-    border-right : 1px solid #c0c0c0;
-    min-height   : 40px;
-    flex         : initial;
-    padding      : 0 15px;
+    border-right   : 1px solid #c0c0c0;
+    min-height     : 40px;
+    flex           : initial;
+    padding        : 0 15px;
 
     .tab-button-icon {
       font-size : 22px;
       height    : 22px;
+
+      &.ion-ios-clipboard-outline,
+      &.ion-ios-clipboard {
+
+        color : #b70064;
+
+        + span{
+          color : #b70064;
+        }
+      }
+
+    }
+
+    .tab-button-text{
+      text-transform : uppercase;
     }
 
     &:last-child{

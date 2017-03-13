@@ -1,25 +1,20 @@
-import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
+// IMPORTS
 import xml2js from 'xml2js';
-import {ToastController} from 'ionic-angular';
+import 'rxjs/add/operator/map';
+import { Injectable      } from '@angular/core';
+import { Http            } from '@angular/http';
+import { ToastController } from 'ionic-angular';
 
-/*
-  Generated class for the UtilityService provider.
-
-  See https://angular.io/docs/ts/latest/guide/dependency-injection.html
-  for more info on providers and Angular 2 DI.
-*/
 @Injectable()
 export class UtilityService {
 
-  public xmlItems :any;
-  public _eBooks :any;
-  public _products:any;
+  public xmlItems  : any;
+  public _eBooks   : any;
+  public _products : any;
 
-  constructor(public http: Http, public toastCtrl:ToastController) {
+  constructor( public http: Http,
+               public toastCtrl:ToastController ) {
     console.log('Hello UtilityService Provider');
-
   }
 
   getEbooks():any{
@@ -30,6 +25,7 @@ export class UtilityService {
     this._eBooks = arr;
   }
   presentToast(type,message){
+    /*
     let toast = this.toastCtrl.create({
       message: message,
       duration: 5000,
@@ -37,7 +33,8 @@ export class UtilityService {
       dismissOnPageChange:true,
       cssClass: (type === 'success')? "toast-success":"toast-error"
     });
-    toast.present().then(() => toast.dismiss()).catch(() => toast.dismiss());
+    //toast.present().then(() => toast.dismiss()).catch(() => toast.dismiss());
+    */
   }
 
   getProduct():any{
@@ -90,7 +87,6 @@ export class UtilityService {
       .map(res => res.text())
       .subscribe((dataPro)=>
       {
-        console.log('heelo from parseProduct');
         this.parseProductData(dataPro)
           .then((dataPro)=>
           {
@@ -99,7 +95,6 @@ export class UtilityService {
             this.groupResult( this._products );
 
             this.setProduct(this._products);
-            console.log(this._products);
             this.presentToast('success','Your Data has been successfully processed');
           })
           .catch(()=>{
@@ -111,7 +106,7 @@ export class UtilityService {
   parseProductData(data){
     return new Promise(resolve =>
     {
-        let arr    = [],arr2 =[],j,
+        let arr    = [],
         parser = new xml2js.Parser(
           {
             trim: true,
@@ -125,7 +120,6 @@ export class UtilityService {
 
         {
           const item = obj.item[index];
-          console.log(item);
            arr.push({
             famName 		    : item.familiyname[0],
             product 	    : item.productname[0],
@@ -162,7 +156,6 @@ export class UtilityService {
           {
             this.xmlItems = data;
             this.setEbooks(this.xmlItems);
-            console.log(this.xmlItems);
             this.presentToast('success','Your Data has been successfully processed');
           })
           .catch(()=>{
@@ -257,7 +250,6 @@ return this._productsDataFromXMl;
           {
             this.productsData = dataxml;
             this.setProductsDataFromXMl(this.productsData);
-            console.log(this.productsData);
             this.presentToast('success','Your Data has been successfully processed');
           })
           .catch(()=>{

@@ -4,7 +4,6 @@ import { NavController,
 import { Component                } from '@angular/core';
 import { HomePage                 } from '../home/home';
 import { FormPage                 } from '../form/form';
-import { EbooksPage               } from '../ebooks/ebooks';
 
 // - News
 import { ShowNewsPage             } from '../NEWS/shownews/shownews';
@@ -58,7 +57,7 @@ export class TabMainPage {
   constructor( public navCtrl: NavController, public navParams: NavParams ) {
 
     this.pagesInTabs = {
-      home              : HomePage,
+      home                 : HomePage,
 
       // News
       news                 : ShowNewsPage,
@@ -89,7 +88,7 @@ export class TabMainPage {
       labvideos            : LapappVideosPage,
       brands               : BrandsPage,
 
-      ebooks            : EbooksPage
+      ebooks               : false
 
     };
 

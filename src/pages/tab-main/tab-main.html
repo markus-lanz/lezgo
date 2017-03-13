@@ -37,42 +37,44 @@
   <!-- REGISTER ALL TABS -->
   <ion-tabs top [selectedIndex]="mySelectedIndex">
 
-    <!-- INDEX: 00--><ion-tab [root]="pagesInTabs.home" tabIcon="ios-home" tabTitle="Home"></ion-tab>
+    <!-- INDEX: 00--><ion-tab [root]="pagesInTabs.home"            tabTitle="Home"             tabIcon="ios-home"></ion-tab>
 
     <!--------------------------------- NEWS ---------------------------------->
-    <!-- INDEX: 01--><ion-tab [root]="pagesInTabs.news" tabIcon="ios-chatbubbles" tabTitle="ECS Show News"></ion-tab>
-    <!-- INDEX: 02--><ion-tab [root]="pagesInTabs.productpresentations"></ion-tab>
-    <!-- INDEX: 03--><ion-tab [root]="pagesInTabs.newproducts"></ion-tab>
-    <!-- INDEX: 04--><ion-tab [root]="pagesInTabs.mediainterview"></ion-tab>
-    <!-- INDEX: 05--><ion-tab [root]="pagesInTabs.videos" tabIcon="ios-film" tabTitle="Videos"></ion-tab>
-    <!-- INDEX: 06--><ion-tab [root]="pagesInTabs.dataglance"></ion-tab>
-    <!-- INDEX: 07--><ion-tab [root]="pagesInTabs.productoverview" tabTitle="Product overview" tabIcon="ios-navigate"></ion-tab>
-    <!-- INDEX: 08--><ion-tab [root]="pagesInTabs.form" tabIcon="clipboard" tabTitle="Report"></ion-tab>
+    <!-- INDEX: 01--><ion-tab [root]="pagesInTabs.news"            tabTitle="ECS Show News"    tabIcon="ios-chatbubbles"></ion-tab>
+    <!-- INDEX: 02--><ion-tab [root]="pagesInTabs.ebooks"          tabTitle="Ebooks"           tabIcon="ios-book" (ionSelect)="ebookWeb()"></ion-tab>
+    <!-- INDEX: 03--><ion-tab [root]="pagesInTabs.productoverview" tabTitle="Product overview" tabIcon="ios-navigate"></ion-tab>
+    <!-- INDEX: 04--><ion-tab [root]="pagesInTabs.website"         tabTitle="WebSite"          tabIcon="md-globe" (ionSelect)="openWebSite()"></ion-tab>
+    <!-- INDEX: 05--><ion-tab [root]="pagesInTabs.videos"          tabTitle="BYK Videos"       tabIcon="ios-film"></ion-tab>
+    <!-- INDEX: 06--><ion-tab [root]="pagesInTabs.form"            tabTitle="Report"           tabIcon="clipboard"></ion-tab>
+
+
+    <!-- INDEX: 07--><ion-tab [root]="pagesInTabs.productpresentations"></ion-tab>
+    <!-- INDEX: 08--><ion-tab [root]="pagesInTabs.newproducts"></ion-tab>
+    <!-- INDEX: 09--><ion-tab [root]="pagesInTabs.mediainterview"></ion-tab>
+    <!-- INDEX: 10--><ion-tab [root]="pagesInTabs.dataglance"></ion-tab>
 
 
     <!--------------------------------- MARKETS ---------------------------------->
-    <!-- INDEX: 09--><ion-tab [root]="pagesInTabs.decorativecatings"></ion-tab>
-    <!-- INDEX: 10--><ion-tab [root]="pagesInTabs.woodsfurniture"></ion-tab>
-    <!-- INDEX: 11--><ion-tab [root]="pagesInTabs.transportation"></ion-tab>
-    <!-- INDEX: 12--><ion-tab [root]="pagesInTabs.marineprotective"></ion-tab>
-    <!-- INDEX: 13--><ion-tab [root]="pagesInTabs.specialcoatings"></ion-tab>
+    <!-- INDEX: 11--><ion-tab [root]="pagesInTabs.decorativecatings"></ion-tab>
+    <!-- INDEX: 12--><ion-tab [root]="pagesInTabs.woodsfurniture"></ion-tab>
+    <!-- INDEX: 13--><ion-tab [root]="pagesInTabs.transportation"></ion-tab>
+    <!-- INDEX: 14--><ion-tab [root]="pagesInTabs.marineprotective"></ion-tab>
+    <!-- INDEX: 15--><ion-tab [root]="pagesInTabs.specialcoatings"></ion-tab>
 
     <!--------------------------------- PRODUCT GROUPS ---------------------------------->
-    <!-- INDEX: 14--><ion-tab [root]="pagesInTabs.weetingdispersing"></ion-tab>
-    <!-- INDEX: 15--><ion-tab [root]="pagesInTabs.waxadditives"></ion-tab>
+    <!-- INDEX: 16--><ion-tab [root]="pagesInTabs.weetingdispersing"></ion-tab>
+    <!-- INDEX: 17--><ion-tab [root]="pagesInTabs.waxadditives"></ion-tab>
 
     <!--------------------------------- PRODUCT & SOLUTIONS ---------------------------------->
-    <!-- INDEX: 16--><ion-tab [root]="pagesInTabs.technicalbrochures"></ion-tab>
-    <!-- INDEX: 17--><ion-tab [root]="pagesInTabs.additivesguide"></ion-tab>
-    <!-- INDEX: 18--><ion-tab [root]="pagesInTabs.videos"></ion-tab>
-    <!-- INDEX: 19--><ion-tab [root]="pagesInTabs.brands"></ion-tab>
+    <!-- INDEX: 18--><ion-tab [root]="pagesInTabs.technicalbrochures"></ion-tab>
+    <!-- INDEX: 19--><ion-tab [root]="pagesInTabs.additivesguide"></ion-tab>
+    <!-- INDEX: 20--><ion-tab [root]="pagesInTabs.videos"></ion-tab>
+    <!-- INDEX: 21--><ion-tab [root]="pagesInTabs.brands"></ion-tab>
 
 
-    <!-- INDEX: 02--><ion-tab [root]="pagesInTabs.ebooks" tabIcon="ios-book" tabTitle="Ebooks"  (ionSelect)="ebookWeb()"></ion-tab>
 
 
-    <!-- INDEX: 04--><ion-tab tabIcon="md-globe"        tabTitle="WebSite"     (ionSelect)="openWebSite()"   [root]="pagesInTabs.website"></ion-tab>
-   
+
   </ion-tabs><!-- END REGISTER ALL TABS -->
 
 

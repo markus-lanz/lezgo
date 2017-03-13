@@ -4,16 +4,15 @@ import { NavController,
          NavParams,
          ModalController   } from 'ionic-angular';
 import { UtilityService    } from '../../providers/utility-service';
-import { ProductModalsPage } from '../product-modals/product-modals';
 import { InAppBrowser      } from 'ionic-native';
 
 
 
 // COMPONENT
-@Component({
+@Component( {
   selector    : 'page-product-ov-details',
   templateUrl : 'product-ov-details.html'
-})
+} )
 
 
 
