@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BYK Additives &amp; Instrumental</name>
+    <name>BYK Additives &amp; Instruments</name>
     <description>European Coatings Show 2017 App</description>
     <author email="info@developconcept.de" href="http://developconcept.de/">DevelopConcept Team</author>
     <content src="index.html" />
