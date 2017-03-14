@@ -79,7 +79,7 @@ export class ContentForm {
     };
     _authorNames = [
         {
-            name: 'Dr. M�ssmer, Stefan',
+            name: 'Dr. Mössmer, Stefan',
             email: 'Stefan.Moessmer@altana.com'
         },
         {
