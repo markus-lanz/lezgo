@@ -28,8 +28,16 @@ import { MarineprotectivePage      } from '../pages/MARKETS/marineprotective/mar
 import { SpecialCoatingsPage       } from '../pages/MARKETS/special-coatings/special-coatings';
 
 // - Product Groups
+import { GroupOverviewPage         } from '../pages/PRODUCTGROUPS/group-overview/group-overview';
 import { WeetingDispersingPage     } from '../pages/PRODUCTGROUPS/weeting-dispersing/weeting-dispersing';
 import { WaxAdditivesPage          } from '../pages/PRODUCTGROUPS/wax-additives/wax-additives';
+import { RheologyAdditivesPage     } from '../pages/PRODUCTGROUPS/rheology-additives/rheology-additives';
+import { DefoarmersPage            } from '../pages/PRODUCTGROUPS/defoarmers/defoarmers';
+import { AdhesionPage              } from '../pages/PRODUCTGROUPS/adhesion/adhesion';
+import { ViscosityPage             } from '../pages/PRODUCTGROUPS/viscosity/viscosity';
+import { SurfaceAdditivesPage      } from '../pages/PRODUCTGROUPS/surface-additives/surface-additives';
+import { ProcessingPage            } from '../pages/PRODUCTGROUPS/processing/processing';
+
 
 // - Products & Solutions
 import { TechnicalBroshuresPage    } from '../pages/PRODUCTSSOLUTIONS/technical-broshures/technical-broshures';
@@ -104,23 +112,24 @@ export class MyApp {
 
     // PRODUCT GROUPS
     this.productGroups = [
+      { title: 'Overview',                             selected: false, component: TabMainPage, tabComponent: GroupOverviewPage,      index : 21 },
       { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
+      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: SurfaceAdditivesPage,   index : 23 },
+      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: RheologyAdditivesPage,  index : 22 },
+      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: DefoarmersPage,         index : 24 },
       { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
-      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
-      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
-      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: AdhesionPage,           index : 25 },
+      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: ViscosityPage,          index : 26 },
+      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: ProcessingPage,         index : 27 },
     ];
 
     // PRODUCTS & SOLUTIONS
     this.productssolutions = [
-      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 18 },
+      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 19 },
       { title: 'Technical Data Sheets',  selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
-      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 19 },
+      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 18 },
       { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },
-      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 21 }
+      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 20 }
     ];
 
     this.utilityService.loadXml();
@@ -152,9 +161,7 @@ export class MyApp {
 
       this.setClickStatusToFalse();
 
-      if ( page.title === 'ECS Show News' ) {
-        new InAppBrowser(`assets/pdf/ecsshownews/Vorschau_Show_News_ECS_2017_V9.pdf`, '_blank', 'location=no');
-      } else if ( page.title === 'Additive Guide' ) {
+      if ( page.title === 'Additive Guide' ) {
         new InAppBrowser('https://itunes.apple.com/de/app/additive-guide/id423808347?mt=8', '_blank', 'location=no');
       } else {
         page.selected = true;

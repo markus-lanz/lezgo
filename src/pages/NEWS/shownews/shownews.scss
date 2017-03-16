@@ -4,5 +4,11 @@ page-shownews {
     background-image : url("../assets/img/news/background.jpg") !important;
     background-size  : cover;
     background-color : transparent;
+
+    ion-item {
+      color: #00abef;
+      font-size: 2rem;
+    }
+
   }
 }

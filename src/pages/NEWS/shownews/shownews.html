@@ -7,11 +7,28 @@
       <ion-title>ECS Show News</ion-title>
     </div><!-- END CONTENT TITLE -->
 
-    <div class="missing-content">
-      <ion-icon name="eye-off-outline"></ion-icon>
-      <span>Content will following soon</span>
-    </div>
-
+    <ion-grid>
+      <ion-row>
+        <ion-col width-33>
+          <ion-item (tap)="openPDF( 'BYK_ShowNews_ECS_2017_EN.pdf' )">
+            <img src="assets/img/downloadicon.png" style="margin-right: 8px; vertical-align: middle">
+            ECS SHOW NEWS - PDF ENGLISH
+            <br />
+            <img src="assets/img/news/pdfpreview_eng.png" style="width: 100%" />
+          </ion-item>
+        </ion-col>
+        <ion-col width-10>
+        </ion-col>
+        <ion-col width-33>
+          <ion-item (tap)="openPDF( 'BYK_ShowNews_ECS_2017_DE.pdf' )">
+            <img src="assets/img/downloadicon.png" style="margin-right: 8px; vertical-align: middle">
+            ECS SHOW NEWS - PDF DEUTSCH
+            <br />
+            <img src="assets/img/news/pdfpreview_ger.png" style="width: 100%" />
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
 
 </ion-content>

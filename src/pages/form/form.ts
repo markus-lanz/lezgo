@@ -3,7 +3,7 @@ import { Component              } from '@angular/core';
 import { NavController,
          NavParams,
          AlertController,
-         ModalController,       } from 'ionic-angular';
+         ModalController, ToastController      } from 'ionic-angular';
 import { ContentForm            } from '../../providers/content-form';
 import { UtilityService         } from '../../providers/utility-service';
 import { ProductSearchModalPage } from '../product-search-modal/product-search-modal';
@@ -23,6 +23,10 @@ import { InAppBrowser,
 
 // EXPORT
 export class FormPage {
+
+
+srcImage: string;
+  OCRAD: any;
 
   myForm;
   ngForm;
@@ -85,7 +89,7 @@ export class FormPage {
                public alertCtrl : AlertController,
                public cFormService:ContentForm,
                public modalCtrl:ModalController,
-               public utService:UtilityService ) {
+               public utService:UtilityService , public toastCtrl:ToastController) {
 
     this.contentFromService = cFormService;
     this.wizzardStep = cFormService.getWizzardStep();
@@ -107,7 +111,10 @@ export class FormPage {
   }
 
 
-
+ionViewDidEnter() {
+console.log('test neu load');
+  this.scanBsCardAlert();
+} 
     onChange(change) {
         if (change === 'mr') {
             this.contentFromModel.Mrs = false;
@@ -328,7 +335,7 @@ export class FormPage {
     presentPicModal() {
 
         Camera.getPicture({
-            quality            : 75,
+            quality            : 100,
             destinationType    : Camera.DestinationType.DATA_URL,
             targetWidth        : 200,
             targetHeight       : 200,
@@ -338,12 +345,28 @@ export class FormPage {
             this.objtscan.src1 = 'data:image/jpeg;base64,' + imageData;
             this.objtscan.src2 = imageData;
             this.cFormService.setImg64Base(this.objtscan.src1);
+            this.srcImage = `data:image/jpeg;base64,${imageData}`;
 
         }, (err) => {
             console.log(err);
         });
 
     }
+    analyze() {
+
+        (<any>window).OCRAD(document.getElementById('bsCard'), text => {
+        let toastFileError = this.toastCtrl.create({
+            message: `${text}`,
+            showCloseButton: true,
+            closeButtonText: 'Ok'
+        });
+        toastFileError.present();
+        console.log(text);
+        });
+
+
+
+      }
 
 
     logForm() {
@@ -414,6 +437,7 @@ export class FormPage {
                 break;
             case "process":
                 // this.wizzardStep = 'process';
+                this.step_8 = true;
                 break;
         }
     }
@@ -454,7 +478,7 @@ export class FormPage {
 
 
     ionViewDidLoad() {
-        this.scanBsCardAlert();
+
     }
 
 
@@ -561,10 +585,79 @@ export class FormPage {
     }
 
 
-    resetReport(form) {
-        form.control._pristine = true;
-        form.control._touched = false;
-        this.contentFromModel = this.cFormService.getNewContentFormModel();
+    resetReport() {
+    /*
+    form.control._touched = false;
+     form.control._pristine = true;
+     form.control._value.ra_Mr = null;
+    form.control._value.ra_Mrs = null;
+    form.control._value.adress = "";
+    form.control._value.company = "";
+    form.control._value.country = "";
+    form.control._value.dept = "";
+    form.control._value.e_mail = "";
+    form.control._value.fax = "";
+    form.control._value.language ="";
+    form.control._value.name1 = "";
+    form.control._value.phone = "";
+*/
+    // form Reset
+    this.contentFromModel.name = "";
+    this.contentFromModel.Mrs = null;
+    this.contentFromModel.Mr = null;
+    this.contentFromModel.company = "";
+    this.contentFromModel.dept = "";
+    this.contentFromModel.adress = "";
+    this.contentFromModel.country = "";
+    this.contentFromModel.language = "";
+    this.contentFromModel.e_mail = "";
+    this.contentFromModel.phone = "";
+    this.contentFromModel.fax = "";
+    this.objtscan.src1 = "";
+    this.contentFromModel.CRM_RECORD.YES = null;
+    this.contentFromModel.CRM_RECORD.NO = null;
+    this.contentFromModel.CRM_RECORD.DETAILS = null;
+    this.activitiesObject = {};
+
+    this.contentFromModel.required_action = [];
+    this.tempOrderProduct.product = "";
+    this.tempOrderUnit.unit = "";
+    this.contentFromModel.orders = [];
+    this.contentFromModel.orderNewProduct = "";
+    this.literaturModel = [];
+    this.contentFromModel.literatur = [];
+    this.contentFromModel.addionalInformationToOrder = "";
+    this.contentFromModel.CustomerRolle = "";
+    this.customerRolleArray.filter((des, index) => {
+                des.checked = false;
+    });
+    this.classificationArray.filter((des, index) => {
+                des.checked = false;
+    });
+    this.contentFromModel.Classification = "";
+    this.endUseArray.filter((des, index) => {
+                des.checked = false;
+    });
+   this.contentFromModel.EndUse = "";
+   this.productGroupArray.filter((des, index) => {
+               des.checked = false;
+   });
+ this.contentFromModel.ProductGroup = "";
+ this.contentFromModel.authorName = "";
+ this.contentFromModel.newAuthorName = "";
+ this.contentFromModel.newAuthorEmail = "";
+ this.contentFromModel.date = "";
+ this.step_1 = true;
+ this.step_2 = false;
+ this.step_3 = false;
+ this.step_4 = false;
+ this.step_5 = false;
+ this.step_6 = false;
+ this.step_7 = false;
+ this.step_8 = false;
+ this.step_9 = false;
+this.wizzardStep = "visitor_data";
+//  this.navCtrl.push(HomePage);
     }
 
     openmail() {

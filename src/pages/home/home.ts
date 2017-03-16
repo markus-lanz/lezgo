@@ -18,7 +18,6 @@ import { NewproductsPage           } from '../../pages/NEWS/newproducts/newprodu
 import { MediainterviewPage        } from '../../pages/NEWS/mediainterview/mediainterview';
 import { ProductPresentationsPage  } from '../../pages/NEWS/product-presentations/product-presentations';
 import { DataGlancePage            } from '../../pages/BYK/data-glance/data-glance';
-import { FormPage                  } from '../../pages/form/form';
 import { VideosPage                } from '../../pages/BYK/videos/videos';
 
 // - Markets
@@ -29,8 +28,15 @@ import { MarineprotectivePage      } from '../../pages/MARKETS/marineprotective/
 import { SpecialCoatingsPage       } from '../../pages/MARKETS/special-coatings/special-coatings';
 
 // - Product Groups
+import { GroupOverviewPage         } from '../../pages/PRODUCTGROUPS/group-overview/group-overview';
 import { WeetingDispersingPage     } from '../../pages/PRODUCTGROUPS/weeting-dispersing/weeting-dispersing';
 import { WaxAdditivesPage          } from '../../pages/PRODUCTGROUPS/wax-additives/wax-additives';
+import { RheologyAdditivesPage     } from '../../pages/PRODUCTGROUPS/rheology-additives/rheology-additives';
+import { DefoarmersPage            } from '../../pages/PRODUCTGROUPS/defoarmers/defoarmers';
+import { AdhesionPage              } from '../../pages/PRODUCTGROUPS/adhesion/adhesion';
+import { ViscosityPage             } from '../../pages/PRODUCTGROUPS/viscosity/viscosity';
+import { SurfaceAdditivesPage      } from '../../pages/PRODUCTGROUPS/surface-additives/surface-additives';
+import { ProcessingPage            } from '../../pages/PRODUCTGROUPS/processing/processing';
 
 // - Products & Solutions
 import { TechnicalBroshuresPage    } from '../../pages/PRODUCTSSOLUTIONS/technical-broshures/technical-broshures';
@@ -102,10 +108,8 @@ export class HomePage {
       { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index:  7 },
       { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index:  8 },
       { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index:  9 },
-      { title: 'Videos',                          selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
+      { title: 'Videos',                         selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
       { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 10 },
-      { title: 'Product Overview',               selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index:  3 },
-      { title: 'Exhibition Report',              selected: false, component: TabMainPage, tabComponent: FormPage,                 index:  6 },
     ];
 
     // MARKETS
@@ -119,14 +123,15 @@ export class HomePage {
 
     // PRODUCT GROUPS
     this.productGroups = [
-      { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage,  index : 16 },
-      { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
-      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
-      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
-      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,       index : 17 },
+      { title: 'Overview',                             selected: false, component: TabMainPage, tabComponent: GroupOverviewPage,     index : 21 },
+      { title: 'Wetting & Dispersing Additives',       selected: false, component: TabMainPage, tabComponent: WeetingDispersingPage, index : 16 },
+      { title: 'Surface Additives',                    selected: false, component: TabMainPage, tabComponent: SurfaceAdditivesPage,  index : 23 },
+      { title: 'Rheology Additives',                   selected: false, component: TabMainPage, tabComponent: RheologyAdditivesPage, index : 22 },
+      { title: 'Defoamers & Air Release Additives',    selected: false, component: TabMainPage, tabComponent: DefoarmersPage,        index : 24 },
+      { title: 'Wax Additives',                        selected: false, component: TabMainPage, tabComponent: WaxAdditivesPage,      index : 17 },
+      { title: 'Adhesion Promoters & Coupling Agents', selected: false, component: TabMainPage, tabComponent: AdhesionPage,          index : 25 },
+      { title: 'Viscosity Reducers',                   selected: false, component: TabMainPage, tabComponent: ViscosityPage,         index : 26 },
+      { title: 'Processing Additives',                 selected: false, component: TabMainPage, tabComponent: ProcessingPage,        index : 27 },
     ];
 
     // PRODUCTS & SOLUTIONS
@@ -135,7 +140,7 @@ export class HomePage {
       { title: 'Technical Data Sheets',  selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
       { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 19 },
       { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },
-      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 21 }
+      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 20 }
     ];
 
   }
@@ -251,9 +256,7 @@ export class HomePage {
   openPage(page) {
     if (page.index) {
       this.closeEverything();
-      if ( page.title === 'ECS Show News' ) {
-        new InAppBrowser(`assets/pdf/ecsshownews/Vorschau_Show_News_ECS_2017_V9.pdf`, '_blank', 'location=no');
-      } else if ( page.title === 'Additive Guide' ) {
+      if ( page.title === 'Additive Guide' ) {
         new InAppBrowser('https://itunes.apple.com/de/app/additive-guide/id423808347?mt=8', '_blank', 'location=no');
       } else {
         this.nav.setRoot(page.component, {tabIndex: page.index, testData: page.title, selected: page.selected});

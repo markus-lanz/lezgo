@@ -1,22 +1,32 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+// IMPORTS
+import { Component      } from '@angular/core';
+import { NavController,
+         NavParams      } from 'ionic-angular';
+import { InAppBrowser   } from 'ionic-native';
 
-/*
-  Generated class for the News page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
-@Component({
-  selector: 'page-shownews',
-  templateUrl: 'shownews.html'
-})
+
+// COMPONENT
+@Component( {
+  selector    : 'page-shownews',
+  templateUrl : 'shownews.html'
+} )
+
+
+// EXPORT
 export class ShowNewsPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor( public navCtrl: NavController,
+               public navParams: NavParams ) {
+
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NewsPage');
+  }
+
+  openPDF( pdfFile ) {
+    new InAppBrowser(`assets/pdf/ecsshownews/${pdfFile}`, '_blank', 'location=no');
   }
 
 }

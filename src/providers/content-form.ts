@@ -367,6 +367,9 @@ export class ContentForm {
         return this._img64Base;
     }
 
+Required_Action = null;
+Orders = null;
+litra = null;
 
     savedSentReport(model, pic) {
 
@@ -375,6 +378,27 @@ export class ContentForm {
             imgToSend = 'base64:icon.png//' + pic;
         } else {
             imgToSend = 'base64:icon.png//' + '';
+        }
+
+        let tempRqAction = model.required_action;
+
+        if(tempRqAction.length > 0){
+        this.Required_Action = tempRqAction.map(function(elem){
+            return 'Activity:' + elem.activity + ' - ' + 'Who:' + elem.who + ' ';
+        }).join(", ");
+        }
+        let tempOrder = model.orders;
+        if(tempOrder.length > 0){
+         this.Orders = tempOrder.map(function(elem){
+             return 'Product:' + elem.product + ' - ' + 'Unit:' + elem.unit + ' ';
+         }).join(", ");
+        }
+        let tempLiteratur = model.literatur;
+            console.log(tempLiteratur)
+        if(tempLiteratur.length > 0){
+        this.litra = tempLiteratur.map(function(elem){
+            return 'Topic:' + elem.brochurecode + ' ';
+        }).join(", ");
         }
 
         let modelToSend = `
@@ -422,10 +446,19 @@ export class ContentForm {
           <td>CRM_RECORD-DETAILS:</td><td>${model.CRM_RECORD.YES}</td>
         </tr>
         <tr>
+        <td>Required Action:</td><td>${this.Required_Action}</td>
+        </tr>
+        <tr>
           <td>Order New Product:</td><td>${model.orderNewProduct}</td>
         </tr>
         <tr>
+          <td>Samples:</td><td>${this.Orders}</td>
+        </tr>
+        <tr>
           <td>Addional Information to Order:</td><td>${model.addionalInformationToOrder}</td>
+        </tr>
+        <tr>
+          <td>Literature:</td><td>${this.litra}</td>
         </tr>
         <tr>
           <td>End Use:</td><td>${model.EndUse}</td>

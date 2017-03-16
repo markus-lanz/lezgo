@@ -1,6 +1,7 @@
 // IMPORTS
 import { NavController,
-         NavParams                } from 'ionic-angular';
+         NavParams,
+         Nav                      } from 'ionic-angular';
 import { Component                } from '@angular/core';
 import { HomePage                 } from '../home/home';
 import { FormPage                 } from '../form/form';
@@ -26,8 +27,19 @@ import { VideosPage               } from '../BYK/videos/videos';
 import { DataGlancePage           } from '../BYK/data-glance/data-glance';
 
 // Product Groups
+import { GroupOverviewPage        } from '../PRODUCTGROUPS/group-overview/group-overview';
 import { WeetingDispersingPage    } from '../PRODUCTGROUPS/weeting-dispersing/weeting-dispersing';
 import { WaxAdditivesPage         } from '../PRODUCTGROUPS/wax-additives/wax-additives';
+import { RheologyAdditivesPage    } from '../PRODUCTGROUPS/rheology-additives/rheology-additives';
+import { SurfaceAdditivesPage     } from '../PRODUCTGROUPS/surface-additives/surface-additives';
+import { DefoarmersPage           } from '../PRODUCTGROUPS/defoarmers/defoarmers';
+import { AdhesionPage             } from '../PRODUCTGROUPS/adhesion/adhesion';
+import { ProcessingPage           } from '../PRODUCTGROUPS/processing/processing';
+import { ViscosityPage            } from '../PRODUCTGROUPS/viscosity/viscosity';
+
+
+
+
 
 // Product & Solutions
 import { TechnicalBroshuresPage   } from '../PRODUCTSSOLUTIONS/technical-broshures/technical-broshures';
@@ -53,9 +65,13 @@ export class TabMainPage {
 
   pagesInTabs = {};
 
+  home = {};
+
   mySelectedIndex: number;
 
-  constructor( public navCtrl: NavController, public navParams: NavParams ) {
+  constructor( public navCtrl: NavController, public navParams: NavParams, public nav: Nav ) {
+
+    this.home = { title: 'Home', selected: true, component: TabMainPage, tabComponent: HomePage, index: 0 };
 
     this.pagesInTabs = {
       home                 : HomePage,
@@ -80,8 +96,15 @@ export class TabMainPage {
       specialcoatings      : SpecialCoatingsPage,
 
       // Product groups
+      groupoverview        : GroupOverviewPage,
       weetingdispersing    : WeetingDispersingPage,
       waxadditives         : WaxAdditivesPage,
+      rheology             : RheologyAdditivesPage,
+      surface              : SurfaceAdditivesPage,
+      defoarmers           : DefoarmersPage,
+      adhesion             : AdhesionPage,
+      processing           : ProcessingPage,
+      viscosity            : ViscosityPage,
 
       // Product & solutions
       technicalbrochures   : TechnicalBroshuresPage,
@@ -90,29 +113,26 @@ export class TabMainPage {
       brands               : BrandsPage,
     };
 
-    //console.log(navCtrl.canGoBack())
     this.mySelectedIndex = navParams.data.tabIndex || 0;
-    //console.log(this.mySelectedIndex)
 
   }
 
-    openWebSite() {
-        new InAppBrowser('http://www.byk.com', '_blank', 'location=no');
-        return false;
-    }
+  openWebSite() {
+    new InAppBrowser('http://www.byk.com/en/press-events/shows-events/ecs-2017.html', '_blank', 'location=no');
+    return false;
+  }
 
-    openNews() {
-        new InAppBrowser(`assets/pdf/ecsshownews/Vorschau_Show_News_ECS_2017_V9.pdf`, '_blank', 'location=no');
-        return false;
-    }
+  ebookWeb() {
+    new InAppBrowser('https://ebooks.byk.com/de/wetting-and-dispersing/warum-werden-netz-und-dispergieradditive-eingesetzt/', '_blank', 'location=no');
+    return false;
+  }
 
-    ebookWeb() {
-        new InAppBrowser('https://ebooks.byk.com/de/wetting-and-dispersing/warum-werden-netz-und-dispergieradditive-eingesetzt/', '_blank', 'location=no');
-        return false;
-    }
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad TestPage');
+  }
 
-    ionViewDidLoad() {
-        console.log('ionViewDidLoad TestPage');
-    }
+  navigateToPage(page) {
+    this.nav.setRoot(page.component, {tabIndex: page.index, testData: page.title, selected: page.selected});
+  }
 
 }

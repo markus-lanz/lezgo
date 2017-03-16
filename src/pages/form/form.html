@@ -44,7 +44,7 @@
 
         <ion-row responsive-sm responsive-md  responsive-lg>
 
-          <form  #form="ngForm" novalidate (ngSubmit)="resetReport(form)">
+          <form  #form="ngForm" novalidate>
 
 
               <!----------------------------------------------- VISITOR DATA ---------------------------------------------->
@@ -179,7 +179,7 @@
                       </ion-col>
                       <ion-col width-50>
                         <div class="scanbutton" style="text-align: right">
-                          <button ion-button icon-right outline small (click)="deleteScanCard()">
+                          <button ion-button icon-right outline small (click)="analyze()">
                             Delete
                             <ion-icon name="ios-trash"></ion-icon>
                           </button>
@@ -380,7 +380,7 @@
                             <ion-checkbox mode="ios"
                                           item-left
                                           [(ngModel)]="subitem.checked"
-                                          (tap)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
+                                          (click)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
                                           name="ra_{{subitem.brochuretitle}}"></ion-checkbox>
                           </div>
                         </ion-col>
@@ -505,7 +505,7 @@
                 <ion-row>
                   <ion-col width-100>
                       <button  ion-button outline icon-right (click)="processedReport()">
-                        Send report to office
+                        Send Report to Back Office
                         <ion-icon name="ios-checkmark-circle-outline">
                         </ion-icon>
                       </button>
@@ -514,7 +514,7 @@
                 <ion-row>
                   <ion-col width-100>
                       <button  ion-button outline icon-right (click)="processedConfirmMail()">
-                        Send subscriber confirmation
+                        Send Customer Confirmation
                         <ion-icon name="ios-checkmark-circle-outline">
                         </ion-icon>
                       </button>
@@ -522,8 +522,8 @@
                 </ion-row>
                 <ion-row>
                   <ion-col width-100>
-                      <button  ion-button outline icon-right type="submit">
-                        Save & reset exhibition report
+                      <button  ion-button outline icon-right (click)="resetReport()">
+                        Save & reset
                         <ion-icon name="ios-checkmark-circle-outline">
                         </ion-icon>
                       </button>
@@ -544,7 +544,7 @@
 
 </ion-content>
 
-<ion-fab fab-fixed right bottom style="z-index:100">
+<ion-fab fab-fixed right bottom style="z-index:100" *ngIf="wizzardStep !== 'process'">
   <button  ion-button outline icon-right (click)="nextStep(wizzardStep)" style="background: #fff">
     Save and Continue
     <ion-icon name="ios-arrow-dropright-circle">

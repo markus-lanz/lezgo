@@ -1,22 +1,30 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+// IMPORTS
+import { Component      } from '@angular/core';
+import { NavController,
+         NavParams      } from 'ionic-angular';
+import { InAppBrowser   } from 'ionic-native';
 
-/*
-  Generated class for the WeetingDispersing page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
-@Component({
-  selector: 'page-weeting-dispersing',
-  templateUrl: 'weeting-dispersing.html'
-})
+
+// COMPONENT
+@Component( {
+  selector    : 'page-weeting-dispersing',
+  templateUrl : 'weeting-dispersing.html'
+} )
+
+
+// EXPORT
 export class WeetingDispersingPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor( public navCtrl: NavController,
+               public navParams: NavParams ) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad WeetingDispersingPage');
+  }
+
+  openLink(){
+    new InAppBrowser(`https://ebooks.byk.com/`, '_blank', 'location=no');
   }
 
 }

@@ -1,15 +1,8 @@
-<!--
-  Generated template for the TabMain page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
--->
-
 <!---------------------------------------------- TAB HEADER ----------------------------------------------------------->
 <ion-header>
   <ion-row  center responsive-sm responsive-md  responsive-lg>
     <ion-col width-33 style="text-align: left">
-      <img height="60" src="assets/img/logo/byk_logo.png">
+      <img height="60" src="assets/img/logo/byk_logo.png" (tap)="navigateToPage(home)">
     </ion-col>
     <ion-col width-33></ion-col>
     <ion-col width-33 style="text-align: right">
@@ -31,7 +24,7 @@
     <button ion-fab top left clear edge mini menuToggle style="float:left">
       <ion-icon name="menu"></ion-icon>
     </button>
-    <button ion-fab top left clear edge mini menuToggle style="float:left">
+    <button ion-fab top left clear edge mini style="float:left" (tap)="navigateToPage(home)">
       <ion-icon name="ios-home"></ion-icon>
     </button>
   </ion-fab><!-- END MENU BUTTON -->
@@ -40,42 +33,34 @@
   <!-- REGISTER ALL TABS -->
   <ion-tabs top [selectedIndex]="mySelectedIndex">
 
-    <!-- INDEX: 00--><ion-tab [root]="pagesInTabs.home"            tabTitle="Home"             tabIcon="ios-home"></ion-tab>
-
-    <!--------------------------------- NEWS ---------------------------------->
-    <!-- INDEX: 01--><ion-tab                                      tabTitle="ECS Show News"    tabIcon="ios-chatbubbles" (ionSelect)="openNews()"></ion-tab>
-    <!-- INDEX: 02--><ion-tab                                      tabTitle="Ebooks"           tabIcon="ios-book" (ionSelect)="ebookWeb()"></ion-tab>
+    <!-- INDEX: 00--><ion-tab [root]="pagesInTabs.home"></ion-tab>
+    <!-- INDEX: 01--><ion-tab [root]="pagesInTabs.news" tabTitle="ECS Show News" tabIcon="ios-chatbubbles"></ion-tab>
+    <!-- INDEX: 02--><ion-tab tabTitle="Ebooks" tabIcon="ios-book" (ionSelect)="ebookWeb()"></ion-tab>
     <!-- INDEX: 03--><ion-tab [root]="pagesInTabs.productoverview" tabTitle="Product overview" tabIcon="ios-navigate"></ion-tab>
-    <!-- INDEX: 04--><ion-tab                                      tabTitle="WebSite"          tabIcon="md-globe" (ionSelect)="openWebSite()"></ion-tab>
-    <!-- INDEX: 05--><ion-tab [root]="pagesInTabs.videos"          tabTitle="BYK Videos"       tabIcon="ios-film"></ion-tab>
-    <!-- INDEX: 06--><ion-tab [root]="pagesInTabs.form"            tabTitle="Report"           tabIcon="clipboard"></ion-tab>
-
-
+    <!-- INDEX: 04--><ion-tab tabTitle="WebSite" tabIcon="md-globe" (ionSelect)="openWebSite()"></ion-tab>
+    <!-- INDEX: 05--><ion-tab [root]="pagesInTabs.videos" tabTitle="BYK Videos" tabIcon="ios-film"></ion-tab>
+    <!-- INDEX: 06--><ion-tab [root]="pagesInTabs.form" tabTitle="Report" tabIcon="clipboard"></ion-tab>
     <!-- INDEX: 07--><ion-tab [root]="pagesInTabs.productpresentations"></ion-tab>
     <!-- INDEX: 08--><ion-tab [root]="pagesInTabs.newproducts"></ion-tab>
     <!-- INDEX: 09--><ion-tab [root]="pagesInTabs.mediainterview"></ion-tab>
     <!-- INDEX: 10--><ion-tab [root]="pagesInTabs.dataglance"></ion-tab>
-
-
-    <!--------------------------------- MARKETS ---------------------------------->
     <!-- INDEX: 11--><ion-tab [root]="pagesInTabs.decorativecatings"></ion-tab>
     <!-- INDEX: 12--><ion-tab [root]="pagesInTabs.woodsfurniture"></ion-tab>
     <!-- INDEX: 13--><ion-tab [root]="pagesInTabs.transportation"></ion-tab>
     <!-- INDEX: 14--><ion-tab [root]="pagesInTabs.marineprotective"></ion-tab>
     <!-- INDEX: 15--><ion-tab [root]="pagesInTabs.specialcoatings"></ion-tab>
-
-    <!--------------------------------- PRODUCT GROUPS ---------------------------------->
     <!-- INDEX: 16--><ion-tab [root]="pagesInTabs.weetingdispersing"></ion-tab>
     <!-- INDEX: 17--><ion-tab [root]="pagesInTabs.waxadditives"></ion-tab>
-
-    <!--------------------------------- PRODUCT & SOLUTIONS ---------------------------------->
     <!-- INDEX: 18--><ion-tab [root]="pagesInTabs.technicalbrochures"></ion-tab>
-    <!-- INDEX: 20--><ion-tab [root]="pagesInTabs.videos"></ion-tab>
-    <!-- INDEX: 21--><ion-tab [root]="pagesInTabs.brands"></ion-tab>
-
-
-
-
+    <!-- INDEX: 19--><ion-tab [root]="pagesInTabs.videos"></ion-tab>
+    <!-- INDEX: 20--><ion-tab [root]="pagesInTabs.brands"></ion-tab>
+    <!-- INDEX: 21--><ion-tab [root]="pagesInTabs.groupoverview"></ion-tab>
+    <!-- INDEX: 22--><ion-tab [root]="pagesInTabs.rheology"></ion-tab>
+    <!-- INDEX: 23--><ion-tab [root]="pagesInTabs.surface"></ion-tab>
+    <!-- INDEX: 24--><ion-tab [root]="pagesInTabs.defoarmers"></ion-tab>
+    <!-- INDEX: 25--><ion-tab [root]="pagesInTabs.adhesion"></ion-tab>
+    <!-- INDEX: 26--><ion-tab [root]="pagesInTabs.viscosity"></ion-tab>
+    <!-- INDEX: 27--><ion-tab [root]="pagesInTabs.processing"></ion-tab>
 
   </ion-tabs><!-- END REGISTER ALL TABS -->
 

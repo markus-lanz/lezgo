@@ -20,7 +20,7 @@ export class ProductPresentationsPage {
 
     this.presentation = [
       {
-        headline : '04. April',
+        headline : 'April 4',
         attributes : [
           {
             'title' : 'Make an economic epoxy easy-to-clean and robust',
@@ -41,7 +41,7 @@ export class ProductPresentationsPage {
         ]
       },
       {
-        headline : '05. April',
+        headline : 'April 5',
         attributes : [
           {
             'title' : 'A novel de-foaming concept for 3K-PU levelling systems',
@@ -62,7 +62,7 @@ export class ProductPresentationsPage {
         ]
       },
       {
-        headline : '06. April',
+        headline : 'April 6',
         attributes : [
           {
             'title' : 'BYK sustainable: Silicones compliant with latest regulations',
