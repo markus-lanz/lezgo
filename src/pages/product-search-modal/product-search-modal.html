@@ -32,10 +32,10 @@
     </ion-row>
 
     <ion-row>
-      <ion-col width-20 *ngFor="let item of productSearchBarData" class="bla">
-        <a (tap)="closeSearchbar(item)">
+      <ion-col width-20 *ngFor="let item of productSearchBarData" class="bla" >
+        <button  ion-button outline (click)="closeSearchbar(item)">
           {{ item.additive }}
-        </a>
+        </button>
       </ion-col>
     </ion-row>
   </ion-grid>
