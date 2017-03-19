@@ -1,10 +1,3 @@
-/*
- Generated class for the Newproducts page.
-
- See http://ionicframework.com/docs/v2/components/#navigation for more info on
- Ionic pages and navigation.
- */
-
 // IMPORTS
 import { Component      } from '@angular/core';
 import { NavController,
@@ -22,11 +15,11 @@ import { InAppBrowser   } from 'ionic-native';
 
 // EXPORT
 export class NewproductsPage {
-  productNewList1 = null;
+  productNewList = null;
+  productNewLista = null;
 
   constructor( public navCtrl : NavController, public navParams : NavParams, public ut : UtilityService ) {
-
-    this.productNewList1 = [
+    this.productNewLista = [
       {
         productName : 'DISPERBYK-2062',
         file1       : 'TDS_DISPERBYK-2062_EN.pdf',
@@ -88,6 +81,8 @@ export class NewproductsPage {
         file2        : 'SDS_AQUACER_1039_EU_en.pdf'
       },
     ];
+    this.productNewList = ut.getNewProduct().sort(function(a,b) {return (a.productName > b.productName) ? 1 : ((b.productName > a.productName) ? -1 : 0);} );
+
   }
 
   ionViewDidLoad() {

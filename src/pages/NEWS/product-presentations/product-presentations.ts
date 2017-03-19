@@ -48,7 +48,7 @@ export class ProductPresentationsPage {
             'info'  : '10:10 - 10:30 h | Hall 7 Booth 726 | Speaker: Dr. Markus Möller, Head of End Use Construction Additives',
           },
           {
-            'title' : 'More colourful - additives for textile inkjet inks',
+            'title' : 'More colorful - additives for textile inkjet inks',
             'info'  : '11:50 - 12:10 h | Hall 5 Booth 353 | Speaker: Niklas Kircher, Lab Manager Technical Service Inkjet & FPD'
           },
           {

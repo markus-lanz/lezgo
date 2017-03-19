@@ -3,7 +3,7 @@ import { Component              } from '@angular/core';
 import { NavController,
          NavParams,
          AlertController,
-         ModalController, ToastController      } from 'ionic-angular';
+         ModalController, ToastController ,LoadingController     } from 'ionic-angular';
 import { ContentForm            } from '../../providers/content-form';
 import { UtilityService         } from '../../providers/utility-service';
 import { ProductSearchModalPage } from '../product-search-modal/product-search-modal';
@@ -12,7 +12,7 @@ import { Camera                 } from 'ionic-native';
 import { InAppBrowser,
          AppAvailability,
          Device                 } from 'ionic-native';
-
+import { Keyboard } from 'ionic-native';
 
 // COMPONENT
 @Component( {
@@ -89,7 +89,8 @@ srcImage: string;
                public alertCtrl : AlertController,
                public cFormService:ContentForm,
                public modalCtrl:ModalController,
-               public utService:UtilityService , public toastCtrl:ToastController) {
+               public utService:UtilityService , public toastCtrl:ToastController,
+                public loadingCtrl: LoadingController) {
 
     this.contentFromService = cFormService;
     this.wizzardStep = cFormService.getWizzardStep();
@@ -108,13 +109,19 @@ srcImage: string;
     this.productSearchBarData = utService.getProductsDataFromXMl();
     this.literaData = utService.getLiteraturDataFromXMl();
     this.litSearchBarData =utService.getLiteraturDataFromXMl();
+
+
   }
+valueforngif = false;
 
 
 ionViewDidEnter() {
+
+Keyboard.onKeyboardShow().subscribe(()=>{this.valueforngif=true})
+    Keyboard.onKeyboardHide().subscribe(()=>{this.valueforngif=false})
 console.log('test neu load');
   this.scanBsCardAlert();
-} 
+}
     onChange(change) {
         if (change === 'mr') {
             this.contentFromModel.Mrs = false;
@@ -337,10 +344,11 @@ console.log('test neu load');
         Camera.getPicture({
             quality            : 100,
             destinationType    : Camera.DestinationType.DATA_URL,
-            targetWidth        : 200,
-            targetHeight       : 200,
+            targetWidth        : 600,
+            targetHeight       : 600,
             saveToPhotoAlbum   : true,
-            correctOrientation : true
+            correctOrientation : true,
+            allowEdit: true
         }).then((imageData) => {
             this.objtscan.src1 = 'data:image/jpeg;base64,' + imageData;
             this.objtscan.src2 = imageData;
@@ -353,8 +361,12 @@ console.log('test neu load');
 
     }
     analyze() {
-
+    let loader = this.loadingCtrl.create({
+        content: 'Please wait...'
+       });
+       loader.present();
         (<any>window).OCRAD(document.getElementById('bsCard'), text => {
+        loader.dismissAll();
         let toastFileError = this.toastCtrl.create({
             message: `${text}`,
             showCloseButton: true,
@@ -441,12 +453,47 @@ console.log('test neu load');
                 break;
         }
     }
+validation = false;
+validaerror = false;
+emailinvalid = false;
+
+validationProcess(form){
+this.validation = true;
+
+this.emailinvalid = this.isValid(this.contentFromModel.e_mail);
+if(!this.contentFromModel.name || !this.contentFromModel.firstname  || !this.contentFromModel.e_mail || this.emailinvalid) {
+
+ this.validaerror = true;
+ this.getClassName('visitor_data');
+
+} else {
+this.validaerror = false;
+}
+
+}
+
+// email Validation
+isValid(email: string){
+
+const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+        if (email != "" && (email.length <= 5 || !EMAIL_REGEXP.test(email))) {
+            return true;
+        }
+
+        return false;
+    }
+
+
 
 
     getClassName(step) {
 
-        if (step === 'visitor_data' && this.step_1 === true) {
+        if (step === 'visitor_data' && this.step_1 === true && !this.validaerror) {
             return 'entered';
+        }
+        else if(step === 'visitor_data' && this.step_1 === true && this.validaerror){
+          return 'error';
         }
         else if (step === 'meetings_details' && this.step_2 === true) {
             return 'entered';

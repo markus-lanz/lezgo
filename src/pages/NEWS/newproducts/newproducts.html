@@ -17,16 +17,23 @@
       </ion-row>
 
       <ion-row responsive-sm responsive-md responsive-lg>
-        <ion-col width-25 *ngFor="let card of productNewList1">
+        <ion-col width-25 *ngFor="let card of productNewList">
           <ion-item class="bla">
             <div class="itemheadline">{{card.productName}}</div>
-            <div class='link'(click)="openDataSheet(card.file1)">
+            <div class='link' (click)="openDataSheet(card.techfile)">
               <img src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
-              Technical Data Sheet
+              <span *ngIf="card.techfile">Technical Data Sheet</span>
+              <span *ngIf="!card.techfile">not available</span>
             </div>
-            <div class="link" (click)="openDataSheet(card.file2)">
+            <div class="link" (click)="openDataSheet(card.safefile)">
               <img src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
-              Safety Data Sheet
+              <span *ngIf="card.safefile">Safety Data Sheet</span>
+              <span *ngIf="!card.safefile">not available</span>
+            </div>
+            <div class="link" (click)="openDataSheet(card.factfile)">
+              <img src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
+              <span *ngIf="card.factfile">Fact Sheet</span>
+              <span *ngIf="!card.factfile">not available</span>
             </div>
           </ion-item>
         </ion-col>

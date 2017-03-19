@@ -12,6 +12,8 @@ export class UtilityService {
   public _eBooks   : any;
   public _products : any;
 
+  public _newProducts : any;
+
   constructor( public http: Http,
                public toastCtrl:ToastController ) {
     console.log('Hello UtilityService Provider');
@@ -35,6 +37,14 @@ export class UtilityService {
     });
     //toast.present().then(() => toast.dismiss()).catch(() => toast.dismiss());
     */
+  }
+
+  getNewProduct():any{
+    return this._newProducts;
+  }
+
+  setNewProduct(arr:any){
+    this._newProducts = arr;
   }
 
   getProduct():any{
@@ -81,6 +91,21 @@ export class UtilityService {
     this.setResultArray(result);
 
   };
+
+
+  loadNewProductsDBXml() {
+    this.http.get('assets/XML/NewProductsDB.xml')
+        .map(res => res.text())
+        .subscribe((products)=> {
+          this.parseNewProducts(products)
+              .then((products)=> {
+                this.setNewProduct(products);
+              })
+              .catch(()=> {
+                this.presentToast('error', 'Your Data cannot be processed');
+              });
+        });
+  }
 
   loadProductData(){
     this.http.get('assets/XML/ProductDB.xml')
@@ -309,6 +334,34 @@ return this._productsDataFromXMl;
             title 	    : item.title[0],
             publisher : item.publisher[0],
             genre 	    : item.genre[0]
+          });
+        }
+
+        resolve(arr);
+      });
+    });
+  }
+
+  parseNewProducts(data){
+    return new Promise(resolve =>
+    {
+      let k,
+          arr    = [],
+          parser = new xml2js.Parser(
+              {
+                trim: true,
+                explicitArray: true
+              });
+
+      parser.parseString(data, function (err, result)
+      {
+        const _data = result.dataset.item;
+        for(k in _data) {
+          arr.push({
+            productName : _data[k].titlename ? _data[k].titlename[0] : false,
+            techfile    : _data[k].techfile  ? _data[k].techfile[0]  : false,
+            safefile    : _data[k].safefile  ? _data[k].safefile[0]  : false,
+            factsheet   : _data[k].fachsheet ? _data[k].fachsheet[0] : false
           });
         }
 

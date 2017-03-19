@@ -48,7 +48,7 @@ import { BrandsPage                } from '../pages/PRODUCTSSOLUTIONS/brands/bra
 
 // - PROVIDERS
 import { UtilityService            } from '../providers/utility-service';
-
+import { Keyboard } from 'ionic-native';
 
 
 // INTERFACE
@@ -98,15 +98,15 @@ export class MyApp {
       { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index:  8 },
       { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index:  9 },
       { title: 'Videos',                         selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
-      { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 10 },
+      { title: 'BYK at a Glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 10 },
     ];
 
     // MARKETS
     this.markets = [
-      { title: 'Decorative coatings', selected: false, component: TabMainPage, tabComponent: DeCoatingsPage,       index: 11 },
-      { title: 'Wood & furniture',    selected: false, component: TabMainPage, tabComponent: WoodFurniturePage,    index: 12 },
+      { title: 'Decorative Coatings', selected: false, component: TabMainPage, tabComponent: DeCoatingsPage,       index: 11 },
+      { title: 'Wood & Furniture',    selected: false, component: TabMainPage, tabComponent: WoodFurniturePage,    index: 12 },
       { title: 'Transportation',      selected: false, component: TabMainPage, tabComponent: TransportationPage,   index: 13 },
-      { title: 'Marine & protective', selected: false, component: TabMainPage, tabComponent: MarineprotectivePage, index: 14 },
+      { title: 'Marine & Protective', selected: false, component: TabMainPage, tabComponent: MarineprotectivePage, index: 14 },
       { title: 'Special Coatings ',   selected: false, component: TabMainPage, tabComponent: SpecialCoatingsPage,  index: 15 }
     ];
 
@@ -125,17 +125,18 @@ export class MyApp {
 
     // PRODUCTS & SOLUTIONS
     this.productssolutions = [
-      { title: 'Technical Brochures',    selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 19 },
-      { title: 'Technical Data Sheets',  selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
-      { title: 'Additive Guide',         selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 18 },
-      { title: 'Lab Application Videos', selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },
-      { title: 'Brands of BYK',          selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 20 }
+      { title: 'Technical Brochures',                      selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 19 },
+      { title: 'Technical Data Sheets / Product Overview', selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
+      { title: 'Additive Guide',                           selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 18 },
+      { title: 'Lab Application Videos',                   selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },
+      { title: 'Brands of BYK',                            selected: false, component: TabMainPage, tabComponent: BrandsPage,             index : 20 }
     ];
 
     this.utilityService.loadXml();
     this.utilityService.loadProductData();
     this.utilityService.loadXmlProductData();
     this.utilityService.loadXmlLiteraturData();
+    this.utilityService.loadNewProductsDBXml();
   }
 
 

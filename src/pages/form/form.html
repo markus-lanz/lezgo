@@ -1,4 +1,4 @@
-<ion-content padding class="form">
+<ion-content padding class="form" [ngClass]="{'keyboard-open': valueforngif}">
 
   <div class="pageInnerContent">
 
@@ -34,7 +34,8 @@
               <ion-segment-button (click)="StepStill('author_date')" value="author_date" [ngClass]="getClassName('author_date')">
                 Author & Date
               </ion-segment-button>
-              <ion-segment-button value="process" (click)="StepStill('process')" [ngClass]="getClassName('process')">
+              <ion-segment-button value="process" (click)="StepStill('process');validationProcess(form)" [ngClass]="getClassName('process')">
+
                 <ion-icon name="ios-checkmark-circle-outline"></ion-icon>
               </ion-segment-button>
 
@@ -78,11 +79,21 @@
 
                     <!-- Name -->
                     <ion-row>
-                      <ion-col width-100 class="nopadding">
+                      <ion-col width-50 class="nopadding">
                         <ion-item class="bla bdrt bdrl bdrr">
                           <ion-label>Name*</ion-label>
                           <ion-input mode="md" type="text" [(ngModel)]="contentFromModel.name" name="name1" required #name1="ngModel"></ion-input>
                         </ion-item>
+                        <p ion-text *ngIf="(name1.invalid && validation)"
+                      color="danger">Name is required</p>
+                      </ion-col>
+                      <ion-col width-50 class="nopadding">
+                        <ion-item class="bla bdrt bdrl bdrr">
+                          <ion-label>First Name*</ion-label>
+                          <ion-input mode="md" type="text" [(ngModel)]="contentFromModel.firstname" name="firstname" required #firstname="ngModel"></ion-input>
+                        </ion-item>
+                        <p ion-text *ngIf="(firstname.invalid && validation)"
+                      color="danger">First Name is required</p>
                       </ion-col>
                     </ion-row><!-- END Name -->
 
@@ -136,7 +147,7 @@
                       <ion-col width-50 class="nopadding">
                         <ion-item class="bla bdrt bdrl">
                           <ion-label>Phone</ion-label>
-                          <ion-input type="text" [(ngModel)]="contentFromModel.phone" name="phone"></ion-input>
+                          <ion-input type="tel" [(ngModel)]="contentFromModel.phone" name="phone"></ion-input>
                         </ion-item>
                       </ion-col>
 
@@ -153,8 +164,13 @@
                       <ion-col width-100 class="nopadding">
                         <ion-item class="bla bdrt bdrr bdrl bdrb">
                           <ion-label>Email*</ion-label>
-                          <ion-input type="text" [(ngModel)]="contentFromModel.e_mail" name="e_mail"></ion-input>
+                          <ion-input type="email" [(ngModel)]="contentFromModel.e_mail" name="e_mail" required  #e_mail="ngModel"></ion-input>
                         </ion-item>
+                        <p ion-text *ngIf="(e_mail.invalid && validation)"
+                      color="danger">E-Mail is required</p>
+                      <p ion-text *ngIf="(validation && emailinvalid)"
+                    color="danger">E-Mail invalid format</p>
+
                       </ion-col>
                     </ion-row><!-- END E-Mail -->
 
@@ -504,17 +520,8 @@
               <div *ngIf="wizzardStep === 'process'">
                 <ion-row>
                   <ion-col width-100>
-                      <button  ion-button outline icon-right (click)="processedReport()">
+                      <button  [disabled]="validaerror" ion-button outline icon-right (click)="processedReport()">
                         Send Report to Back Office
-                        <ion-icon name="ios-checkmark-circle-outline">
-                        </ion-icon>
-                      </button>
-                  </ion-col>
-                </ion-row>
-                <ion-row>
-                  <ion-col width-100>
-                      <button  ion-button outline icon-right (click)="processedConfirmMail()">
-                        Send Customer Confirmation
                         <ion-icon name="ios-checkmark-circle-outline">
                         </ion-icon>
                       </button>

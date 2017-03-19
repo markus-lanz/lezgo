@@ -1,7 +1,12 @@
 page-form {
 
   .form{
-
+    .keyboard-open {
+      margin-bottom: 80px !important;
+    }
+    .input-cover {
+      position: static;
+    }
     background-image : url("../assets/img/byk/background.jpg");
     background-size  : cover;
     background-color : transparent;
@@ -109,7 +114,10 @@ page-form {
               border-left : 20px solid #eee !important;
             }
           }
-
+          &.error{
+            background : #000000;
+            color      : #999;
+}
           &.segment-activated{
             background : #00A6EB !important;
             color      : #fff !important;
@@ -200,5 +208,9 @@ page-form {
   .ra{
     align-content: center;
   }
-}
 
+
+}
+.keyboard-open  {
+  margin-bottom: 80px !important;
+}

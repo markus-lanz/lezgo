@@ -15,7 +15,7 @@ import{ ProductOVDetailsPage } from '../../product-ov-details/product-ov-details
 
 // EXPORT
 export class ProductoverviewPage {
-   productCategory = null;
+  productCategory = null;
   productA= null;
   productB = null;
   productC = null;
