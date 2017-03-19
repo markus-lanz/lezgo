@@ -31,8 +31,17 @@
       </ion-col>
     </ion-row>
 
-    <ion-row>
+    <!-- ion-row>
       <ion-col width-20 *ngFor="let item of productSearchBarData" class="bla" >
+        <button  ion-button outline (click)="closeSearchbar(item)">
+          {{ item.additive }}
+        </button>
+      </ion-col>
+    </ion-row -->
+
+
+    <ion-row [virtualScroll]="productSearchBarData">
+      <ion-col width-20 *virtualItem="let item" class="bla">
         <button  ion-button outline (click)="closeSearchbar(item)">
           {{ item.additive }}
         </button>
