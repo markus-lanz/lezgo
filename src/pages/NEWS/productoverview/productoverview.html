@@ -25,7 +25,7 @@
                         </div>
                     </ion-col>
                     <ion-col width-75="">
-                        <ion-item *ngFor="let cat of z.items |orderBy" (tap)="gotoDetailsPage(cat.famName, z.letter)">{{cat.famName}}</ion-item>
+                        <ion-item style="padding:0" *ngFor="let cat of z.items |orderBy" (tap)="gotoDetailsPage(cat.famName, z.letter)">{{cat.famName}}</ion-item>
                     </ion-col>
                 </ion-row>
             </ion-col>

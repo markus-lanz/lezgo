@@ -32,8 +32,8 @@
     </ion-row>
 
     <ion-row>
-      <ion-col width-20 *ngFor="let item of productSearchBarData;trackBy:item.additive" class="bla" >
-        <button ion-button outline (click)="closeSearchbar(item)">
+      <ion-col width-20 *ngFor="let item of productSearchBarData;trackBy:identify" class="bla" >
+        <button  ion-button outline (click)="closeSearchbar(item)">
           {{ item.additive }}
         </button>
       </ion-col>

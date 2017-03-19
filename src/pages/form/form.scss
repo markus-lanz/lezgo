@@ -99,12 +99,16 @@ page-form {
         }
 
         .segment-button{
-          overflow    : visible;
-          border      : none;
-          opacity     : 1;
-          line-height : 4rem;
-          color       : #00A6EB;
-          height      : 38px;
+          overflow     : visible;
+          border       : none;
+          opacity      : 1;
+          line-height  : 4rem;
+          color        : #00A6EB;
+          height       : 38px;
+          padding-left : 20px;
+          width        : auto;
+          flex         : 1 1 auto;
+          -webkit-flex : 1 1 auto;
 
           &.entered{
             background : #eee;

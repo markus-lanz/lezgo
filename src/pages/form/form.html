@@ -336,8 +336,11 @@
                 <ion-row *ngFor="let ord of contentFromModel.orders; let i=index">
                   <ion-col width-50>
                     <ion-item>
-                      <img style="vertical-align: middle; height:30px;" src="assets/img/downloadicon.png" /> {{ ord.product }} {{ord.unit}} <button ion-button (tap)="deleteOrder(i)" icon-only clear><ion-icon name="ios-trash"></ion-icon>
-                    </button>
+                      <img style="vertical-align: middle; height:30px;" src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
+                      {{ ord.product }} {{ord.unit}}
+                      <button ion-button (tap)="deleteOrder(i)" icon-only clear>
+                        <ion-icon name="ios-trash"></ion-icon>
+                      </button>
                     </ion-item>
                   </ion-col>
                 </ion-row>
