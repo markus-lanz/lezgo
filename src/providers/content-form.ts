@@ -61,16 +61,17 @@ export class ContentForm {
         {title: 'Architectural', checked: false},
         {title: 'Automotive OEM/Refinish', checked: false},
         {title: 'Can Coating', checked: false},
+        {title: 'Coil Coating', checked: false},
         {title: 'Flooring', checked: false},
         {title: 'General Industry', checked: false},
         {title: 'Marine & Protective', checked: false},
         {title: 'Other Transportation', checked: false},
         {title: 'Powder', checked: false},
-        {title: 'Printing Links', checked: false},
+        {title: 'Printing Inks', checked: false},
         {title: 'Wood', checked: false},
         {title: 'Construction Chemicals', checked: false},
         {title: 'Adhesives & Sealants', checked: false},
-        {title: 'FDP', checked: false},
+        {title: 'FPD', checked: false},
         {title: 'Others', checked: false}
     ];
     _order = {
@@ -183,7 +184,7 @@ export class ContentForm {
         {title: 'Process Agent (Incl. Modifiers, Coupling)', checked: false},
         {title: 'Rheology', checked: false},
         {title: 'Surface', checked: false},
-        {title: 'Viscosity reducer', checked: false},
+        {title: 'Viscosity Reducer', checked: false},
         {title: 'Wax', checked: false},
         {title: 'Wetting & Dispersing', checked: false},
         {title: 'Others', checked: false},

@@ -17,6 +17,22 @@ page-form {
         border : none;
       }
 
+      .errormessage{
+        position      : absolute;
+        color         : red;
+        top           : 0;
+        bottom        : 0;
+        left          : 0;
+        right         : 0;
+        margin        : auto;
+        height        : 15px;
+        padding-right : 20px;
+        text-align    : right;
+        z-index       : 0;
+
+
+      }
+
       .scanbutton{
         .button {
           color: #999;
@@ -106,7 +122,7 @@ page-form {
           color        : #00A6EB;
           height       : 38px;
           padding-left : 20px;
-          width        : auto;
+          width        : initial !important;
           flex         : 1 1 auto;
           -webkit-flex : 1 1 auto;
 
@@ -118,10 +134,16 @@ page-form {
               border-left : 20px solid #eee !important;
             }
           }
+
           &.error{
-            background : #000000;
-            color      : #999;
-}
+            background : red;
+            color      : #fff;
+
+            &:after{
+              border-left : 20px solid red !important;
+            }
+          }
+
           &.segment-activated{
             background : #00A6EB !important;
             color      : #fff !important;
@@ -174,6 +196,17 @@ page-form {
 
         }
 
+      }
+
+      .catbutton{
+        border        : 1px solid #c0c0c0;
+        border-radius : 6px;
+        margin-bottom : 6px;
+
+        &.selected{
+          background : #00abef;
+          color      : #fff;
+        }
       }
     }
     .item-ios {
