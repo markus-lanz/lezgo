@@ -15,9 +15,12 @@ import { InAppBrowser   } from 'ionic-native';
 
 // EXPORT
 export class ShowNewsPage {
+  
+  myDate = null;
 
   constructor( public navCtrl: NavController,
                public navParams: NavParams ) {
+    this.myDate = new Date().toISOString();
 
   }
 

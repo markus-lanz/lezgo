@@ -38,21 +38,23 @@ export class ProductoverviewPage {
                public ut:UtilityService ) {
 
     this.productCategory = ut.getResultArray();
-    this.productA = this.productCategory['A'];
-    this.productB = this.productCategory['B'];
-    this.productC = this.productCategory['C'];
-    this.productD = this.productCategory['D'];
-    this.productF = this.productCategory['F'];
-    this.productG = this.productCategory['G'];
-    this.productH = this.productCategory['H'];
-    this.productL = this.productCategory['L'];
-    this.productM = this.productCategory['M'];
-    this.productN = this.productCategory['N'];
-    this.productO = this.productCategory['O'];
-    this.productR = this.productCategory['R'];
-    this.productS = this.productCategory['S'];
-    this.productT = this.productCategory['T'];
-    this.productV = this.productCategory['V'];
+
+    this.productA = this.productCategory['A'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productB = this.productCategory['B'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productC = this.productCategory['C'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productD = this.productCategory['D'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productF = this.productCategory['F'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productG = this.productCategory['G'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productH = this.productCategory['H'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productL = this.productCategory['L'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productM = this.productCategory['M'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productN = this.productCategory['N'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productO = this.productCategory['O'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productR = this.productCategory['R'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productS = this.productCategory['S'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productT = this.productCategory['T'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+    this.productV = this.productCategory['V'].sort(function(a,b) {return (a.famName > b.famName) ? 1 : ((b.famName > a.famName) ? -1 : 0);} );
+
     this.q.push(
         { letter : 'A', items : this.productCategory['A'] },
         { letter : 'B', items : this.productCategory['B'] },

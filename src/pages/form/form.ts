@@ -27,7 +27,6 @@ export class FormPage {
 
 srcImage: string;
   OCRAD: any;
-
   myForm;
   ngForm;
   from : any;

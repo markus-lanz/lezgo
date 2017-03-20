@@ -22,6 +22,7 @@ export class TechnicalBroshuresPage {
   literaturModel       = [];
   literaturSubCategory = [];
   techSearchBarData    = null;
+  selectedRow           = null;
 
   tempLiterature = {
     'cattitle1'     : '',
@@ -38,57 +39,65 @@ export class TechnicalBroshuresPage {
                public viewCtrl: ViewController) {
 
     this.techSearchBarData = utService.getLiteraturDataFromXMl();
+
+
   }
 
 
-  presentSearchTechModal(){
-    let techModal = this.modalCtrl.create(LiteratureSearchModalPage);
-    techModal.present();
-    techModal.onDidDismiss( data =>{
+  presentSearchLitModal(data, index) {
 
-      if (data) {
+    if (data) {
+      this.literaturModel               = [];
+      this.selectedRow                  = index;
+      this.tempLiterature.cattitle1     = data.cattitle1;
+      this.tempLiterature.cattitle2     = data.cattitle2;
+      this.tempLiterature.brochurecode  = data.brochurecode;
+      this.tempLiterature.brochuretitle = data.brochuretitle;
+      this.tempLiterature.file          = data.file;
 
-        this.literaturModel = [];
+      let _temp = this.techSearchBarData.filter((item) => {
+        return item.cattitle1 === this.tempLiterature.cattitle1;
+      });
 
-        this.tempLiterature.cattitle1     = data.cattitle1;
-        this.tempLiterature.cattitle2     = data.cattitle2;
-        this.tempLiterature.brochurecode  = data.brochurecode;
-        this.tempLiterature.brochuretitle = data.brochuretitle;
-        this.tempLiterature.file          = data.file;
+      for (let g in _temp) {
+        const subcat = _temp[g].cattitle2;
 
-        let _temp = this.techSearchBarData.filter((item) => {
-          return item.cattitle1 === this.tempLiterature.cattitle1;
+        if (this.literaturModel.length > 0) {
+          const it = this.literaturModel.findIndex((item) => item.subcatname === subcat);
+          if (it === -1) {
+            this.literaturModel.push({subcatname: subcat, items: []});
+          }
+        } else {
+          this.literaturModel.push({subcatname: subcat, items: []});
+        }
+      };
+
+
+      for (let ki in this.literaturModel) {
+
+        const subcat = this.literaturModel[ki].subcatname;
+
+        let array = _temp.filter((items) => {
+          return items.cattitle2 === subcat
         });
 
-        for (let g in _temp) {
-          const subcat = _temp[g].cattitle2;
-
-          if ( this.literaturModel.length > 0 ) {
-            const it = this.literaturModel.findIndex((item) => item.subcatname === subcat);
-            if (it === -1) {
-              this.literaturModel.push( { subcatname: subcat, items: [] } );
-            }
-
-          } else {
-            this.literaturModel.push( { subcatname: subcat, items: [] } );
-          }
-        };
-
-        for ( let ki in this.literaturModel ) {
-
-          const subcat = this.literaturModel[ki].subcatname;
-
-          let array = _temp.filter( ( items ) => {
-            return items.cattitle2 === subcat
-          } );
-          this.literaturModel[ki].items = array
-        }
+        this.literaturModel[ki].items = array
       }
-
-
-
-    });
+    }
   }
+
+
+
+
+
+  onChangeLiteCode(checked, title): any {
+    const objBroCode = {
+      'brochurecode': ''
+    };
+
+
+  }
+
 
 
   ionViewDidLoad() {

@@ -108,7 +108,7 @@ export class HomePage {
       { title: 'BYK Lectures at ECS',            selected: false, component: TabMainPage, tabComponent: ProductPresentationsPage, index:  7 },
       { title: 'New Products',                   selected: false, component: TabMainPage, tabComponent: NewproductsPage,          index:  8 },
       { title: 'ECS Media Interviews',           selected: false, component: TabMainPage, tabComponent: MediainterviewPage,       index:  9 },
-      { title: 'Videos',                         selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
+      { title: 'BYK Videos',                     selected: false, component: TabMainPage, tabComponent: VideosPage,               index:  5 },
       { title: 'BYK at a glance',                selected: false, component: TabMainPage, tabComponent: DataGlancePage,           index: 10 },
     ];
 

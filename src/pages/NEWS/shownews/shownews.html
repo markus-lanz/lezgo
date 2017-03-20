@@ -6,12 +6,12 @@
     <div class="contenttitle">
       <ion-title>ECS Show News</ion-title>
     </div><!-- END CONTENT TITLE -->
-
+    <ion-datetime displayFormat="MMM DD, h:mm A" [(ngModel)]="myDate"></ion-datetime>
     <ion-grid>
       <ion-row>
-        <ion-col width-33>
+        <ion-col width-25>
           <ion-item (tap)="openPDF( 'BYK_ShowNews_ECS_2017_EN.pdf' )">
-            <img src="assets/img/downloadicon.png" style="margin-right: 8px; vertical-align: middle">
+            <img src="assets/img/downloadicon.png" style="height:20px; margin: 0 6px 12px 6px; vertical-align: middle">
             ECS SHOW NEWS - PDF ENGLISH
             <br />
             <img src="assets/img/news/pdfpreview_eng.png" style="width: 100%" />
@@ -19,9 +19,9 @@
         </ion-col>
         <ion-col width-10>
         </ion-col>
-        <ion-col width-33>
+        <ion-col width-25>
           <ion-item (tap)="openPDF( 'BYK_ShowNews_ECS_2017_DE.pdf' )">
-            <img src="assets/img/downloadicon.png" style="margin-right: 8px; vertical-align: middle">
+            <img src="assets/img/downloadicon.png" style="height:20px; margin: 0 6px 12px 6px; vertical-align: middle">
             ECS SHOW NEWS - PDF DEUTSCH
             <br />
             <img src="assets/img/news/pdfpreview_ger.png" style="width: 100%" />

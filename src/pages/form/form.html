@@ -372,7 +372,7 @@
                 </ion-row>
 
                 <ion-row>
-                  <ion-col width-50>
+                  <ion-col width-50 style="padding-right: 100px">
                     <ion-label>Select a category</ion-label>
                     <ion-list>
                       <ion-item *ngFor="let item of literaData | orderByLit; let caati = index"
@@ -385,10 +385,10 @@
                   </ion-col>
 
                   <ion-col width-50 *ngIf="literaturModel.length > 0">
-                    <ion-label>{{tempLiterature.cattitle1}}</ion-label>
+                    <ion-label class="infolabel">{{tempLiterature.cattitle1}}</ion-label>
                     <ion-row  *ngFor="let lit of  literaturModel; let i=index">
                       <ion-col>
-                        <ion-label>{{ lit.subcatname }}</ion-label>
+                        <ion-label style="text-transform: uppercase; font-size: 1.5rem;">{{ lit.subcatname }}</ion-label>
                         <div *ngFor="let subitem of lit.items; let si=index" style="margin-bottom: 6px">
                           <img src="assets/img/downloadicon.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 25px; margin-right: 20px;"/>
                           <ion-checkbox mode="ios"
@@ -396,21 +396,11 @@
                                         [(ngModel)]="subitem.checked"
                                         (click)="onChangeLiteCode(subitem.checked,subitem.brochurecode)"
                                         name="ra_{{subitem.brochuretitle}}">
-
                           </ion-checkbox>
-                          <ion-label style="display: inline-block; margin: 0;">{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
+                          <ion-label style="display: inline-block; margin: 2px;">{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
                         </div>
                       </ion-col>
                     </ion-row>
-                  </ion-col>
-                </ion-row>
-
-                <ion-row>
-                  <ion-col width-100>
-                    <ion-item>
-                      <ion-label>Order a product <br> that is no Listed</ion-label>
-                      <ion-input type="text" [(ngModel)]="contentFromModel.addionalInformationToOrder" name="addionalInformationToOrder"></ion-input>
-                    </ion-item>
                   </ion-col>
                 </ion-row>
 
@@ -425,7 +415,7 @@
                 <ion-row responsive-sm responsive-md  responsive-lg>
                   <ion-col width-25 *ngFor ="let cur of customerRolleArray;let cr=index">
                     <ion-item >
-                      <ion-label>{{cur.title}}</ion-label>
+                      <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{cur.title}}</ion-label>
                       <ion-checkbox mode="ios" item-left [(ngModel)]="cur.checked" (click)="onChangeCustomerRolle(cur.checked,cr,customerRolleArray,cur.title)"  name="radio_{{cur.title}}"></ion-checkbox>
                     </ion-item>
                   </ion-col>
@@ -435,8 +425,8 @@
                   <ion-label class="infolabel">CLASSIFICATION</ion-label>
                   <ion-row responsive-sm responsive-md  responsive-lg>
                     <ion-col width-25 *ngFor ="let cla of classificationArray;let ca=index">
-                    <ion-item >
-                      <ion-label>{{cla.title}}</ion-label>
+                    <ion-item>
+                      <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{cla.title}}</ion-label>
                       <ion-checkbox mode="ios" item-left [(ngModel)]="cla.checked" (click)="onChangeClassification(cla.checked,ca,classificationArray,cla.title)"  name="radio_{{cla.title}}"></ion-checkbox>
                     </ion-item>
                   </ion-col>
@@ -452,18 +442,18 @@
                  <ion-row responsive-sm responsive-md  responsive-lg>
                    <ion-col width-25 *ngFor ="let eu of endUseArray;let ea=index">
                      <ion-item >
-                       <ion-label text-wrap="" style="white-space: normal">{{eu.title}}</ion-label>
+                       <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{eu.title}}</ion-label>
                        <ion-checkbox mode="ios" item-left [(ngModel)]="eu.checked" (click)="onChangeEndUse(eu.checked,ea,endUseArray,eu.title)"  name="radio_{{eu.title}}"></ion-checkbox>
                      </ion-item>
                    </ion-col>
 
                  </ion-row>
                  <ion-row padding></ion-row>
-                 <ion-label class="infolabel">PRODUCT GROUP</ion-label>
+                 <ion-label class="infolabel">PRODUCT GROUPS</ion-label>
                  <ion-row>
                    <ion-col width-20 *ngFor ="let pg of productGroupArray;let pi=index">
                      <ion-item>
-                       <ion-label text-wrap="" style="white-space: normal">{{pg.title}}</ion-label>
+                       <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{pg.title}}</ion-label>
                          <ion-checkbox mode="ios" (click)="onChangeProductGroup(pg.checked,pi,productGroupArray,pg.title)" item-left [(ngModel)]="pg.checked" name="radio_{{pg.title}}"></ion-checkbox>
                      </ion-item>
                    </ion-col>

@@ -125,7 +125,7 @@ export class MyApp {
 
     // PRODUCTS & SOLUTIONS
     this.productssolutions = [
-      { title: 'Technical Brochures',                      selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 19 },
+      { title: 'Technical Brochures',                      selected: false, component: TabMainPage, tabComponent: TechnicalBroshuresPage, index : 18 },
       { title: 'Technical Data Sheets / Product Overview', selected: false, component: TabMainPage, tabComponent: TechDataSheetPage,      index :  3 },
       { title: 'Additive Guide',                           selected: false, component: TabMainPage, tabComponent: AdditivesGuidePage,     index : 18 },
       { title: 'Lab Application Videos',                   selected: false, component: TabMainPage, tabComponent: LapappVideosPage,       index :  5 },

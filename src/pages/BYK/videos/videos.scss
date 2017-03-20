@@ -4,6 +4,14 @@ page-videos {
     background-image : url("../assets/img/byk/background.jpg");
     background-size  : cover;
     background-color : transparent;
+
+    .card-content {
+      background : #eee;
+
+      .card-title {
+        color : #00A6EB;
+      }
+    }
   }
 }
 

@@ -3,37 +3,36 @@
     <div class="pageInnerContent">
         <!-- CONTENT TITLE -->
         <div class="contenttitle">
-            <ion-title>Technical Broschures</ion-title>
+            <ion-title>Technical Brochures</ion-title>
         </div><!-- END CONTENT TITLE -->
 
+
         <ion-row>
-            <ion-col width-50>
+            <ion-col width-50 style="padding-right: 100px">
                 <ion-label>Select a category</ion-label>
-                <ion-item  class="bla bdrr bdrl bdrt bdrb" (click)="presentSearchTechModal()">
-                    <ion-label>show categories catalogue</ion-label>
-                    <ion-icon item-left  name="ios-list" ></ion-icon>
-                </ion-item>
+                <ion-list>
+                    <ion-item *ngFor="let item of techSearchBarData | orderByLit; let caati = index"
+                              [ngClass]="{'selected' : caati == selectedRow}"
+                              (tap)="presentSearchLitModal(item,caati)"
+                              class="catbutton">
+                        {{ item.cattitle1 }}
+                    </ion-item>
+                </ion-list>
             </ion-col>
 
             <ion-col width-50 *ngIf="literaturModel.length > 0">
-                <div class="results">
-                    <ion-label>{{tempLiterature.cattitle1}}</ion-label>
-                    <ion-row  *ngFor="let lit of  literaturModel; let i=index">
-                        <ion-col>
-                            <ion-label>
-                                {{ lit.subcatname }}
-                              </ion-label>
-                            <ion-list no-lines>
-                                <ion-item  *ngFor="let subitem of lit.items; let si=index">
-                                    <ion-label>
-                                    {{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
-                                    <ion-icon item-left name="ios-eye" (click)="viewPdfOfSubCategory(subitem.file)" ></ion-icon>
-                                </ion-item>
-                            </ion-list>
-                        </ion-col>
-                    </ion-row>
-                </div>
+                <ion-label class="infolabel">{{tempLiterature.cattitle1}}</ion-label>
+                <ion-row  *ngFor="let lit of  literaturModel; let i=index">
+                    <ion-col>
+                        <ion-label style="text-transform: uppercase; font-size: 1.5rem;">{{ lit.subcatname }}</ion-label>
+                        <div *ngFor="let subitem of lit.items; let si=index" style="margin-bottom: 6px">
+                            <img src="assets/img/downloadicon.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 25px; margin-right: 8px;"/>
+                            <ion-label style="display: inline-block; margin: 2px;">{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>
+                        </div>
+                    </ion-col>
+                </ion-row>
             </ion-col>
         </ion-row>
+
     </div>
 </ion-content>

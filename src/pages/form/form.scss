@@ -45,8 +45,9 @@ page-form {
       }
 
       .infolabel{
-        color     : #00A6EB;
-        font-size : 1.8rem;
+        color          : #00A6EB;
+        font-size      : 1.8rem;
+        text-transform : uppercase;
 
         span{
           font-size : 1.4rem;
@@ -108,7 +109,7 @@ page-form {
 
         .wizard{
           border        : 1px solid #c0c0c0;
-          border-radius : 8px;
+          border-radius : 4px;
           overflow      : hidden;
           position      : relative;
           z-index       : 100;
@@ -200,7 +201,6 @@ page-form {
 
       .catbutton{
         border        : 1px solid #c0c0c0;
-        border-radius : 6px;
         margin-bottom : 6px;
 
         &.selected{

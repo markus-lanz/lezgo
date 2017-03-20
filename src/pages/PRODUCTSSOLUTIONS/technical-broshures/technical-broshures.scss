@@ -41,6 +41,27 @@ page-technical-broshures {
           border-bottom: 1px solid #c0c0c0;
       }
     }
+
+    .catbutton{
+      border        : 1px solid #c0c0c0;
+      margin-bottom : 6px;
+
+      &.selected{
+        background : #00abef;
+        color      : #fff;
+      }
+    }
+
+    .infolabel{
+      color          : #00A6EB;
+      font-size      : 1.8rem;
+      text-transform : uppercase;
+
+      span{
+        font-size : 1.4rem;
+        color     : #999;
+      }
+    }
   }
 
 }
