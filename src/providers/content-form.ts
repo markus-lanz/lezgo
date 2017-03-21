@@ -402,16 +402,19 @@ litra = null;
         }).join(", ");
         }
 
+        let gender = 'not set';
+        if (model.Mrs)
+            gender = 'Mrs';
+        else if(model.Mr)
+            gender = 'MR';
+
         let modelToSend = `
         <table>
         <tr>
+          <td>Gender</td><td>${gender}</td>
+        </tr>
+        <tr>
           <td>Name:</td><td>${model.name}</td>
-        </tr>
-        <tr>
-          <td>Ms:</td><td>${model.Mr}</td>
-        </tr>
-        <tr>
-          <td>Mrs:</td><td>${model.Mrs}</td>
         </tr>
         <tr>
           <td>Company:</td><td>${model.company}</td>
