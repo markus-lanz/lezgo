@@ -334,7 +334,7 @@ console.log('test neu load');
 
 
     viewPdfOfSubCategory(file) {
-        new InAppBrowser(`assets/productfiles/${file}`, '_blank', 'location=no');
+        new InAppBrowser(`assets/pdf/brochures/${file}`, '_blank', 'location=no');
     }
 
 
@@ -649,6 +649,7 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
 */
     // form Reset
     this.contentFromModel.name = "";
+    this.contentFromModel.firstname = "";
     this.contentFromModel.Mrs = null;
     this.contentFromModel.Mr = null;
     this.contentFromModel.company = "";
@@ -702,7 +703,9 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
  this.step_7 = false;
  this.step_8 = false;
  this.step_9 = false;
-this.wizzardStep = "visitor_data";
+ this.wizzardStep = "visitor_data";
+ this.validaerror = false;
+ this.validation = false;
 //  this.navCtrl.push(HomePage);
     }
 

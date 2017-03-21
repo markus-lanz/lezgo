@@ -5,7 +5,6 @@ import { NavController,
          ModalController,
          ViewController            } from 'ionic-angular';
 import { UtilityService            } from '../../../providers/utility-service';
-import { LiteratureSearchModalPage } from '../../literature-search-modal/literature-search-modal';
 import { InAppBrowser              } from 'ionic-native';
 
 
@@ -87,26 +86,13 @@ export class TechnicalBroshuresPage {
   }
 
 
-
-
-
-  onChangeLiteCode(checked, title): any {
-    const objBroCode = {
-      'brochurecode': ''
-    };
-
-
-  }
-
-
-
   ionViewDidLoad() {
     console.log('ionViewDidLoad TechnicalBroshuresPage');
   }
 
 
   viewPdfOfSubCategory(file){
-     new InAppBrowser(`assets/productfiles/${file}`, '_blank', 'location=no');
+     new InAppBrowser(`assets/pdf/brochures/${file}`, '_blank', 'location=no');
   }
 
 
