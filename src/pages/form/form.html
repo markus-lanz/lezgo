@@ -390,7 +390,7 @@
                       <ion-col>
                         <ion-label style="text-transform: uppercase; font-size: 1.5rem;">{{ lit.subcatname }}</ion-label>
                         <div *ngFor="let subitem of lit.items; let si=index" style="margin-bottom: 6px">
-                          <img src="assets/img/downloadicon.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 25px; margin-right: 20px;"/>
+                          <img src="assets/img/downloadicon.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 25px; margin-right: 20px; white-space: normal"/>
                           <ion-checkbox mode="ios"
                                         item-left
                                         [(ngModel)]="subitem.checked"
@@ -413,7 +413,7 @@
               <div *ngIf="wizzardStep === 'role_class'">
                 <ion-label class="infolabel">VISITOR ROLE</ion-label>
                 <ion-row responsive-sm responsive-md  responsive-lg>
-                  <ion-col width-25 *ngFor ="let cur of customerRolleArray;let cr=index">
+                  <ion-col width-20 *ngFor ="let cur of customerRolleArray;let cr=index">
                     <ion-item >
                       <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{cur.title}}</ion-label>
                       <ion-checkbox mode="ios" item-left [(ngModel)]="cur.checked" (click)="onChangeCustomerRolle(cur.checked,cr,customerRolleArray,cur.title)"  name="radio_{{cur.title}}"></ion-checkbox>
@@ -424,7 +424,7 @@
                 <ion-row padding></ion-row>
                   <ion-label class="infolabel">CLASSIFICATION</ion-label>
                   <ion-row responsive-sm responsive-md  responsive-lg>
-                    <ion-col width-25 *ngFor ="let cla of classificationArray;let ca=index">
+                    <ion-col width-20 *ngFor ="let cla of classificationArray;let ca=index">
                     <ion-item>
                       <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{cla.title}}</ion-label>
                       <ion-checkbox mode="ios" item-left [(ngModel)]="cla.checked" (click)="onChangeClassification(cla.checked,ca,classificationArray,cla.title)"  name="radio_{{cla.title}}"></ion-checkbox>
@@ -447,6 +447,12 @@
                      </ion-item>
                    </ion-col>
 
+                   <ion-col width-25 class="nopadding">
+                     <ion-item class="bla bdrt bdrl bdrr bdrb">
+                       <ion-input mode="md" type="text" [(ngModel)]="contentFromModel.useothers" name="useothers" required ></ion-input>
+                     </ion-item>
+                   </ion-col>
+
                  </ion-row>
                  <ion-row padding></ion-row>
                  <ion-label class="infolabel">PRODUCT GROUPS</ion-label>
@@ -455,6 +461,11 @@
                      <ion-item>
                        <ion-label text-wrap="" style="white-space: normal; margin: 8px 8px 8px 0">{{pg.title}}</ion-label>
                          <ion-checkbox mode="ios" (click)="onChangeProductGroup(pg.checked,pi,productGroupArray,pg.title)" item-left [(ngModel)]="pg.checked" name="radio_{{pg.title}}"></ion-checkbox>
+                     </ion-item>
+                   </ion-col>
+                   <ion-col width-20 class="nopadding">
+                     <ion-item class="bla bdrt bdrl bdrr bdrb">
+                      <ion-input mode="md" type="text" [(ngModel)]="contentFromModel.sdf" name="ewr" required #firstname="ngModel"></ion-input>
                      </ion-item>
                    </ion-col>
                  </ion-row>

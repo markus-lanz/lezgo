@@ -109,6 +109,8 @@ srcImage: string;
     this.literaData = utService.getLiteraturDataFromXMl();
     this.litSearchBarData =utService.getLiteraturDataFromXMl();
 
+    this.contentFromModel.date = new Date();
+
 
   }
 valueforngif = false;

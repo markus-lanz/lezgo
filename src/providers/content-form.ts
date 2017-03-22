@@ -162,7 +162,7 @@ export class ContentForm {
         'authorEmail': '',
         'newAuthorName': '',
         'newAuthorEmail': '',
-        'date': '',
+        'date': new Date(),
         'EndUse': '',
         'ProductGroup': '',
         'CustomerRolle': '',
@@ -398,15 +398,23 @@ litra = null;
             console.log(tempLiteratur)
         if(tempLiteratur.length > 0){
         this.litra = tempLiteratur.map(function(elem){
-            return 'Topic:' + elem.brochurecode + ' ';
+            return elem.brochurecode;
         }).join(", ");
         }
 
         let gender = 'not set';
         if (model.Mrs)
             gender = 'Mrs';
-        else if(model.Mr)
-            gender = 'MR';
+        if(model.Mr)
+            gender = 'Mr';
+
+        let crmrecord = 'not set';
+        if (model.CRM_RECORD.YES){
+            crmrecord = 'yes'
+        }
+        if (model.CRM_RECORD.NO){
+            crmrecord = 'no'
+        }
 
         let modelToSend = `
         <table>
@@ -441,10 +449,7 @@ litra = null;
           <td>E-Mail:</td><td>${model.e_mail}</td>
         </tr>
         <tr>
-          <td>CRM_RECORD:</td><td>${model.CRM_RECORD.YES}</td>
-        </tr>
-        <tr>
-          <td>CRM_RECORD:</td><td>${model.CRM_RECORD.NO}</td>
+          <td>CRM Record:</td><td>${crmrecord}</td>
         </tr>
         <tr>
           <td>CRM_RECORD-DETAILS:</td><td>${model.CRM_RECORD.YES}</td>
@@ -471,7 +476,7 @@ litra = null;
           <td>Product Group:</td><td>${model.ProductGroup}</td>
         </tr>
         <tr>
-          <td>Customer Rolle:</td><td>${model.CustomerRolle}</td>
+          <td>Visitor Role:</td><td>${model.CustomerRolle}</td>
         </tr>
         <tr>
           <td>Classification:</td><td>${model.Classification}</td>
