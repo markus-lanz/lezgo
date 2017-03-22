@@ -48,7 +48,7 @@ import { BrandsPage                } from '../pages/PRODUCTSSOLUTIONS/brands/bra
 
 // - PROVIDERS
 import { UtilityService            } from '../providers/utility-service';
-import { Keyboard } from 'ionic-native';
+
 
 
 // INTERFACE
