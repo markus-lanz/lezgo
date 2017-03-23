@@ -383,27 +383,12 @@ litra = '';
     useothers='';
     groupothers='';
 
-    analyze() {
-        (<any>window).OCRAD(document.getElementById('bsCard'), text => {
-            let toastFileError = this.toastCtrl.create({
-                message: `${text}`,
-                showCloseButton: true,
-                closeButtonText: 'Ok'
-            });
-            toastFileError.present();
-            console.log(text);
-        });
-
-
-
-    }
 
     savedSentReport(model, pic) {
         const blabla2 = new DatePipe('en-US');
         let imgToSend;
         if (pic !== null) {
             imgToSend = 'base64:icon.png//' + pic;
-            this.analyze();
         } else {
             imgToSend = 'base64:icon.png//' + '';
         }
