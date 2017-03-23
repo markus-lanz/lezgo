@@ -398,14 +398,14 @@ litra = '';
         if(tempRqAction.length > 0){
         this.Required_Action = tempRqAction.map(function(elem){
             return '<li>Activity:' + elem.activity + ' - ' + 'Who:' + elem.who + '</li>';
-        }).join(", ");
+        });
             this.Required_Action = '<ul>' + this.Required_Action + '</ul>';
         }
         let tempOrder = model.orders;
         if(tempOrder.length > 0){
          this.Orders = tempOrder.map(function(elem){
-             return '<li>Product:' + elem.product + ' - ' + 'Unit:' + elem.unit + '</li>';
-         }).join(", ");
+             return '<li>Product: ' + elem.product + ' - ' + 'Unit: ' + elem.unit + '</li>';
+         });
             this.Orders = '<ul>' + this.Orders + '</ul>';
         }
         let tempLiteratur = model.literatur;
@@ -413,7 +413,7 @@ litra = '';
         if(tempLiteratur.length > 0){
         this.litra = tempLiteratur.map(function(elem){
             return '<li>' + elem.brochurecode + '</li>';
-        }).join(", ");
+        });
             this.litra = '<ul>' + this.litra + '</ul>';
         }
 
