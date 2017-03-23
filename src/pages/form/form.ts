@@ -413,7 +413,6 @@ console.log('test neu load');
                 break;
             case "process":
                 this.step_8 = true;
-                this.processedReport();
                 break;
 
         }
