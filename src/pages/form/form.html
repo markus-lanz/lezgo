@@ -243,7 +243,7 @@
                 <ion-row>
                   <ion-col width-100 class="nopadding">
                     <ion-item class="bla bdrt bdrl bdrr bdrb">
-                      <ion-textarea rows="8" [(ngModel)]="contentFromModel.CRM_RECORD.DETAILS" placeholder="Enter your Text..." name="details" class="textarea"> </ion-textarea>
+                      <ion-textarea rows="8" [(ngModel)]="contentFromModel.meeting_details" placeholder="Enter your Text..." name="details" class="textarea"> </ion-textarea>
                     </ion-item>
                   </ion-col>
                 </ion-row>
@@ -388,7 +388,7 @@
                     <ion-label class="infolabel">{{tempLiterature.cattitle1}}</ion-label>
                     <ion-row  *ngFor="let lit of  literaturModel; let i=index">
                       <ion-col>
-                        <ion-label style="text-transform: uppercase; font-size: 1.5rem;">{{ lit.subcatname }}</ion-label>
+                        <ion-label style="text-transform: uppercase; font-size: 1.5rem; white-space: normal">{{ lit.subcatname }}</ion-label>
                         <div *ngFor="let subitem of lit.items; let si=index" style="margin-bottom: 6px">
                           <img src="assets/img/downloadicon.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 25px; margin-right: 20px; white-space: normal"/>
                           <ion-checkbox mode="ios"
@@ -465,7 +465,7 @@
                    </ion-col>
                    <ion-col width-20 class="nopadding">
                      <ion-item class="bla bdrt bdrl bdrr bdrb">
-                      <ion-input mode="md" type="text" [(ngModel)]="contentFromModel.sdf" name="ewr" required #firstname="ngModel"></ion-input>
+                      <ion-input mode="md" type="text" [(ngModel)]="contentFromModel.groupothers" name="groupothers" required ></ion-input>
                      </ion-item>
                    </ion-col>
                  </ion-row>
@@ -489,17 +489,22 @@
                 </ion-row>
                 <br />
                 <ion-row>
-                  <ion-col width-50 class="nopadding">
+                  <ion-col width-33 class="nopadding">
                     <ion-item class="bla bdrt bdrl bdrr bdrb">
                       <ion-label>Add a new author</ion-label>
                       <ion-input type="text" [(ngModel)]="contentFromModel.newAuthorName" name="newauthName"></ion-input>
                     </ion-item>
-
                   </ion-col>
-                  <ion-col width-50 class="nopadding">
+                  <ion-col width-33 class="nopadding">
                     <ion-item class="bla bdrt bdrb bdrr">
                       <ion-label>E-Mail</ion-label>
                       <ion-input type="text"  [(ngModel)]="contentFromModel.newAuthorEmail" name="newauthEmail"></ion-input>
+                    </ion-item>
+                  </ion-col>
+                  <ion-col width-33 class="nopadding">
+                    <ion-item class="bla bdrt bdrb bdrr">
+                      <ion-label>CC</ion-label>
+                      <ion-input type="text"  [(ngModel)]="contentFromModel.newAuthorCC" name="newauthCC"></ion-input>
                     </ion-item>
                   </ion-col>
                 </ion-row>
@@ -507,7 +512,7 @@
                   <ion-col width-50="">
                     <ion-item>
                       <ion-label>Date</ion-label>
-                      <ion-datetime displayFormat="MMMM,DD,YYYY" [(ngModel)]="contentFromModel.date" name="date"></ion-datetime>
+                      <ion-datetime displayFormat="DD MMMM YYYY" [(ngModel)]="contentFromModel.date" name="date"></ion-datetime>
                     </ion-item>
                   </ion-col>
                 </ion-row>
@@ -536,6 +541,9 @@
                       </button>
                   </ion-col>
                 </ion-row>
+                <!--div [innerHTML]="a"></div-->
+
+
               </div>
               <!----------------------------------------------- END PROCESS ----------------------------------------------->
 

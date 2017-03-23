@@ -113,7 +113,7 @@ page-form {
           overflow      : hidden;
           position      : relative;
           z-index       : 100;
-          justify-content: space-around;
+          display       : table;
         }
 
         .segment-button{
@@ -125,8 +125,7 @@ page-form {
           height       : 38px;
           padding-left : 20px;
           width        : initial !important;
-          flex         : 1 1 auto;
-          -webkit-flex : 1 1 auto;
+          display      : table-cell;
 
           &.entered{
             background : #eee;

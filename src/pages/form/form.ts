@@ -109,7 +109,7 @@ srcImage: string;
     this.literaData = utService.getLiteraturDataFromXMl();
     this.litSearchBarData =utService.getLiteraturDataFromXMl();
 
-    this.contentFromModel.date = new Date();
+    this.contentFromModel.date = new Date().toISOString()
 
 
   }
@@ -143,6 +143,7 @@ console.log('test neu load');
         }
     }
 
+    groupothers = null;
     onChangeProductGroup(checked, position, items, title): any {
         items.filter((des, index) => {
 
@@ -159,7 +160,7 @@ console.log('test neu load');
 
     }
 
-
+    useothers = null;
     onChangeEndUse(checked, position, items, title): any {
         items.filter((des, index) => {
             if (position != index) {
@@ -412,6 +413,7 @@ console.log('test neu load');
                 break;
             case "process":
                 this.step_8 = true;
+                this.processedReport();
                 break;
 
         }
@@ -622,9 +624,10 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
         this.cFormService.parseJsonToXML(this.contentFromModel);
     }
 
-
+    a=null;
     processedReport() {
         this.cFormService.savedSentReport(this.contentFromModel, this.objtscan.src2);
+        this.a=this.cFormService._g();
     }
 
 

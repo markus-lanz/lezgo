@@ -24,7 +24,7 @@
                 <ion-label class="infolabel">{{tempLiterature.cattitle1}}</ion-label>
                 <ion-row  *ngFor="let lit of  literaturModel; let i=index">
                     <ion-col>
-                        <ion-label style="text-transform: uppercase; font-size: 1.5rem;">{{ lit.subcatname }}</ion-label>
+                        <ion-label style="text-transform: uppercase; font-size: 1.5rem; white-space: normal">{{ lit.subcatname }}</ion-label>
                         <div *ngFor="let subitem of lit.items; let si=index" style="margin-bottom: 6px">
                             <img src="assets/img/downloadicon.png" (tap)="viewPdfOfSubCategory(subitem.file)" style="height: 25px; margin-right: 8px;"/>
                             <ion-label style="display: inline-block; margin: 2px;">{{subitem.brochurecode}}, {{subitem.brochuretitle}}</ion-label>

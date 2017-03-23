@@ -1,5 +1,6 @@
 // IMPORTS
 import 'rxjs/add/operator/map';
+import { DatePipe     } from '@angular/common';
 import { Injectable     } from '@angular/core';
 import { Http           } from '@angular/http';
 import { File           } from 'ionic-native';
@@ -8,6 +9,8 @@ import {ToastController} from 'ionic-angular';
 import 'jsonfile';
 declare let cordova: any;
 declare let jsonfile: any;
+
+
 
 
 
@@ -111,7 +114,7 @@ export class ContentForm {
     _picAtt = null;
 
 
-
+    EndUseField = null;
 
     getUnits(): any {
         return this._units;
@@ -134,40 +137,44 @@ export class ContentForm {
 
 
     _newContentFormModel = {
-        'name': '',
-        'gendar': '',
-        'company': '',
-        'dept': '',
-        'adress': '',
-        'country': '',
-        'language': '',
-        'phone': '',
-        'fax': '',
-        'e_mail': '',
-        'CRM_RECORD': {
-            'YES': null,
-            'NO': null,
-            'DETAILS': null
+        'firstname'       : '',
+        'name'            : '',
+        'gendar'          : '',
+        'company'         : '',
+        'dept'            : '',
+        'adress'          : '',
+        'country'         : '',
+        'language'        : '',
+        'phone'           : '',
+        'fax'             : '',
+        'e_mail'          : '',
+        'meeting_details' : '',
+        'CRM_RECORD'      : {
+            'YES'    : null,
+            'NO'     : null,
         },
-        'required_action': [],
-        'orders': [],
-        'orderNewProduct': '',
-        'literatur': [],
-        'addionalInformationToOrder': '',
-        'Mr': null,
-        'Mrs': null,
-        'radio': '',
-        'endUseOthers': '',
-        'authorName': '',
-        'authorEmail': '',
-        'newAuthorName': '',
-        'newAuthorEmail': '',
-        'date': new Date(),
-        'EndUse': '',
-        'ProductGroup': '',
-        'CustomerRolle': '',
-        'Classification': ''
+        'required_action' : [],
+        'orders'          : [],
+        'orderNewProduct' : '',
+        'literatur'       : [],
+        'addionalInformationToOrder' : '',
+        'Mr'              : null,
+        'Mrs'             : null,
+        'radio'           : '',
+        'endUseOthers'    : '',
+        'authorName'      : '',
+        'authorEmail'     : '',
+        'newAuthorName'   : '',
+        'newAuthorEmail'  : '',
+        'newAuthorCC'     : '',
+        'date'            : '',
+        'EndUse'          : '',
+        'EndUseField'     : '',
+        'ProductGroup'    : '',
+        'CustomerRolle'   : '',
+        'Classification'  : ''
     };
+
 
 
     getEndUseArray(): any {
@@ -187,7 +194,7 @@ export class ContentForm {
         {title: 'Viscosity Reducer', checked: false},
         {title: 'Wax', checked: false},
         {title: 'Wetting & Dispersing', checked: false},
-        {title: 'Others', checked: false},
+        {title: 'Others ', checked: false},
     ];
 
 
@@ -368,15 +375,35 @@ export class ContentForm {
         return this._img64Base;
     }
 
-Required_Action = null;
-Orders = null;
-litra = null;
+Required_Action = '';
+Orders = '';
+litra = '';
+
+    blabla = null;
+    useothers='';
+    groupothers='';
+
+    analyze() {
+        (<any>window).OCRAD(document.getElementById('bsCard'), text => {
+            let toastFileError = this.toastCtrl.create({
+                message: `${text}`,
+                showCloseButton: true,
+                closeButtonText: 'Ok'
+            });
+            toastFileError.present();
+            console.log(text);
+        });
+
+
+
+    }
 
     savedSentReport(model, pic) {
-
+        const blabla2 = new DatePipe('en-US');
         let imgToSend;
         if (pic !== null) {
             imgToSend = 'base64:icon.png//' + pic;
+            this.analyze();
         } else {
             imgToSend = 'base64:icon.png//' + '';
         }
@@ -385,30 +412,37 @@ litra = null;
 
         if(tempRqAction.length > 0){
         this.Required_Action = tempRqAction.map(function(elem){
-            return 'Activity:' + elem.activity + ' - ' + 'Who:' + elem.who + ' ';
+            return '<li>Activity:' + elem.activity + ' - ' + 'Who:' + elem.who + '</li>';
         }).join(", ");
+            this.Required_Action = '<ul>' + this.Required_Action + '</ul>';
         }
         let tempOrder = model.orders;
         if(tempOrder.length > 0){
          this.Orders = tempOrder.map(function(elem){
-             return 'Product:' + elem.product + ' - ' + 'Unit:' + elem.unit + ' ';
+             return '<li>Product:' + elem.product + ' - ' + 'Unit:' + elem.unit + '</li>';
          }).join(", ");
+            this.Orders = '<ul>' + this.Orders + '</ul>';
         }
         let tempLiteratur = model.literatur;
-            console.log(tempLiteratur)
+
         if(tempLiteratur.length > 0){
         this.litra = tempLiteratur.map(function(elem){
-            return elem.brochurecode;
+            return '<li>' + elem.brochurecode + '</li>';
         }).join(", ");
+            this.litra = '<ul>' + this.litra + '</ul>';
         }
 
-        let gender = 'not set';
+        const enduse = ( model.EndUse === 'Others' ) ? model.useothers : model.EndUse;
+        const groupuse = ( model.ProductGroup === 'Others ' ) ? model.groupothers : model.ProductGroup;
+
+
+        let gender = '';
         if (model.Mrs)
             gender = 'Mrs';
         if(model.Mr)
             gender = 'Mr';
 
-        let crmrecord = 'not set';
+        let crmrecord = '';
         if (model.CRM_RECORD.YES){
             crmrecord = 'yes'
         }
@@ -417,12 +451,15 @@ litra = null;
         }
 
         let modelToSend = `
-        <table>
+        <table border="1">
         <tr>
           <td>Gender</td><td>${gender}</td>
         </tr>
         <tr>
-          <td>Name:</td><td>${model.name}</td>
+          <td>Last Name:</td><td>${model.name}</td>
+        </tr>
+        <tr>
+          <td>First Name:</td><td>${model.firstname}</td>
         </tr>
         <tr>
           <td>Company:</td><td>${model.company}</td>
@@ -452,7 +489,7 @@ litra = null;
           <td>CRM Record:</td><td>${crmrecord}</td>
         </tr>
         <tr>
-          <td>CRM_RECORD-DETAILS:</td><td>${model.CRM_RECORD.YES}</td>
+          <td>Meeting details:</td><td><pre>${model.meeting_details}</pre></td>
         </tr>
         <tr>
         <td>Required Action:</td><td>${this.Required_Action}</td>
@@ -470,10 +507,10 @@ litra = null;
           <td>Literature:</td><td>${this.litra}</td>
         </tr>
         <tr>
-          <td>End Use:</td><td>${model.EndUse}</td>
+          <td>End Use:</td><td>${enduse}</td>
         </tr>
         <tr>
-          <td>Product Group:</td><td>${model.ProductGroup}</td>
+          <td>Product Group:</td><td>${groupuse}</td>
         </tr>
         <tr>
           <td>Visitor Role:</td><td>${model.CustomerRolle}</td>
@@ -491,12 +528,16 @@ litra = null;
           <td>New Author Name:</td><td>${model.newAuthorName}</td>
         </tr>
         <tr>
-          <td>New Author E-Mail:</td><td>${model.newAuthorName}</td>
+          <td>New Author E-Mail:</td><td>${model.newAuthorEmail}</td>
         </tr>
         <tr>
-          <td>Date:</td><td>${model.date}</td>
+          <td>New Author CC:</td><td>${model.newAuthorCC}</td>
+        </tr>
+        <tr>
+          <td>Date:</td><td>${blabla2.transform(model.date, 'd MMMM y')}</td>
         </tr>
         </table>`;
+        //this.blabla = modelToSend;
 
         cordova.plugins.email.open({
             to          : 'byk@drive.eu',
@@ -505,6 +546,11 @@ litra = null;
             body        : `${modelToSend}`,
             isHtml      : true
         });
+
+    }
+
+    _g(): any {
+        return this.blabla
     }
 
 
