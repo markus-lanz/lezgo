@@ -384,8 +384,8 @@ export class ContentForm {
     litra = '';
 
     blabla = null;
-    useothers='';
-    groupothers='';
+    useothers = '';
+    groupothers = '';
 
 
     savedSentReport(model, pic) {
@@ -500,9 +500,9 @@ export class ContentForm {
         <tr><th colspan="2">AUTHOR & DATE</th></tr>
         ${authorString}
         <tr><td>Date:</td><td>${blabla2.transform(model.date, 'd MMMM y')}</td></tr>
-        <tr>
-            <td>${model.ocrString}</td>
-        </tr>
+        
+        <tr><th colspan="2">OCR RESULT</th></tr>
+        <tr><td><pre>${model.ocrString}</pre></td></tr>
         
         </table>
         </body>

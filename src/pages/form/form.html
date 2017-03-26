@@ -193,7 +193,7 @@
                       </ion-col>
                       <ion-col width-50>
                         <div class="scanbutton" style="text-align: right">
-                          <button ion-button icon-right outline small (click)="analyze()">
+                          <button ion-button icon-right outline small (click)="">
                             Delete
                             <ion-icon name="ios-trash"></ion-icon>
                           </button>
@@ -534,19 +534,24 @@
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
+                    <br>
                     <button  [disabled]="validaerror" ion-button outline icon-right (click)="processedReport()">
                       Send Report to Back Office
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
+                    <br>
                     <button  ion-button outline icon-right (click)="resetReport()">
                       Save & reset
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
-                      <img id="bsCard2" [src]="objtscan.src1" height="200"  style="text-align: center;margin: auto;display: block;width:100%">
-                      {{contentFromModel.ocrString}}
                   </ion-col>
+                    <ion-col width-50>
+                        <img id="bsCard2" [src]="objtscan.src1" style="text-align: center;margin: auto;display: block;width:100%">
+                        <br>
+                        {{contentFromModel.ocrString}}
+                    </ion-col>
                 </ion-row>
                 <!--div [innerHTML]="a"></div-->
 

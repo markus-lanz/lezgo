@@ -217,6 +217,10 @@ ion-header{
       background : lighten(#00A6EB, 10);
       color      : #fff;
     }
+
+    label{
+      white-space: normal;
+    }
   }
 }
 /******************************************************** END MENU ****************************************************/
@@ -258,4 +262,12 @@ ion-header{
 .searchbar-ios{
   border     : 1px solid #c0c0c0;
   background : #fff;
+}
+
+.fab{
+  background: transparent;
+  box-shadow: none;
+}
+.fab ion-icon {
+  color: #00A6EB;
 }

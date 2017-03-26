@@ -3,7 +3,9 @@ import { Component              } from '@angular/core';
 import { NavController,
          NavParams,
          AlertController,
-         ModalController, ToastController ,LoadingController     } from 'ionic-angular';
+         ModalController,
+         ToastController ,
+         LoadingController      } from 'ionic-angular';
 import { ContentForm            } from '../../providers/content-form';
 import { UtilityService         } from '../../providers/utility-service';
 import { ProductSearchModalPage } from '../product-search-modal/product-search-modal';
