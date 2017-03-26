@@ -109,7 +109,8 @@ srcImage: string;
     this.literaData = utService.getLiteraturDataFromXMl();
     this.litSearchBarData =utService.getLiteraturDataFromXMl();
 
-    this.contentFromModel.date = new Date().toISOString()
+    this.contentFromModel.date = new Date().toISOString();
+    this.contentFromModel.ocrString = null;
 
 
   }
@@ -378,13 +379,7 @@ valueforngif = false;
         loader.present();
         (<any>window).OCRAD(document.getElementById('bsCard'), text => {
             loader.dismissAll();
-            let toastFileError = this.toastCtrl.create({
-                message: `${text}`,
-                showCloseButton: true,
-                closeButtonText: 'Ok'
-            });
-            toastFileError.present();
-            console.log(text);
+            this.contentFromModel.ocrString = text;
         });
 
 
@@ -468,20 +463,20 @@ validation = false;
 validaerror = false;
 emailinvalid = false;
 
-validationProcess(form){
-this.validation = true;
+    validationProcess(form) {
+        this.validation = true;
 
-this.emailinvalid = this.isValid(this.contentFromModel.e_mail);
-if(!this.contentFromModel.name || !this.contentFromModel.firstname  || !this.contentFromModel.e_mail || this.emailinvalid) {
+        this.emailinvalid = this.isValid(this.contentFromModel.e_mail);
+        if (!this.contentFromModel.name || !this.contentFromModel.firstname || !this.contentFromModel.e_mail || this.emailinvalid) {
 
- this.validaerror = true;
- this.getClassName('visitor_data');
+            this.validaerror = true;
+            this.getClassName('visitor_data');
 
-} else {
-this.validaerror = false;
-}
+        } else {
+            this.validaerror = false;
+        }
 
-}
+    }
 
 // email Validation
 isValid(email: string){
@@ -692,6 +687,8 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
         this.literaData.filter((des, index) => {
             des.checked = false;
         });
+        this.contentFromModel.useothers = "";
+        this.contentFromModel.groupothers = "";
         this.contentFromModel.ProductGroup = "";
         this.contentFromModel.authorName = "";
         this.contentFromModel.newAuthorName = "";

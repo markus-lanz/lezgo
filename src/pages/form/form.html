@@ -529,20 +529,21 @@
               <div *ngIf="wizzardStep === 'process'">
                 <ion-row>
                   <ion-col width-100>
-                      <button  [disabled]="validaerror" ion-button outline icon-right (click)="processedReport()">
-                        Send Report to Back Office
-                        <ion-icon name="ios-checkmark-circle-outline">
-                        </ion-icon>
-                      </button>
-                  </ion-col>
-                </ion-row>
-                <ion-row>
-                  <ion-col width-100>
-                      <button  ion-button outline icon-right (click)="resetReport()">
-                        Save & reset
-                        <ion-icon name="ios-checkmark-circle-outline">
-                        </ion-icon>
-                      </button>
+                    <button  [disabled]="validaerror" ion-button outline icon-right (click)="analyze()">
+                      Start OCR process
+                      <ion-icon name="ios-checkmark-circle-outline">
+                      </ion-icon>
+                    </button>
+                    <button  [disabled]="validaerror" ion-button outline icon-right (click)="processedReport()">
+                      Send Report to Back Office
+                      <ion-icon name="ios-checkmark-circle-outline">
+                      </ion-icon>
+                    </button>
+                    <button  ion-button outline icon-right (click)="resetReport()">
+                      Save & reset
+                      <ion-icon name="ios-checkmark-circle-outline">
+                      </ion-icon>
+                    </button>
                   </ion-col>
                 </ion-row>
                 <!--div [innerHTML]="a"></div-->

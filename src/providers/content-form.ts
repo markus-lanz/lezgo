@@ -456,10 +456,14 @@ export class ContentForm {
         let modelToSend = `
         <html>
         <head>
-        <style>td{background-color:red</style>
+        <style>
+            table{ border : 1px solid #8f8f8f }
+            th{ padding: 2px; background-color: #00A6EB; color: #ffffff; border-bottom: 1px solid #8f8f8f; border-right: 1px solid #8f8f8f; }
+            td{ padding : 2px; border-bottom: 1px solid #8f8f8f; border-right: 1px solid #8f8f8f;  }
+        </style>
         </head>
         <body>
-        <table border="1">
+        <table>
         <tr><th colspan="2">VISITOR DATA</th></tr>
         <tr><td>Gender</td><td>${gender}</td></tr>
         <tr><td>Last Name:</td><td>${model.name}</td></tr>
@@ -472,11 +476,11 @@ export class ContentForm {
         <tr><td>Phone:</td><td>${model.phone}</td></tr>
         <tr><td>Fax:</td><td>${model.fax}</td></tr>
         <tr><td>E-Mail:</td><td>${model.e_mail}</td></tr>
-        <tr><td>CRM Record:</td><td>${crmrecord}</td></tr>
+        <tr><td>CRM record:</td><td>${crmrecord}</td></tr>
         
         <tr><th colspan="2">MEETING DETAILS</th></tr>
         <tr><td>Meeting details:</td><td><pre>${model.meeting_details}</pre></td></tr>
-        <tr><td>Required Action:</td><td>${this.Required_Action}</td></tr>
+        <tr><td>Required action:</td><td>${this.Required_Action}</td></tr>
 
         <tr><th colspan="2">SAMPLES</th></tr>
         <tr><td>Samples:</td><td>${this.Orders}</td></tr>
@@ -486,16 +490,19 @@ export class ContentForm {
         <tr><td>Literature:</td><td>${this.litra}</td></tr>
         
         <tr><th colspan="2">CLASSIFICATION & ROLE</th></tr>
-        <tr><td>Visitor Role:</td><td>${model.CustomerRolle}</td></tr>
+        <tr><td>Visitor role:</td><td>${model.CustomerRolle}</td></tr>
         <tr><td>Classification:</td><td>${model.Classification}</td></tr>
         
         <tr><th colspan="2">END USE</th></tr>
-        <tr><td>End Use:</td><td>${enduse}</td></tr>
-        <tr><td>Product Group:</td><td>${groupuse}</td></tr>
+        <tr><td>End use:</td><td>${enduse}</td></tr>
+        <tr><td>Product group:</td><td>${groupuse}</td></tr>
         
         <tr><th colspan="2">AUTHOR & DATE</th></tr>
         ${authorString}
         <tr><td>Date:</td><td>${blabla2.transform(model.date, 'd MMMM y')}</td></tr>
+        <tr>
+            <td>${model.ocrString}</td>
+        </tr>
         
         </table>
         </body>
