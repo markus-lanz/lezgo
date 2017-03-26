@@ -355,8 +355,8 @@ valueforngif = false;
         Camera.getPicture({
             quality            : 100,
             destinationType    : Camera.DestinationType.DATA_URL,
-            targetWidth        : 600,
-            targetHeight       : 600,
+            //targetWidth        : 600,
+            //targetHeight       : 600,
             saveToPhotoAlbum   : true,
             correctOrientation : true,
             allowEdit: true
@@ -377,7 +377,7 @@ valueforngif = false;
             content: 'Please wait...'
         });
         loader.present();
-        (<any>window).OCRAD(document.getElementById('bsCard'), text => {
+        (<any>window).OCRAD(document.getElementById('bsCard2'), text => {
             loader.dismissAll();
             this.contentFromModel.ocrString = text;
         });

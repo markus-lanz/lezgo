@@ -529,7 +529,7 @@
               <div *ngIf="wizzardStep === 'process'">
                 <ion-row>
                   <ion-col width-100>
-                    <button  [disabled]="validaerror" ion-button outline icon-right (click)="analyze()">
+                    <button  ion-button outline icon-right (click)="analyze()">
                       Start OCR process
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
@@ -544,6 +544,8 @@
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
+                      <img id="bsCard2" [src]="objtscan.src1" height="200"  style="text-align: center;margin: auto;display: block;width:100%">
+                      {{contentFromModel.ocrString}}
                   </ion-col>
                 </ion-row>
                 <!--div [innerHTML]="a"></div-->
