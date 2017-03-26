@@ -101,6 +101,10 @@ export class ContentForm {
         {
             name: 'Nagel, Carsten',
             email: 'Carsten.Nagel@altana.com'
+        },
+        {
+            name: 'Others',
+            email: ''
         }
     ];
     _literatur = {
@@ -375,9 +379,9 @@ export class ContentForm {
         return this._img64Base;
     }
 
-Required_Action = '';
-Orders = '';
-litra = '';
+    Required_Action = '';
+    Orders = '';
+    litra = '';
 
     blabla = null;
     useothers='';
@@ -394,26 +398,26 @@ litra = '';
         }
 
         let tempRqAction = model.required_action;
-
-        if(tempRqAction.length > 0){
-        this.Required_Action = tempRqAction.map(function(elem){
-            return '<li>Activity:' + elem.activity + ' - ' + 'Who:' + elem.who + '</li>';
-        });
+        if (tempRqAction.length > 0) {
+            this.Required_Action = tempRqAction.map(function (elem) {
+                return '<li>Activity: ' + elem.activity + ' - ' + 'Who: ' + elem.who + '</li>';
+            }).join('');
             this.Required_Action = '<ul>' + this.Required_Action + '</ul>';
         }
+
         let tempOrder = model.orders;
-        if(tempOrder.length > 0){
-         this.Orders = tempOrder.map(function(elem){
-             return '<li>Product: ' + elem.product + ' - ' + 'Unit: ' + elem.unit + '</li>';
-         });
+        if (tempOrder.length > 0) {
+            this.Orders = tempOrder.map(function (elem) {
+                return '<li>Product: ' + elem.product + ' - ' + 'Unit: ' + elem.unit + '</li>';
+            }).join('');
             this.Orders = '<ul>' + this.Orders + '</ul>';
         }
-        let tempLiteratur = model.literatur;
 
-        if(tempLiteratur.length > 0){
-        this.litra = tempLiteratur.map(function(elem){
-            return '<li>' + elem.brochurecode + '</li>';
-        });
+        let tempLiteratur = model.literatur;
+        if (tempLiteratur.length > 0) {
+            this.litra = tempLiteratur.map(function (elem) {
+                return '<li>' + elem.brochurecode + '</li>';
+            }).join('');
             this.litra = '<ul>' + this.litra + '</ul>';
         }
 
@@ -424,113 +428,87 @@ litra = '';
         let gender = '';
         if (model.Mrs)
             gender = 'Mrs';
-        if(model.Mr)
+        if (model.Mr)
             gender = 'Mr';
 
         let crmrecord = '';
-        if (model.CRM_RECORD.YES){
+        if (model.CRM_RECORD.YES) {
             crmrecord = 'yes'
         }
-        if (model.CRM_RECORD.NO){
+        if (model.CRM_RECORD.NO) {
             crmrecord = 'no'
         }
 
-        let modelToSend = `
-        <table border="1">
-        <tr>
-          <td>Gender</td><td>${gender}</td>
-        </tr>
-        <tr>
-          <td>Last Name:</td><td>${model.name}</td>
-        </tr>
-        <tr>
-          <td>First Name:</td><td>${model.firstname}</td>
-        </tr>
-        <tr>
-          <td>Company:</td><td>${model.company}</td>
-        </tr>
-        <tr>
-          <td>Dept:</td><td>${model.dept}</td>
-        </tr>
-        <tr>
-          <td>Address:</td><td>${model.adress}</td>
-        </tr>
-        <tr>
-          <td>Country:</td><td>${model.country}</td>
-        </tr>
-        <tr>
-          <td>Language:</td><td>${model.language}</td>
-        </tr> 
-        <tr>
-          <td>Phone:</td><td>${model.phone}</td>
-        </tr>
-        <tr>
-          <td>Fax:</td><td>${model.fax}</td>
-        </tr>
-        <tr>
-          <td>E-Mail:</td><td>${model.e_mail}</td>
-        </tr>
-        <tr>
-          <td>CRM Record:</td><td>${crmrecord}</td>
-        </tr>
-        <tr>
-          <td>Meeting details:</td><td><pre>${model.meeting_details}</pre></td>
-        </tr>
-        <tr>
-        <td>Required Action:</td><td>${this.Required_Action}</td>
-        </tr>
-        <tr>
-          <td>Order New Product:</td><td>${model.orderNewProduct}</td>
-        </tr>
-        <tr>
-          <td>Samples:</td><td>${this.Orders}</td>
-        </tr>
-        <tr>
-          <td>Addional Information to Order:</td><td>${model.addionalInformationToOrder}</td>
-        </tr>
-        <tr>
-          <td>Literature:</td><td>${this.litra}</td>
-        </tr>
-        <tr>
-          <td>End Use:</td><td>${enduse}</td>
-        </tr>
-        <tr>
-          <td>Product Group:</td><td>${groupuse}</td>
-        </tr>
-        <tr>
-          <td>Visitor Role:</td><td>${model.CustomerRolle}</td>
-        </tr>
-        <tr>
-          <td>Classification:</td><td>${model.Classification}</td>
-        </tr>
-        <tr>
-          <td>Author Name:</td><td>${model.authorName}</td>
-        </tr>
-        <tr>
-          <td>Author E-Mail:</td><td>${model.authorEmail}</td>
-        </tr>
-        <tr>
-          <td>New Author Name:</td><td>${model.newAuthorName}</td>
-        </tr>
-        <tr>
-          <td>New Author E-Mail:</td><td>${model.newAuthorEmail}</td>
-        </tr>
-        <tr>
-          <td>New Author CC:</td><td>${model.newAuthorCC}</td>
-        </tr>
-        <tr>
-          <td>Date:</td><td>${blabla2.transform(model.date, 'd MMMM y')}</td>
-        </tr>
-        </table>`;
-        //this.blabla = modelToSend;
+        let authorString = '';
+        if( model.authorName === 'Others'){
+            authorString = `
+                <tr><td>New Author Name:</td><td>${model.newAuthorName}</td></tr>
+                <tr><td>New Author E-Mail:</td><td>${model.newAuthorEmail}</td></tr>
+                <tr><td>New Author CC:</td><td>${model.newAuthorCC}</td></tr>
+            `;
+        }else {
+            authorString = `
+                <tr><td>Author Name:</td><td>${model.authorName}</td></tr>
+                <tr><td>Author E-Mail:</td><td>${model.authorEmail}</td></tr>
+            `;
+        }
 
-        cordova.plugins.email.open({
-            to          : 'byk@drive.eu',
-            attachments : [`${imgToSend}`],
-            subject     : 'Exhibition Report',
-            body        : `${modelToSend}`,
-            isHtml      : true
-        });
+        let modelToSend = `
+        <html>
+        <head>
+        <style>td{background-color:red</style>
+        </head>
+        <body>
+        <table border="1">
+        <tr><th colspan="2">VISITOR DATA</th></tr>
+        <tr><td>Gender</td><td>${gender}</td></tr>
+        <tr><td>Last Name:</td><td>${model.name}</td></tr>
+        <tr><td>First Name:</td><td>${model.firstname}</td></tr>
+        <tr><td>Company:</td><td>${model.company}</td></tr>
+        <tr><td>Dept:</td><td>${model.dept}</td></tr>
+        <tr><td>Address:</td><td>${model.adress}</td></tr>
+        <tr><td>Country:</td><td>${model.country}</td></tr>
+        <tr><td>Language:</td><td>${model.language}</td></tr> 
+        <tr><td>Phone:</td><td>${model.phone}</td></tr>
+        <tr><td>Fax:</td><td>${model.fax}</td></tr>
+        <tr><td>E-Mail:</td><td>${model.e_mail}</td></tr>
+        <tr><td>CRM Record:</td><td>${crmrecord}</td></tr>
+        
+        <tr><th colspan="2">MEETING DETAILS</th></tr>
+        <tr><td>Meeting details:</td><td><pre>${model.meeting_details}</pre></td></tr>
+        <tr><td>Required Action:</td><td>${this.Required_Action}</td></tr>
+
+        <tr><th colspan="2">SAMPLES</th></tr>
+        <tr><td>Samples:</td><td>${this.Orders}</td></tr>
+        <tr><td>Order product (not listed):</td><td>${model.orderNewProduct}</td></tr>
+        
+        <tr><th colspan="2">SAMPLES</th></tr>
+        <tr><td>Literature:</td><td>${this.litra}</td></tr>
+        
+        <tr><th colspan="2">CLASSIFICATION & ROLE</th></tr>
+        <tr><td>Visitor Role:</td><td>${model.CustomerRolle}</td></tr>
+        <tr><td>Classification:</td><td>${model.Classification}</td></tr>
+        
+        <tr><th colspan="2">END USE</th></tr>
+        <tr><td>End Use:</td><td>${enduse}</td></tr>
+        <tr><td>Product Group:</td><td>${groupuse}</td></tr>
+        
+        <tr><th colspan="2">AUTHOR & DATE</th></tr>
+        ${authorString}
+        <tr><td>Date:</td><td>${blabla2.transform(model.date, 'd MMMM y')}</td></tr>
+        
+        </table>
+        </body>
+        </html>`;
+        this.blabla = modelToSend;
+
+        /*cordova.plugins.email.open({
+         to          : 'byk@drive.eu',
+         attachments : [`${imgToSend}`],
+         subject     : 'Exhibition Report',
+         body        : `${modelToSend}`,
+         isHtml      : true
+         });*/
 
     }
 

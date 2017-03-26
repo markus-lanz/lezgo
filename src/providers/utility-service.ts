@@ -361,7 +361,7 @@ return this._productsDataFromXMl;
             productName : _data[k].titlename ? _data[k].titlename[0] : false,
             techfile    : _data[k].techfile  ? _data[k].techfile[0]  : false,
             safefile    : _data[k].safefile  ? _data[k].safefile[0]  : false,
-            factsheet   : _data[k].fachsheet ? _data[k].fachsheet[0] : false
+            factfile   :  _data[k].factfile  ? _data[k].factfile[0]  : false
           });
         }
 

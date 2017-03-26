@@ -24,6 +24,6 @@ export class SurfaceAdditivesPage {
   }
 
   openPDF(){
-    new InAppBrowser(`assets/pdf/productgroups/surfaceadditives/BYK_L-SI1_Surface_EN.pdf`, 'location=no');
+    new InAppBrowser(`assets/pdf/productgroups/surfaceadditives/BYK_L-SI1_Surface_EN.pdf`, '_blank', 'location=no');
   }
 }

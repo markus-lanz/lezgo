@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<item>
-		<titlename>DISPERBYK-2080</titlename>
-	</item>
-	<item>
-		<titlename>DISPERBYK-2081</titlename>
-	</item>
-	<item>
-		<titlename>DISPERBYK-2158</titlename>
-	</item>
-	<item>
-		<titlename>DISPERBYK-2159</titlename>
-	</item>
-	<item>
-		<titlename>DISPERBYK-2062</titlename>
-		<techfile>TDS_DISPERBYK-2062_EN.pdf</techfile>
-		<safefile>SDS_DISPERBYK-2062_GB_en.pdf</safefile>
-	</item>
-	<item>
-		<titlename>DISPERBYK-2205</titlename>
-	</item>
-	<item>
-		<titlename>BYK-SILCLEAN 3701</titlename>
-	</item>
-	<item>
-		<titlename>BYK-326</titlename>
-	</item>
-	<item>
-		<titlename>BYK-3565</titlename>
-	</item>
-	<item>
-		<titlename>BYK-3760</titlename>
-		<techfile>TDS_BYK-3760_EN.pdf</techfile>
-		<factsheet>BYK_L-XS97_BYK-3760_EN.pdf</factsheet>
-	</item>
-	<item>
-		<titlename>OPTIFLO-T 1010</titlename>
-		<techfile>TDS_OPTIFLO-T_1010_EN.pdf</techfile>
-		<safefile>SDS_OPTIFLO-T_1010_GB_en.pdf</safefile>
-	</item>
-	<item>
-		<titlename>OPTIFLO-H 7625 VF</titlename>
-	</item>
+<dataset>
 	<item>
 		<titlename>AQUACER 1013</titlename>
 		<techfile>TDS_AQUACER_1013_EN.pdf</techfile>
@@ -53,19 +11,40 @@
 		<safefile>SDS_AQUACER_1039_EU_en.pdf</safefile>
 	</item>
 	<item>
-		<titlename>CERATIX 8561</titlename>
-		<techfile>TDS_CERATIX_8561_EN.pdf</techfile>
-		<safefile>SDS_CERATIX_8561_EU_en.pdf</safefile>
+		<titlename>BYK-1781</titlename>
+		<techfile>TDS_BYK-1781_EN.pdf</techfile>
+		<safefile>SDS_BYK-1781_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS98_BYK-1781_EN.pdf</factfile>
 	</item>
 	<item>
-		<titlename>CERATIX 8563</titlename>
-		<techfile>TDS_CERATIX_8563_EN.pdf</techfile>
-		<safefile>SDS_CERATIX_8563_EU_en.pdf</safefile>
+		<titlename>BYK-1788</titlename>
+		<techfile>TDS_BYK-1788_EN.pdf</techfile>
+		<safefile>SDS_BYK-1788_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS91_BYK-1788_EN.pdf</factfile>
 	</item>
 	<item>
-		<titlename>CERATIX 8566</titlename>
-		<techfile>TDS_CERATIX_8566_EN.pdf</techfile>
-		<safefile>SDS_CERATIX_8566_EU_en.pdf</safefile>
+		<titlename>BYK-1799</titlename>
+		<techfile>TDS_BYK-1799_EN.pdf</techfile>
+		<safefile>SDS_BYK-1799_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS92_BYK-1799_EN.pdf</factfile>
+	</item>
+	<item>
+		<titlename>BYK-326</titlename>
+		<techfile>TDS_BYK-326_EN.pdf</techfile>
+		<safefile>SDS_BYK-326_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS89_BYK-326_EN.pdf</factfile>
+	</item>
+	<item>
+		<titlename>BYK-3760</titlename>
+		<techfile>TDS_BYK-3760_EN.pdf</techfile>
+		<safefile>SDS_BYK-3760_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS97_BYK-3760_EN.pdf</factfile>
+	</item>
+	<item>
+		<titlename>BYK-SILCLEAN 3701</titlename>
+		<techfile>TDS_BYK-SILCLEAN_3701_EN.pdf</techfile>
+		<safefile>SDS_BYK-SILCLEAN_3701_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS86_BYK-SILCLEAN 3701_EN.pdf</factfile>
 	</item>
 	<item>
 		<titlename>CERAFLOUR 955</titlename>
@@ -83,26 +62,51 @@
 		<safefile>SDS_CERAFLOUR_959_EU_en.pdf</safefile>
 	</item>
 	<item>
-		<titlename>BYK-1781</titlename>
-		<techfile>TDS_BYK-1781_EN.pdf</techfile>
-		<factsheet>Fact_Sheet_L-XS_98_EN.pdf</factsheet>
+		<titlename>CERATIX 8561</titlename>
+		<techfile>TDS_CERATIX_8561_EN.pdf</techfile>
+		<safefile>SDS_CERATIX_8561_EU_en.pdf</safefile>
+		<factfile>BYK_L-XS93_CERATIX 8561-8563-8566_EN.pdf</factfile>
 	</item>
 	<item>
-		<titlename>BYK-1788</titlename>
-		<techfile>TDS_BYK-1788_EN.pdf</techfile>
-		<safefile>SDS_BYK-1788_GB_en.pdf</safefile>
+		<titlename>CERATIX 8563</titlename>
+		<techfile>TDS_CERATIX_8563_EN.pdf</techfile>
+		<safefile>SDS_CERATIX_8563_EU_en.pdf</safefile>
+		<factfile>BYK_L-XS93_CERATIX 8561-8563-8566_EN.pdf</factfile>
 	</item>
 	<item>
-		<titlename>BYK-1799</titlename>
-		<techfile>TDS_BYK-1799_EN.pdf</techfile>
-		<safefile>SDS_BYK-1799_GB_en.pdf</safefile>
+		<titlename>CERATIX 8566</titlename>
+		<techfile>TDS_CERATIX_8566_EN.pdf</techfile>
+		<safefile>SDS_CERATIX_8566_EU_en.pdf</safefile>
+		<factfile>BYK_L-XS93_CERATIX 8561-8563-8566_EN.pdf</factfile>
 	</item>
 	<item>
-		<titlename>BYK-P 2710</titlename>
-		<techfile>TDS_BYK-P_2710_EN.pdf</techfile>
+		<titlename>DISPERBYK-2062</titlename>
+		<techfile>TDS_DISPERBYK-2062_EN.pdf</techfile>
+		<safefile>SDS_DISPERBYK-2062_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS96_DISPERBYK-2062_EN.pdf</factfile>
 	</item>
 	<item>
-		<titlename>BYK-P 2720</titlename>
-		<techfile>TDS_BYK-P_2720_EN.pdf</techfile>
+		<titlename>DISPERBYK-2158</titlename>
+		<techfile>TDS_DISPERBYK-2158_EN.pdf</techfile>
+		<safefile>SDS_DISPERBYK-2158_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS95_DISPERBYK-2158-2159_EN.pdf</factfile>
+	</item>
+	<item>
+		<titlename>DISPERBYK-2159</titlename>
+		<techfile>TDS_DISPERBYK-2159_EN.pdf</techfile>
+		<safefile>SDS_DISPERBYK-2159_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS95_DISPERBYK-2158-2159_EN.pdf</factfile>
+	</item>
+	<item>
+		<titlename>DISPERBYK-2205</titlename>
+		<techfile>TDS_DISPERBYK-2205_EN.pdf</techfile>
+		<safefile>SDS_DISPERBYK-2205_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS90_DISPERBYK-2205_EN.pdf</factfile>
+	</item>
+	<item>
+		<titlename>OPTIFLO-T 1010</titlename>
+		<techfile>TDS_OPTIFLO-T_1010_EN.pdf</techfile>
+		<safefile>SDS_OPTIFLO-T_1010_GB_en.pdf</safefile>
+		<factfile>BYK_L-XS94_OPTIFLO-T 1010_EN.pdf</factfile>
 	</item>
 </dataset>

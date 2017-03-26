@@ -161,7 +161,7 @@
                     <ion-row>
                       <ion-col width-100 class="nopadding">
                         <ion-item class="bla bdrt bdrr bdrl bdrb">
-                          <ion-label>Email*</ion-label>
+                          <ion-label>E-Mail*</ion-label>
                           <ion-input type="email" [(ngModel)]="contentFromModel.e_mail" name="e_mail" required  #e_mail="ngModel"></ion-input>
                         </ion-item>
                         <p ion-text *ngIf="(e_mail.invalid && validation)"  class="errormessage">E-Mail is required</p>
@@ -322,12 +322,12 @@
                     <ion-item class="bla bdrl bdrt bdrr bdrb" (tap)="presentSearchUnitsModal()">
                       <ion-label>Select unit</ion-label>
                       <ion-icon item-right name="ios-beaker-outline"></ion-icon>
-                      <ion-input [disabled]="true" type="text" [(ngModel)]="tempOrderUnit.unit" name="e_unit"></ion-input>
+                      <ion-input [disabled]="!tempOrderProduct.product" type="text" [(ngModel)]="tempOrderUnit.unit" name="e_unit"></ion-input>
                     </ion-item>
                   </ion-col>
 
                   <ion-col width-10>
-                    <button ion-button [disabled]="(!tempOrderProduct.product) && (!tempOrderUnit.unit)" icon-only clear (tap)="addOrder( $event,tempOrderUnit.unit, tempOrderProduct.product )">
+                    <button ion-button [disabled]="(!tempOrderProduct.product) || (!tempOrderUnit.unit)" icon-only clear (tap)="addOrder( $event,tempOrderUnit.unit, tempOrderProduct.product )">
                       Add to cart <ion-icon  name="ios-add-circle"></ion-icon>
                     </button>
                   </ion-col>
@@ -337,7 +337,7 @@
                   <ion-col width-50>
                     <ion-item>
                       <img style="vertical-align: middle; height:30px;" src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
-                      {{ ord.product }} {{ord.unit}}
+                      {{ ord.product }}, {{ord.unit}}
                       <button ion-button (tap)="deleteOrder(i)" icon-only clear>
                         <ion-icon name="ios-trash"></ion-icon>
                       </button>
@@ -345,7 +345,11 @@
                   </ion-col>
                 </ion-row>
 
-                <!--ion-row>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <ion-row>
                   <ion-col width-25>
                     <ion-item style="padding : 0">
                       <ion-label>Order a product that is no listed</ion-label>
@@ -357,7 +361,7 @@
                       <ion-input type="text" rows="8" [(ngModel)]="contentFromModel.orderNewProduct" name="orderNewProduct"></ion-input>
                     </ion-item>
                   </ion-col>
-                </ion-row -->
+                </ion-row>
 
               </div>
               <!----------------------------------------------- END SAMPLE ORDER ------------------------------------------>
@@ -386,7 +390,7 @@
 
                   <ion-col width-50 *ngIf="literaturModel.length > 0">
                     <ion-label class="infolabel">{{tempLiterature.cattitle1}}</ion-label>
-                    <ion-row  *ngFor="let lit of  literaturModel; let i=index">
+                    <ion-row *ngFor="let lit of literaturModel; let i=index">
                       <ion-col>
                         <ion-label style="text-transform: uppercase; font-size: 1.5rem; white-space: normal">{{ lit.subcatname }}</ion-label>
                         <div *ngFor="let subitem of lit.items; let si=index" style="margin-bottom: 6px">
@@ -512,7 +516,7 @@
                   <ion-col width-50="">
                     <ion-item>
                       <ion-label>Date</ion-label>
-                      <ion-datetime displayFormat="DD MMMM YYYY" [(ngModel)]="contentFromModel.date" name="date"></ion-datetime>
+                      <ion-datetime displayFormat="MMMM DD, YYYY" [(ngModel)]="contentFromModel.date" name="date"></ion-datetime>
                     </ion-item>
                   </ion-col>
                 </ion-row>
@@ -541,7 +545,7 @@
                       </button>
                   </ion-col>
                 </ion-row>
-                <!--div [innerHTML]="a"></div-->
+                <div [innerHTML]="a"></div>
 
 
               </div>

@@ -31,9 +31,9 @@
               <span *ngIf="!card.safefile">not available</span>
             </div>
             <div class="link" (click)="openDataSheet(card.factfile)">
-              <img src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
+              <img *ngIf="card.factfile" src="assets/img/downloadicon.png" width=20 height=20 style="vertical-align: middle" />
               <span *ngIf="card.factfile">Fact Sheet</span>
-              <span *ngIf="!card.factfile">not available</span>
+              <span *ngIf="!card.factfile">&nbsp;</span>
             </div>
           </ion-item>
         </ion-col>

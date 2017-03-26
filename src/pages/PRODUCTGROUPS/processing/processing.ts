@@ -2,6 +2,8 @@
 import { Component      } from '@angular/core';
 import { NavController,
          NavParams      } from 'ionic-angular';
+import { InAppBrowser   } from 'ionic-native';
+
 
 
 // COMPONENT
@@ -19,6 +21,11 @@ export class ProcessingPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProcessingPage');
+  }
+
+  openWebSite(url) {
+    new InAppBrowser(url, '_blank', 'location=no');
+    return false;
   }
 
 }

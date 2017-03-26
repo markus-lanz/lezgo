@@ -2,6 +2,8 @@
 import { Component      } from '@angular/core';
 import { NavController,
          NavParams      } from 'ionic-angular';
+import { InAppBrowser   } from 'ionic-native';
+
 
 // COMPONENT
 @Component( {
@@ -18,6 +20,11 @@ export class AdhesionPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AdhesionPage');
+  }
+
+  openWebSite(url) {
+    new InAppBrowser(url, '_blank', 'location=no');
+    return false;
   }
 
 }

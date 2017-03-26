@@ -24,7 +24,7 @@ export class ViscosityPage {
   }
 
   openPDF(){
-    new InAppBrowser(`assets/pdf/productgroups/viscosity/BYK_PVC-TI1_ViscosityDepressants_EN.pdf`, 'location=no');
+    new InAppBrowser(`assets/pdf/productgroups/viscosity/BYK_PVC-TI1_ViscosityDepressants_EN.pdf`, '_blank', 'location=no');
   }
 
 

@@ -24,7 +24,7 @@ export class DefoarmersPage {
   }
 
   openPDF(){
-    new InAppBrowser(`assets/pdf/productgroups/defoarmers/BYK_L-DI1_Defoamers_EN.pdf`, 'location=no');
+    new InAppBrowser(`assets/pdf/productgroups/defoarmers/BYK_L-DI1_Defoamers_EN.pdf`, '_blank', 'location=no');
   }
 
 }

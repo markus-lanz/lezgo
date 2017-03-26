@@ -32,7 +32,7 @@ export class ProductPresentationsPage {
           },
           {
             'title' : 'BYK sustainable: regulatory challenges',
-            'info'  : '14:10 - 14:30 h | Hall 7 Booth 726 | Speakers: Brigitte Weber, Global Head of End Use Special Coatings and Carsten Nagel, Global Head of End Use Decorative Coatings'
+            'info'  : '14:10 - 14:30 h | Hall 7 Booth 726 | Speakers: Brigitte Weber, Global Head of End Use Special Coatings'
           },
           {
             'title' : '“Colorful” corrosion protection and high stain resistance with waterborne coatings',
@@ -66,7 +66,7 @@ export class ProductPresentationsPage {
         attributes : [
           {
             'title' : 'BYK sustainable: Silicones compliant with latest regulations',
-            'info'  : '11:10 - 11:30 h | Hall 1 Booth 131 | Speaker: Brigitte Weber, Global Head of End Use Special Coatings',
+            'info'  : '11:10 - 11:30 h | Hall 1 Booth 131 | Speaker:  Carina Schepers, Head of Technical Services Can & Coil Coatings',
           },
           {
             'title' : 'Meeting the evergrowing demands – on the road to new associative thickener',

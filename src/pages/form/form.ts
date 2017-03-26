@@ -65,7 +65,7 @@ srcImage: string;
   literaturModel        = [];
   literaturSubCategory  = [];
   selectedRow           = null;
-  searchQuery:string = '';
+  searchQuery:string    = '';
 
   objtscan = {
     'src1' : '',
@@ -116,13 +116,19 @@ srcImage: string;
 valueforngif = false;
 
 
-ionViewDidEnter() {
+    ionViewDidEnter() {
 
-Keyboard.onKeyboardShow().subscribe(()=>{this.valueforngif=true})
-    Keyboard.onKeyboardHide().subscribe(()=>{this.valueforngif=false})
-console.log('test neu load');
-  this.scanBsCardAlert();
-}
+        Keyboard.onKeyboardShow().subscribe(()=> {
+            this.valueforngif = true
+        })
+        Keyboard.onKeyboardHide().subscribe(()=> {
+            this.valueforngif = false
+        })
+        console.log('test neu load');
+        this.scanBsCardAlert();
+    }
+
+
     onChange(change) {
         if (change === 'mr') {
             this.contentFromModel.Mrs = false;
@@ -192,7 +198,7 @@ console.log('test neu load');
 
     }
 
-    onChangelitCatego( position, items ): any {
+    onChangelitCatego(position, items): any {
         items.filter((des, index) => {
             if (position != index) {
                 des.checked = false;
@@ -227,6 +233,7 @@ console.log('test neu load');
         proModal.onDidDismiss(data => {
             if (data) {
                 this.tempOrderProduct.product = data.additive;
+                this.tempOrderUnit.unit = null;
             }
 
         });
@@ -234,6 +241,7 @@ console.log('test neu load');
 
 
     presentSearchUnitsModal() {
+        if(!this.tempOrderProduct.product) return;
         let unitModal = this.modalCtrl.create(UnitSearchModalPage, {productName: this.tempOrderProduct.product});
         unitModal.present();
         unitModal.onDidDismiss(data => {
@@ -413,6 +421,8 @@ console.log('test neu load');
                 break;
             case "process":
                 this.step_8 = true;
+
+                this.processedReport();
                 break;
 
         }
@@ -636,80 +646,70 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
 
 
     resetReport() {
-    /*
-    form.control._touched = false;
-     form.control._pristine = true;
-     form.control._value.ra_Mr = null;
-    form.control._value.ra_Mrs = null;
-    form.control._value.adress = "";
-    form.control._value.company = "";
-    form.control._value.country = "";
-    form.control._value.dept = "";
-    form.control._value.e_mail = "";
-    form.control._value.fax = "";
-    form.control._value.language ="";
-    form.control._value.name1 = "";
-    form.control._value.phone = "";
-*/
-    // form Reset
-    this.contentFromModel.name = "";
-    this.contentFromModel.firstname = "";
-    this.contentFromModel.Mrs = null;
-    this.contentFromModel.Mr = null;
-    this.contentFromModel.company = "";
-    this.contentFromModel.dept = "";
-    this.contentFromModel.adress = "";
-    this.contentFromModel.country = "";
-    this.contentFromModel.language = "";
-    this.contentFromModel.e_mail = "";
-    this.contentFromModel.phone = "";
-    this.contentFromModel.fax = "";
-    this.objtscan.src1 = "";
-    this.contentFromModel.CRM_RECORD.YES = null;
-    this.contentFromModel.CRM_RECORD.NO = null;
-    this.contentFromModel.CRM_RECORD.DETAILS = null;
-    this.activitiesObject = {};
 
-    this.contentFromModel.required_action = [];
-    this.tempOrderProduct.product = "";
-    this.tempOrderUnit.unit = "";
-    this.contentFromModel.orders = [];
-    this.contentFromModel.orderNewProduct = "";
-    this.literaturModel = [];
-    this.contentFromModel.literatur = [];
-    this.contentFromModel.addionalInformationToOrder = "";
-    this.contentFromModel.CustomerRolle = "";
-    this.customerRolleArray.filter((des, index) => {
-                des.checked = false;
-    });
-    this.classificationArray.filter((des, index) => {
-                des.checked = false;
-    });
-    this.contentFromModel.Classification = "";
-    this.endUseArray.filter((des, index) => {
-                des.checked = false;
-    });
-   this.contentFromModel.EndUse = "";
-   this.productGroupArray.filter((des, index) => {
-               des.checked = false;
-   });
- this.contentFromModel.ProductGroup = "";
- this.contentFromModel.authorName = "";
- this.contentFromModel.newAuthorName = "";
- this.contentFromModel.newAuthorEmail = "";
- this.contentFromModel.date = "";
- this.step_1 = true;
- this.step_2 = false;
- this.step_3 = false;
- this.step_4 = false;
- this.step_5 = false;
- this.step_6 = false;
- this.step_7 = false;
- this.step_8 = false;
- this.step_9 = false;
- this.wizzardStep = "visitor_data";
- this.validaerror = false;
- this.validation = false;
+        this.selectedRow = null;
+        this.contentFromModel.meeting_details = "";
+        this.contentFromModel.name = "";
+        this.contentFromModel.firstname = "";
+        this.contentFromModel.Mrs = null;
+        this.contentFromModel.Mr = null;
+        this.contentFromModel.company = "";
+        this.contentFromModel.dept = "";
+        this.contentFromModel.adress = "";
+        this.contentFromModel.country = "";
+        this.contentFromModel.language = "";
+        this.contentFromModel.e_mail = "";
+        this.contentFromModel.phone = "";
+        this.contentFromModel.fax = "";
+        this.objtscan.src1 = "";
+        this.contentFromModel.CRM_RECORD.YES = null;
+        this.contentFromModel.CRM_RECORD.NO = null;
+        this.contentFromModel.CRM_RECORD.DETAILS = null;
+        this.activitiesObject = {};
+
+        this.contentFromModel.required_action = [];
+        this.tempOrderProduct.product = "";
+        this.tempOrderUnit.unit = "";
+        this.contentFromModel.orders = [];
+        this.contentFromModel.orderNewProduct = "";
+        this.literaturModel = [];
+        this.contentFromModel.literatur = [];
+        this.contentFromModel.addionalInformationToOrder = "";
+        this.contentFromModel.CustomerRolle = "";
+        this.customerRolleArray.filter((des, index) => {
+            des.checked = false;
+        });
+        this.classificationArray.filter((des, index) => {
+            des.checked = false;
+        });
+        this.contentFromModel.Classification = "";
+        this.endUseArray.filter((des, index) => {
+            des.checked = false;
+        });
+        this.contentFromModel.EndUse = "";
+        this.productGroupArray.filter((des, index) => {
+            des.checked = false;
+        });
+        this.literaData.filter((des, index) => {
+            des.checked = false;
+        });
+        this.contentFromModel.ProductGroup = "";
+        this.contentFromModel.authorName = "";
+        this.contentFromModel.newAuthorName = "";
+        this.contentFromModel.newAuthorEmail = "";
+        //this.contentFromModel.date = "";
+        this.step_1 = true;
+        this.step_2 = false;
+        this.step_3 = false;
+        this.step_4 = false;
+        this.step_5 = false;
+        this.step_6 = false;
+        this.step_7 = false;
+        this.step_8 = false;
+        this.step_9 = false;
+        this.wizzardStep = "visitor_data";
+        this.validaerror = false;
+        this.validation = false;
 //  this.navCtrl.push(HomePage);
     }
 

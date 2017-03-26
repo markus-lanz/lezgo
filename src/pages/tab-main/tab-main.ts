@@ -123,7 +123,7 @@ export class TabMainPage {
   }
 
   ebookWeb() {
-    new InAppBrowser('https://ebooks.byk.com/de/wetting-and-dispersing/warum-werden-netz-und-dispergieradditive-eingesetzt/', '_blank', 'location=no');
+    new InAppBrowser('https://ebooks.byk.com/en/wetting-and-dispersing/why-do-we-use-wetting-and-dispersing-additives/', '_blank', 'location=no');
     return false;
   }
 
