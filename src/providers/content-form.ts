@@ -482,7 +482,7 @@ export class ContentForm {
         <tr><td>Samples:</td><td>${this.Orders}</td></tr>
         <tr><td>Order product (not listed):</td><td>${model.orderNewProduct}</td></tr>
         
-        <tr><th colspan="2">SAMPLES</th></tr>
+        <tr><th colspan="2">LITERATURE</th></tr>
         <tr><td>Literature:</td><td>${this.litra}</td></tr>
         
         <tr><th colspan="2">CLASSIFICATION & ROLE</th></tr>
@@ -500,7 +500,7 @@ export class ContentForm {
         </table>
         </body>
         </html>`;
-        this.blabla = modelToSend;
+        //this.blabla = modelToSend;
 
         cordova.plugins.email.open({
          to          : 'byk@drive.eu',

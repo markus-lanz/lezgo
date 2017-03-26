@@ -370,25 +370,25 @@ valueforngif = false;
         });
 
     }
+
     analyze() {
-    let loader = this.loadingCtrl.create({
-        content: 'Please wait...'
-       });
-       loader.present();
+        let loader = this.loadingCtrl.create({
+            content: 'Please wait...'
+        });
+        loader.present();
         (<any>window).OCRAD(document.getElementById('bsCard'), text => {
-        loader.dismissAll();
-        let toastFileError = this.toastCtrl.create({
-            message: `${text}`,
-            showCloseButton: true,
-            closeButtonText: 'Ok'
+            loader.dismissAll();
+            let toastFileError = this.toastCtrl.create({
+                message: `${text}`,
+                showCloseButton: true,
+                closeButtonText: 'Ok'
+            });
+            toastFileError.present();
+            console.log(text);
         });
-        toastFileError.present();
-        console.log(text);
-        });
 
 
-
-      }
+    }
 
 
     logForm() {
