@@ -361,7 +361,7 @@ valueforngif = false;
             //targetHeight       : 600,
             saveToPhotoAlbum: true,
             correctOrientation: true,
-            allowEdit: true
+            allowEdit: false
         }).then((imageData) => {
             this.objtscan.src1 = 'data:image/jpeg;base64,' + imageData;
             this.objtscan.src2 = imageData;
