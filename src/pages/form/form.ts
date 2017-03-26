@@ -355,12 +355,12 @@ valueforngif = false;
     presentPicModal() {
 
         Camera.getPicture({
-            quality            : 100,
-            destinationType    : Camera.DestinationType.DATA_URL,
+            quality: 100,
+            destinationType: Camera.DestinationType.DATA_URL,
             //targetWidth        : 600,
             //targetHeight       : 600,
-            saveToPhotoAlbum   : true,
-            correctOrientation : true,
+            saveToPhotoAlbum: true,
+            correctOrientation: true,
             allowEdit: true
         }).then((imageData) => {
             this.objtscan.src1 = 'data:image/jpeg;base64,' + imageData;
