@@ -502,13 +502,13 @@ export class ContentForm {
         </html>`;
         this.blabla = modelToSend;
 
-        /*cordova.plugins.email.open({
+        cordova.plugins.email.open({
          to          : 'byk@drive.eu',
          attachments : [`${imgToSend}`],
          subject     : 'Exhibition Report',
          body        : `${modelToSend}`,
          isHtml      : true
-         });*/
+         });
 
     }
 

@@ -421,8 +421,7 @@ valueforngif = false;
                 break;
             case "process":
                 this.step_8 = true;
-
-                this.processedReport();
+                //this.processedReport();
                 break;
 
         }
