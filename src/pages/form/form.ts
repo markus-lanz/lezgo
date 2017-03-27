@@ -357,11 +357,11 @@ valueforngif = false;
         Camera.getPicture({
             quality: 100,
             destinationType: Camera.DestinationType.DATA_URL,
-            //targetWidth        : 600,
-            //targetHeight       : 600,
+            targetWidth        : 1920,
+            targetHeight       : 1080,
             saveToPhotoAlbum: true,
             correctOrientation: true,
-            allowEdit: false
+            allowEdit: true
         }).then((imageData) => {
             this.objtscan.src1 = 'data:image/jpeg;base64,' + imageData;
             this.objtscan.src2 = imageData;
