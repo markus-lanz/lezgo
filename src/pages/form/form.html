@@ -157,7 +157,7 @@
                       </ion-col>
                     </ion-row><!-- END Phone & Fax -->
 
-                    <!-- E-mail -->
+                    <!-- E-Mail -->
                     <ion-row>
                       <ion-col width-100 class="nopadding">
                         <ion-item class="bla bdrt bdrr bdrl bdrb">
@@ -203,8 +203,8 @@
 
                     <ion-row >
                       <ion-col>
-                        <div style="text-align: center">
-                          <img id="bsCard" [src]="objtscan.src1" height="200"  style="text-align: center;margin: auto;display: block;width:100%">
+                        <div style="text-align: center; height: 200px; border: 1px solid #c0c0c0;">
+                          <img id="bsCard" [src]="objtscan.src1" *ngIf="objtscan.src1" height="200" style="text-align: center;margin: auto;display: block;width:100%">
                         </div>
                       </ion-col>
                     </ion-row>
@@ -529,31 +529,31 @@
               <div *ngIf="wizzardStep === 'process'">
                 <ion-row>
                   <ion-col width-33>
-                    <h1>Actions</h1>
-                    <button  ion-button outline icon-right (click)="analyze()">
+                    <h1 style="color:#00A6EB; border-bottom:1px solid #c0c0c0;">Actions</h1>
+                    <button [disabled]="!objtscan.src1" ion-button outline icon-right (click)="analyze()">
                       Start OCR process
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
                     <br>
-                    <button  [disabled]="validaerror" ion-button outline icon-right (click)="processedReport()">
+                    <button [disabled]="validaerror" ion-button outline icon-right (click)="processedReport()">
                       Send Report to Back Office
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
                     <br>
-                    <button  ion-button outline icon-right (click)="resetReport()">
-                      Save & reset
+                    <button ion-button outline icon-right (click)="resetReport()">
+                      Clear Report
                       <ion-icon name="ios-checkmark-circle-outline">
                       </ion-icon>
                     </button>
                   </ion-col>
-                  <ion-col width-33>
-                    <h1>Card preview</h1>
+                  <ion-col width-33 *ngIf="objtscan.src1">
+                    <h1 style="color:#00A6EB; border-bottom:1px solid #c0c0c0;">Card preview</h1>
                     <img id="bsCard2" [src]="objtscan.src1" style="text-align: center;margin: auto;display: block;width:100%">
                   </ion-col>
-                  <ion-col width-33>
-                    <h1>OCR preview</h1>
+                  <ion-col width-33 *ngIf="objtscan.src1">
+                    <h1 style="color:#00A6EB; border-bottom:1px solid #c0c0c0;">OCR preview</h1>
                     {{contentFromModel.ocrString}}
                   </ion-col>
                 </ion-row>

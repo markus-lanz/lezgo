@@ -559,6 +559,7 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
 
 
     deleteCard() {
+        this.contentFromModel.ocrString = "";
         this.objtscan.src1 = '';
         this.cFormService.setImg64Base('');
     }
