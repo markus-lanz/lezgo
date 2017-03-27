@@ -193,7 +193,7 @@
                       </ion-col>
                       <ion-col width-50>
                         <div class="scanbutton" style="text-align: right">
-                          <button ion-button icon-right outline small>
+                          <button ion-button icon-right outline small (click)="deleteCard()">
                             Delete
                             <ion-icon name="ios-trash"></ion-icon>
                           </button>
@@ -528,7 +528,8 @@
               <!----------------------------------------------- PROCESS --------------------------------------------------->
               <div *ngIf="wizzardStep === 'process'">
                 <ion-row>
-                  <ion-col width-100>
+                  <ion-col width-33>
+                    <h1>Actions</h1>
                     <button  ion-button outline icon-right (click)="analyze()">
                       Start OCR process
                       <ion-icon name="ios-checkmark-circle-outline">
@@ -547,11 +548,14 @@
                       </ion-icon>
                     </button>
                   </ion-col>
-                    <ion-col width-50>
-                        <img id="bsCard2" [src]="objtscan.src1" style="text-align: center;margin: auto;display: block;width:100%">
-                        <br>
-                        {{contentFromModel.ocrString}}
-                    </ion-col>
+                  <ion-col width-33>
+                    <h1>Card preview</h1>
+                    <img id="bsCard2" [src]="objtscan.src1" style="text-align: center;margin: auto;display: block;width:100%">
+                  </ion-col>
+                  <ion-col width-33>
+                    <h1>OCR preview</h1>
+                    {{contentFromModel.ocrString}}
+                  </ion-col>
                 </ion-row>
                 <!--div [innerHTML]="a"></div-->
 

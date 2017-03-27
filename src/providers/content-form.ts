@@ -502,7 +502,7 @@ export class ContentForm {
         <tr><td>Date:</td><td>${blabla2.transform(model.date, 'd MMMM y')}</td></tr>
         
         <tr><th colspan="2">OCR RESULT</th></tr>
-        <tr><td><pre>${model.ocrString}</pre></td></tr>
+        <tr><td colspan="2"><pre>${model.ocrString}</pre></td></tr>
         
         </table>
         </body>

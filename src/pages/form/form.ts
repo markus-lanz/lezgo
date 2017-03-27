@@ -657,6 +657,7 @@ const EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9
         this.contentFromModel.e_mail = "";
         this.contentFromModel.phone = "";
         this.contentFromModel.fax = "";
+        this.contentFromModel.ocrString = "";
         this.objtscan.src1 = "";
         this.contentFromModel.CRM_RECORD.YES = null;
         this.contentFromModel.CRM_RECORD.NO = null;
